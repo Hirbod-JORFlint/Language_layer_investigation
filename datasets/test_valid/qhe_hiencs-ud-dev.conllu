@@ -1,0 +1,4086 @@
+# sent_id = dev-s1
+# text = _ _ _ _ _ _ _ _ _
+1	_	_	PRON	_	_	4	obl	_	hi
+2	_	_	ADP	_	_	1	case	_	hi
+3	_	_	PROPN	_	_	4	nsubj	_	acro
+4	_	_	VERB	_	_	0	root	_	en
+5	_	_	SCONJ	_	_	8	mark	_	en
+6	_	_	DET	_	_	7	det	_	en
+7	_	_	NOUN	_	_	8	nmod	_	en
+8	_	_	VERB	_	_	4	advcl	_	hi
+9	_	_	PUNCT	_	_	4	punct	_	univ
+
+# sent_id = dev-s2
+# text = _ _ _ _ _ _ _ _ _
+1	_	_	PROPN	_	_	4	nmod	_	ne
+2	_	_	PART	_	_	1	flat	_	hi
+3	_	_	ADP	_	_	1	case	_	hi
+4	_	_	NOUN	_	_	5	nsubj	_	hi
+5	_	_	VERB	_	_	0	root	_	en
+6	_	_	PROPN	_	_	5	obj	_	ne
+7	_	_	VERB	_	_	5	xcomp	_	en
+8	_	_	PRON	_	_	9	nmod	_	en
+9	_	_	NOUN	_	_	7	obj	_	en
+
+# sent_id = dev-s3
+# text = _ _ _ _ _ _ _ _ _ _ _ _
+1	_	_	ADV	_	_	2	advmod	_	hi
+2	_	_	VERB	_	_	0	root	_	hi
+3	_	_	AUX	_	_	2	aux	_	hi
+4	_	_	AUX	_	_	2	aux	_	hi
+5	_	_	PART	_	_	2	advmod	_	hi
+6	_	_	NOUN	_	_	11	nmod	_	en
+7	_	_	ADP	_	_	9	case	_	en
+8	_	_	DET	_	_	9	det	_	en
+9	_	_	NOUN	_	_	6	nmod	_	en
+10	_	_	ADP	_	_	6	case	_	hi
+11	_	_	NOUN	_	_	2	compound	_	en
+12	_	_	PUNCT	_	_	2	punct	_	univ
+
+# sent_id = dev-s4
+# text = _ _ _ _ _ _ _ _ _ _ _
+1	_	_	PRON	_	_	2	nsubj	_	en
+2	_	_	VERB	_	_	0	root	_	en
+3	_	_	PRON	_	_	8	nsubj	_	hi
+4	_	_	NUM	_	_	5	nummod	_	hi
+5	_	_	NUM	_	_	6	nummod	_	hi
+6	_	_	NUM	_	_	7	nummod	_	hi
+7	_	_	NOUN	_	_	8	obj	_	mixed
+8	_	_	VERB	_	_	2	ccomp	_	hi
+9	_	_	AUX	_	_	8	aux	_	hi
+10	_	_	NOUN	_	_	8	nmod	_	hi
+11	_	_	PUNCT	_	_	2	punct	_	univ
+
+# sent_id = dev-s5
+# text = _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+1	_	_	PUNCT	_	_	4	punct	_	univ
+2	_	_	PRON	_	_	4	nsubj	_	en
+3	_	_	AUX	_	_	4	aux	_	en
+4	_	_	VERB	_	_	0	root	_	en
+5	_	_	ADP	_	_	8	case	_	en
+6	_	_	PRON	_	_	7	nmod	_	en
+7	_	_	NOUN	_	_	8	nmod	_	en
+8	_	_	NOUN	_	_	4	obl	_	en
+9	_	_	ADJ	_	_	10	amod	_	en
+10	_	_	NOUN	_	_	14	nmod	_	hi
+11	_	_	ADP	_	_	10	case	_	hi
+12	_	_	PART	_	_	10	advmod	_	hi
+13	_	_	PRON	_	_	14	nmod	_	hi
+14	_	_	NOUN	_	_	15	nsubj	_	hi
+15	_	_	VERB	_	_	4	advcl	_	hi
+16	_	_	AUX	_	_	15	aux	_	hi
+17	_	_	PUNCT	_	_	4	punct	_	univ
+18	_	_	SYM	_	_	4	discourse	_	univ
+19	_	_	PUNCT	_	_	4	punct	_	univ
+
+# sent_id = dev-s6
+# text = _ _ _ _ _ _ _ _ _ _ _ _
+1	_	_	NOUN	_	_	6	vocative	_	hi
+2	_	_	NOUN	_	_	3	compound	_	en
+3	_	_	NOUN	_	_	4	obj	_	en
+4	_	_	VERB	_	_	6	acl	_	hi
+5	_	_	SCONJ	_	_	4	mark	_	hi
+6	_	_	NOUN	_	_	0	root	_	hi
+7	_	_	AUX	_	_	6	cop	_	hi
+8	_	_	SCONJ	_	_	11	mark	_	en
+9	_	_	PROPN	_	_	11	nsubj	_	acro
+10	_	_	AUX	_	_	11	cop	_	en
+11	_	_	ADV	_	_	6	advcl	_	en
+12	_	_	PUNCT	_	_	6	punct	_	univ
+
+# sent_id = dev-s7
+# text = _ _ _ _ _ _ _ _ _ _ _ _ _ _
+1	_	_	PROPN	_	_	10	vocative	_	ne
+2	_	_	PUNCT	_	_	10	punct	_	univ
+3	_	_	PROPN	_	_	4	compound	_	ne
+4	_	_	PROPN	_	_	6	nmod	_	en
+5	_	_	ADP	_	_	4	case	_	hi
+6	_	_	NOUN	_	_	10	obl	_	hi
+7	_	_	ADP	_	_	6	case	_	hi
+8	_	_	PART	_	_	6	advmod	_	hi
+9	_	_	INTJ	_	_	10	discourse	_	en
+10	_	_	VERB	_	_	0	root	_	en
+11	_	_	ADP	_	_	10	compound	_	en
+12	_	_	DET	_	_	13	det	_	en
+13	_	_	NOUN	_	_	10	obj	_	en
+14	_	_	ADV	_	_	10	advmod	_	en
+
+# sent_id = dev-s8
+# text = _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+1	_	_	AUX	_	_	5	cop	_	en
+2	_	_	PRON	_	_	5	nsubj	_	en
+3	_	_	DET	_	_	5	det	_	en
+4	_	_	ADJ	_	_	5	amod	_	en
+5	_	_	NOUN	_	_	0	root	_	en
+6	_	_	PRON	_	_	10	nsubj	_	hi
+7	_	_	ADV	_	_	10	advmod	_	hi
+8	_	_	ADP	_	_	7	case	_	hi
+9	_	_	PRON	_	_	10	obj	_	hi
+10	_	_	VERB	_	_	5	acl:relcl	_	hi
+11	_	_	AUX	_	_	10	aux	_	hi
+12	_	_	AUX	_	_	10	aux	_	hi
+13	_	_	SCONJ	_	_	19	mark	_	hi
+14	_	_	PROPN	_	_	19	obl	_	acro
+15	_	_	PROPN	_	_	14	fixed	_	acro
+16	_	_	ADP	_	_	14	case	_	hi
+17	_	_	ADP	_	_	14	case	_	hi
+18	_	_	PRON	_	_	19	obj	_	hi
+19	_	_	VERB	_	_	9	acl	_	hi
+20	_	_	AUX	_	_	19	aux	_	hi
+21	_	_	SYM	_	_	5	discourse	_	univ
+
+# sent_id = dev-s9
+# text = _ _ _ _ _ _ _ _ _ _ _ _ _ _
+1	_	_	PROPN	_	_	6	vocative	_	ne
+2	_	_	ADP	_	_	1	case	_	hi
+3	_	_	PRON	_	_	4	nmod	_	hi
+4	_	_	NOUN	_	_	6	obj	_	en
+5	_	_	NOUN	_	_	6	compound	_	en
+6	_	_	VERB	_	_	0	root	_	hi
+7	_	_	AUX	_	_	6	aux	_	hi
+8	_	_	ADV	_	_	12	advmod	_	hi
+9	_	_	PROPN	_	_	12	obj	_	ne
+10	_	_	NOUN	_	_	12	compound	_	en
+11	_	_	ADP	_	_	10	compound	_	en
+12	_	_	VERB	_	_	6	advcl	_	hi
+13	_	_	PUNCT	_	_	6	punct	_	univ
+14	_	_	SYM	_	_	6	discourse	_	univ
+
+# sent_id = dev-s10
+# text = _ _ _ _ _ _ _ _ _ _ _ _
+1	_	_	ADJ	_	_	2	amod	_	en
+2	_	_	NOUN	_	_	3	nmod	_	en
+3	_	_	PROPN	_	_	6	nmod	_	ne
+4	_	_	ADP	_	_	3	case	_	hi
+5	_	_	NOUN	_	_	6	compound	_	ne
+6	_	_	NOUN	_	_	10	obj	_	hi
+7	_	_	PART	_	_	6	advmod	_	hi
+8	_	_	PRON	_	_	10	nsubj	_	hi
+9	_	_	NOUN	_	_	10	compound	_	en
+10	_	_	VERB	_	_	0	root	_	hi
+11	_	_	AUX	_	_	10	aux	_	hi
+12	_	_	PUNCT	_	_	10	punct	_	univ
+
+# sent_id = dev-s11
+# text = _ _ _ _ _ _ _ _ _ _
+1	_	_	NOUN	_	_	3	nmod	_	hi
+2	_	_	ADP	_	_	1	case	_	hi
+3	_	_	NOUN	_	_	7	nsubj	_	en
+4	_	_	PUNCT	_	_	7	punct	_	univ
+5	_	_	ADJ	_	_	7	amod	_	hi
+6	_	_	NOUN	_	_	7	nmod	_	en
+7	_	_	NOUN	_	_	0	root	_	en
+8	_	_	AUX	_	_	7	cop	_	hi
+9	_	_	AUX	_	_	7	aux	_	hi
+10	_	_	PUNCT	_	_	7	punct	_	univ
+
+# sent_id = dev-s12
+# text = _ _ _ _ _ _ _ _ _ _
+1	_	_	DET	_	_	2	det	_	en
+2	_	_	NOUN	_	_	8	nmod	_	en
+3	_	_	DET	_	_	4	det	_	en
+4	_	_	NOUN	_	_	2	conj	_	en
+5	_	_	PUNCT	_	_	8	punct	_	univ
+6	_	_	PRON	_	_	8	nsubj	_	hi
+7	_	_	NOUN	_	_	8	obj	_	hi
+8	_	_	VERB	_	_	0	root	_	hi
+9	_	_	PRON	_	_	7	nmod	_	hi
+10	_	_	SYM	_	_	8	discourse	_	univ
+
+# sent_id = dev-s13
+# text = _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+1	_	_	ADJ	_	_	2	amod	_	en
+2	_	_	NOUN	_	_	8	nmod	_	en
+3	_	_	ADV	_	_	2	advmod	_	en
+4	_	_	PROPN	_	_	8	obl	_	acro
+5	_	_	ADP	_	_	4	case	_	hi
+6	_	_	NOUN	_	_	8	nsubj	_	en
+7	_	_	PART	_	_	8	advmod	_	hi
+8	_	_	VERB	_	_	0	root	_	hi
+9	_	_	PUNCT	_	_	14	punct	_	univ
+10	_	_	NOUN	_	_	14	obl	_	en
+11	_	_	ADP	_	_	10	case	_	hi
+12	_	_	PART	_	_	10	advmod	_	hi
+13	_	_	NOUN	_	_	14	compound	_	en
+14	_	_	VERB	_	_	8	conj	_	hi
+15	_	_	AUX	_	_	14	aux	_	hi
+
+# sent_id = dev-s14
+# text = _ _ _ _ _ _ _ _ _ _ _ _ _
+1	_	_	ADJ	_	_	2	amod	_	en
+2	_	_	NOUN	_	_	5	obl	_	en
+3	_	_	ADP	_	_	2	case	_	hi
+4	_	_	ADP	_	_	2	case	_	hi
+5	_	_	VERB	_	_	0	root	_	hi
+6	_	_	ADV	_	_	11	advmod	_	hi
+7	_	_	NOUN	_	_	11	obl	_	en
+8	_	_	ADP	_	_	7	case	_	hi
+9	_	_	PART	_	_	7	advmod	_	hi
+10	_	_	NOUN	_	_	11	obj	_	en
+11	_	_	VERB	_	_	5	xcomp	_	hi
+12	_	_	PUNCT	_	_	5	punct	_	univ
+13	_	_	SYM	_	_	5	discourse	_	univ
+
+# sent_id = dev-s15
+# text = _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+1	_	_	PUNCT	_	_	14	punct	_	univ
+2	_	_	SCONJ	_	_	5	mark	_	en
+3	_	_	PRON	_	_	5	nsubj	_	en
+4	_	_	ADV	_	_	5	advmod	_	en
+5	_	_	VERB	_	_	14	advcl	_	en
+6	_	_	PART	_	_	8	mark	_	en
+7	_	_	AUX	_	_	8	cop	_	en
+8	_	_	ADJ	_	_	5	xcomp	_	en
+9	_	_	ADP	_	_	11	case	_	en
+10	_	_	PRON	_	_	11	nmod	_	en
+11	_	_	NOUN	_	_	8	nmod	_	en
+12	_	_	PUNCT	_	_	5	punct	_	univ
+13	_	_	SCONJ	_	_	14	mark	_	en
+14	_	_	VERB	_	_	0	root	_	hi
+15	_	_	AUX	_	_	14	aux	_	hi
+16	_	_	PRON	_	_	14	obj	_	hi
+17	_	_	PRON	_	_	19	nsubj	_	hi
+18	_	_	PRON	_	_	19	obj	_	hi
+19	_	_	VERB	_	_	16	acl:relcl	_	hi
+20	_	_	AUX	_	_	19	aux	_	hi
+21	_	_	SYM	_	_	14	discourse	_	univ
+22	_	_	PUNCT	_	_	14	punct	_	univ
+
+# sent_id = dev-s16
+# text = _ _ _ _ _ _ _ _ _ _ _ _ _ _
+1	_	_	PROPN	_	_	6	obl	_	ne
+2	_	_	ADP	_	_	1	case	_	hi
+3	_	_	DET	_	_	5	det	_	hi
+4	_	_	ADJ	_	_	5	amod	_	hi
+5	_	_	NOUN	_	_	6	obj	_	hi
+6	_	_	VERB	_	_	0	root	_	hi
+7	_	_	ADV	_	_	11	advmod	_	hi
+8	_	_	ADJ	_	_	9	amod	_	hi
+9	_	_	NOUN	_	_	11	nmod	_	en
+10	_	_	ADP	_	_	9	case	_	hi
+11	_	_	NOUN	_	_	5	acl:relcl	_	en
+12	_	_	AUX	_	_	11	cop	_	hi
+13	_	_	NOUN	_	_	11	nmod	_	hi
+14	_	_	PUNCT	_	_	6	punct	_	univ
+
+# sent_id = dev-s17
+# text = _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+1	_	_	NUM	_	_	2	nummod	_	univ
+2	_	_	NOUN	_	_	14	obl	_	hi
+3	_	_	ADP	_	_	2	case	_	hi
+4	_	_	ADJ	_	_	5	amod	_	ne
+5	_	_	NOUN	_	_	14	nsubj	_	en
+6	_	_	NOUN	_	_	8	compound	_	en
+7	_	_	ADP	_	_	6	compound	_	en
+8	_	_	VERB	_	_	14	advcl	_	hi
+9	_	_	AUX	_	_	8	aux	_	hi
+10	_	_	PROPN	_	_	11	nmod	_	en
+11	_	_	NOUN	_	_	14	obj	_	en
+12	_	_	ADP	_	_	11	case	_	hi
+13	_	_	NOUN	_	_	14	compound	_	en
+14	_	_	VERB	_	_	0	root	_	hi
+15	_	_	AUX	_	_	14	aux	_	hi
+16	_	_	PUNCT	_	_	14	punct	_	univ
+
+# sent_id = dev-s18
+# text = _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+1	_	_	SCONJ	_	_	9	mark	_	hi
+2	_	_	NUM	_	_	3	nummod	_	en
+3	_	_	NOUN	_	_	5	obj	_	en
+4	_	_	NOUN	_	_	5	compound	_	en
+5	_	_	VERB	_	_	9	advcl	_	hi
+6	_	_	PART	_	_	5	advmod	_	hi
+7	_	_	ADJ	_	_	8	amod	_	en
+8	_	_	NOUN	_	_	9	obj	_	en
+9	_	_	VERB	_	_	13	advcl	_	hi
+10	_	_	AUX	_	_	9	aux	_	hi
+11	_	_	PUNCT	_	_	9	punct	_	univ
+12	_	_	SCONJ	_	_	13	mark	_	hi
+13	_	_	NOUN	_	_	0	root	_	hi
+14	_	_	AUX	_	_	13	cop	_	hi
+15	_	_	PRON	_	_	13	nsubj	_	hi
+16	_	_	PUNCT	_	_	13	punct	_	univ
+
+# sent_id = dev-s19
+# text = _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+1	_	_	ADJ	_	_	4	amod	_	en
+2	_	_	DET	_	_	4	det	_	en
+3	_	_	NOUN	_	_	4	nmod	_	acro
+4	_	_	NOUN	_	_	6	vocative	_	en
+5	_	_	PUNCT	_	_	4	punct	_	univ
+6	_	_	VERB	_	_	0	root	_	en
+7	_	_	PRON	_	_	8	nmod	_	hi
+8	_	_	NOUN	_	_	20	nsubj	_	hi
+9	_	_	NOUN	_	_	15	nmod	_	en
+10	_	_	PROPN	_	_	9	nmod	_	en
+11	_	_	ADP	_	_	9	case	_	hi
+12	_	_	ADJ	_	_	15	amod	_	en
+13	_	_	PROPN	_	_	15	nmod	_	en
+14	_	_	NOUN	_	_	15	compound	_	en
+15	_	_	NOUN	_	_	20	obl	_	en
+16	_	_	ADP	_	_	15	case	_	hi
+17	_	_	ADP	_	_	15	case	_	hi
+18	_	_	PART	_	_	15	advmod	_	hi
+19	_	_	ADJ	_	_	20	compound	_	hi
+20	_	_	VERB	_	_	6	ccomp	_	hi
+21	_	_	PUNCT	_	_	6	punct	_	univ
+
+# sent_id = dev-s20
+# text = _ _ _ _ _ _ _ _ _ _
+1	_	_	INTJ	_	_	7	discourse	_	en
+2	_	_	ADJ	_	_	3	amod	_	en
+3	_	_	NOUN	_	_	7	discourse	_	en
+4	_	_	ADV	_	_	5	advmod	_	hi
+5	_	_	ADJ	_	_	6	amod	_	hi
+6	_	_	NOUN	_	_	7	obj	_	en
+7	_	_	VERB	_	_	0	root	_	hi
+8	_	_	AUX	_	_	7	aux	_	hi
+9	_	_	NOUN	_	_	7	nmod	_	hi
+10	_	_	SYM	_	_	7	discourse	_	univ
+
+# sent_id = dev-s21
+# text = _ _ _ _ _ _ _ _ _ _ _ _
+1	_	_	AUX	_	_	4	cop	_	en
+2	_	_	PRON	_	_	4	nsubj	_	en
+3	_	_	ADV	_	_	4	advmod	_	en
+4	_	_	PRON	_	_	0	root	_	en
+5	_	_	CCONJ	_	_	10	cc	_	hi
+6	_	_	ADV	_	_	10	advmod	_	hi
+7	_	_	PROPN	_	_	10	obl	_	ne
+8	_	_	ADP	_	_	7	case	_	hi
+9	_	_	NOUN	_	_	10	nsubj	_	hi
+10	_	_	VERB	_	_	4	conj	_	hi
+11	_	_	AUX	_	_	10	aux	_	hi
+12	_	_	PUNCT	_	_	4	punct	_	univ
+
+# sent_id = dev-s22
+# text = _ _ _ _ _ _ _ _ _ _ _ _
+1	_	_	PROPN	_	_	2	compound	_	ne
+2	_	_	NOUN	_	_	5	nmod	_	en
+3	_	_	ADP	_	_	2	case	_	hi
+4	_	_	ADJ	_	_	5	amod	_	en
+5	_	_	NOUN	_	_	10	obl	_	en
+6	_	_	ADP	_	_	5	case	_	hi
+7	_	_	DET	_	_	8	det	_	hi
+8	_	_	DET	_	_	9	det	_	hi
+9	_	_	NOUN	_	_	10	nsubj	_	hi
+10	_	_	VERB	_	_	0	root	_	hi
+11	_	_	AUX	_	_	10	aux	_	hi
+12	_	_	PUNCT	_	_	10	punct	_	univ
+
+# sent_id = dev-s23
+# text = _ _ _ _ _ _ _ _ _ _ _ _ _ _
+1	_	_	DET	_	_	2	det	_	hi
+2	_	_	NOUN	_	_	4	nsubj	_	hi
+3	_	_	PART	_	_	2	advmod	_	hi
+4	_	_	VERB	_	_	0	root	_	hi
+5	_	_	AUX	_	_	4	aux	_	hi
+6	_	_	AUX	_	_	4	aux	_	hi
+7	_	_	PUNCT	_	_	4	punct	_	univ
+8	_	_	ADV	_	_	10	advmod	_	hi
+9	_	_	PART	_	_	8	advmod	_	hi
+10	_	_	ADV	_	_	4	advcl	_	en
+11	_	_	AUX	_	_	10	cop	_	en
+12	_	_	PRON	_	_	10	nsubj	_	en
+13	_	_	NOUN	_	_	10	vocative	_	en
+14	_	_	PUNCT	_	_	4	punct	_	univ
+
+# sent_id = dev-s24
+# text = _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+1	_	_	PUNCT	_	_	11	punct	_	univ
+2	_	_	PRON	_	_	4	nmod	_	hi
+3	_	_	PROPN	_	_	4	compound	_	ne
+4	_	_	NOUN	_	_	11	obl	_	en
+5	_	_	ADP	_	_	4	case	_	hi
+6	_	_	PUNCT	_	_	7	punct	_	univ
+7	_	_	PROPN	_	_	10	nmod	_	en
+8	_	_	PUNCT	_	_	7	punct	_	univ
+9	_	_	ADP	_	_	7	case	_	hi
+10	_	_	NOUN	_	_	11	nsubj	_	en
+11	_	_	VERB	_	_	0	root	_	hi
+12	_	_	AUX	_	_	11	aux	_	hi
+13	_	_	AUX	_	_	11	aux	_	hi
+14	_	_	PUNCT	_	_	11	punct	_	univ
+15	_	_	PUNCT	_	_	11	punct	_	univ
+
+# sent_id = dev-s25
+# text = _ _ _ _ _ _ _ _ _ _ _
+1	_	_	PRON	_	_	3	expl	_	en
+2	_	_	AUX	_	_	3	cop	_	en
+3	_	_	NOUN	_	_	0	root	_	hi
+4	_	_	CCONJ	_	_	10	cc	_	en
+5	_	_	ADV	_	_	10	advmod	_	en
+6	_	_	PRON	_	_	10	expl	_	en
+7	_	_	AUX	_	_	10	cop	_	en
+8	_	_	NOUN	_	_	10	nmod	_	hi
+9	_	_	ADP	_	_	8	case	_	hi
+10	_	_	NOUN	_	_	3	conj	_	hi
+11	_	_	PUNCT	_	_	3	punct	_	univ
+
+# sent_id = dev-s26
+# text = _ _ _ _ _ _ _ _ _ _ _ _ _ _
+1	_	_	AUX	_	_	5	cop	_	en
+2	_	_	PRON	_	_	5	nsubj	_	en
+3	_	_	DET	_	_	5	det	_	en
+4	_	_	ADJ	_	_	5	amod	_	en
+5	_	_	NOUN	_	_	0	root	_	en
+6	_	_	PRON	_	_	14	nsubj	_	hi
+7	_	_	NOUN	_	_	14	obl	_	hi
+8	_	_	ADP	_	_	7	case	_	hi
+9	_	_	PROPN	_	_	14	obl	_	ne
+10	_	_	ADP	_	_	9	case	_	hi
+11	_	_	PART	_	_	9	advmod	_	hi
+12	_	_	ADP	_	_	9	case	_	hi
+13	_	_	PART	_	_	14	advmod	_	hi
+14	_	_	VERB	_	_	5	acl	_	hi
+
+# sent_id = dev-s27
+# text = _ _ _ _ _ _ _ _ _ _ _ _ _
+1	_	_	ADV	_	_	4	advmod	_	en
+2	_	_	AUX	_	_	4	aux	_	en
+3	_	_	PRON	_	_	4	nsubj	_	en
+4	_	_	VERB	_	_	0	root	_	en
+5	_	_	NOUN	_	_	8	nsubj	_	hi
+6	_	_	NOUN	_	_	8	nmod	_	hi
+7	_	_	ADJ	_	_	8	compound	_	hi
+8	_	_	VERB	_	_	4	ccomp	_	hi
+9	_	_	ADP	_	_	11	case	_	en
+10	_	_	NUM	_	_	11	nummod	_	en
+11	_	_	NOUN	_	_	4	obl	_	en
+12	_	_	ADP	_	_	13	case	_	en
+13	_	_	PROPN	_	_	4	obl	_	en
+
+# sent_id = dev-s28
+# text = _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+1	_	_	PUNCT	_	_	2	punct	_	univ
+2	_	_	VERB	_	_	0	root	_	en
+3	_	_	PUNCT	_	_	9	punct	_	univ
+4	_	_	NOUN	_	_	9	nmod	_	en
+5	_	_	PROPN	_	_	9	nsubj	_	ne
+6	_	_	PROPN	_	_	5	flat	_	ne
+7	_	_	AUX	_	_	9	aux	_	en
+8	_	_	PART	_	_	9	advmod	_	en
+9	_	_	VERB	_	_	2	ccomp	_	en
+10	_	_	PUNCT	_	_	2	punct	_	univ
+11	_	_	PUNCT	_	_	20	punct	_	univ
+12	_	_	PROPN	_	_	20	nsubj	_	acro
+13	_	_	ADP	_	_	12	case	_	hi
+14	_	_	PART	_	_	12	advmod	_	hi
+15	_	_	NUM	_	_	16	nummod	_	univ
+16	_	_	NUM	_	_	20	obj	_	hi
+17	_	_	NUM	_	_	18	nummod	_	hi
+18	_	_	NOUN	_	_	20	obl	_	en
+19	_	_	ADP	_	_	18	case	_	hi
+20	_	_	VERB	_	_	9	ccomp	_	hi
+21	_	_	AUX	_	_	20	aux	_	hi
+22	_	_	SYM	_	_	2	discourse	_	univ
+23	_	_	PUNCT	_	_	2	punct	_	univ
+
+# sent_id = dev-s29
+# text = _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+1	_	_	PROPN	_	_	4	nmod	_	ne
+2	_	_	PROPN	_	_	1	flat	_	ne
+3	_	_	PART	_	_	1	case	_	en
+4	_	_	NOUN	_	_	6	nsubj	_	en
+5	_	_	ADV	_	_	6	advmod	_	en
+6	_	_	VERB	_	_	0	root	_	en
+7	_	_	PRON	_	_	6	obj	_	en
+8	_	_	SCONJ	_	_	13	mark	_	hi
+9	_	_	PRON	_	_	13	nsubj	_	hi
+10	_	_	ADJ	_	_	11	compound	_	hi
+11	_	_	VERB	_	_	13	advcl	_	hi
+12	_	_	PRON	_	_	13	obj	_	hi
+13	_	_	VERB	_	_	6	ccomp	_	hi
+14	_	_	AUX	_	_	13	aux	_	hi
+15	_	_	AUX	_	_	13	aux	_	hi
+16	_	_	PUNCT	_	_	6	punct	_	univ
+
+# sent_id = dev-s30
+# text = _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+1	_	_	PUNCT	_	_	3	punct	_	univ
+2	_	_	PRON	_	_	3	nsubj	_	en
+3	_	_	VERB	_	_	0	root	_	en
+4	_	_	PRON	_	_	8	nsubj	_	hi
+5	_	_	DET	_	_	6	det	_	hi
+6	_	_	ADJ	_	_	8	amod	_	hi
+7	_	_	PART	_	_	8	advmod	_	hi
+8	_	_	VERB	_	_	3	ccomp	_	hi
+9	_	_	AUX	_	_	8	aux	_	hi
+10	_	_	CCONJ	_	_	13	cc	_	en
+11	_	_	PROPN	_	_	13	nsubj	_	ne
+12	_	_	ADJ	_	_	13	amod	_	en
+13	_	_	NOUN	_	_	3	conj	_	en
+14	_	_	PART	_	_	13	fixed	_	en
+15	_	_	ADP	_	_	13	case	_	hi
+16	_	_	ADP	_	_	13	case	_	hi
+17	_	_	PART	_	_	13	advmod	_	hi
+18	_	_	AUX	_	_	13	cop	_	hi
+19	_	_	SYM	_	_	3	discourse	_	univ
+20	_	_	PUNCT	_	_	3	punct	_	univ
+
+# sent_id = dev-s31
+# text = _ _ _ _ _ _ _ _ _ _
+1	_	_	PRON	_	_	8	nsubj	_	hi
+2	_	_	ADV	_	_	8	advmod	_	hi
+3	_	_	ADJ	_	_	4	amod	_	en
+4	_	_	NOUN	_	_	5	nmod	_	en
+5	_	_	NOUN	_	_	8	obj	_	en
+6	_	_	CCONJ	_	_	7	cc	_	en
+7	_	_	NOUN	_	_	5	conj	_	en
+8	_	_	VERB	_	_	0	root	_	hi
+9	_	_	AUX	_	_	8	aux	_	hi
+10	_	_	PUNCT	_	_	8	punct	_	univ
+
+# sent_id = dev-s32
+# text = _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+1	_	_	PRON	_	_	5	nsubj	_	en
+2	_	_	AUX	_	_	5	cop	_	en
+3	_	_	DET	_	_	5	det	_	en
+4	_	_	ADJ	_	_	5	amod	_	en
+5	_	_	NUM	_	_	0	root	_	en
+6	_	_	NOUN	_	_	15	obj	_	hi
+7	_	_	PROPN	_	_	9	nsubj	_	ne
+8	_	_	ADJ	_	_	9	compound	_	en
+9	_	_	VERB	_	_	15	advcl	_	hi
+10	_	_	SCONJ	_	_	9	mark	_	hi
+11	_	_	PART	_	_	9	advmod	_	hi
+12	_	_	DET	_	_	13	det	_	hi
+13	_	_	NOUN	_	_	15	nsubj	_	hi
+14	_	_	PART	_	_	15	advmod	_	hi
+15	_	_	VERB	_	_	5	acl	_	hi
+16	_	_	AUX	_	_	15	aux	_	hi
+
+# sent_id = dev-s33
+# text = _ _ _ _ _ _ _ _ _ _ _ _
+1	_	_	DET	_	_	3	det	_	hi
+2	_	_	PROPN	_	_	3	compound	_	ne
+3	_	_	PROPN	_	_	10	nsubj	_	en
+4	_	_	ADP	_	_	3	case	_	hi
+5	_	_	PRON	_	_	7	nmod	_	hi
+6	_	_	ADJ	_	_	7	amod	_	en
+7	_	_	NOUN	_	_	10	obj	_	en
+8	_	_	PART	_	_	10	advmod	_	hi
+9	_	_	NOUN	_	_	10	compound	_	en
+10	_	_	VERB	_	_	0	root	_	hi
+11	_	_	AUX	_	_	10	aux	_	hi
+12	_	_	PUNCT	_	_	10	punct	_	univ
+
+# sent_id = dev-s34
+# text = _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+1	_	_	PUNCT	_	_	4	punct	_	univ
+2	_	_	NOUN	_	_	4	nsubj	_	en
+3	_	_	AUX	_	_	4	cop	_	en
+4	_	_	NOUN	_	_	0	root	_	en
+5	_	_	CCONJ	_	_	7	cc	_	en
+6	_	_	DET	_	_	7	det	_	en
+7	_	_	NOUN	_	_	4	conj	_	en
+8	_	_	SCONJ	_	_	15	mark	_	en
+9	_	_	PUNCT	_	_	15	punct	_	univ
+10	_	_	NOUN	_	_	12	nmod	_	en
+11	_	_	ADP	_	_	10	case	_	hi
+12	_	_	NOUN	_	_	15	nsubj	_	hi
+13	_	_	NOUN	_	_	15	acl	_	hi
+14	_	_	ADJ	_	_	15	compound	_	en
+15	_	_	VERB	_	_	7	advcl	_	hi
+16	_	_	PUNCT	_	_	15	punct	_	univ
+17	_	_	SCONJ	_	_	23	mark	_	en
+18	_	_	PUNCT	_	_	23	punct	_	univ
+19	_	_	NOUN	_	_	23	nmod	_	en
+20	_	_	ADP	_	_	19	case	_	hi
+21	_	_	NOUN	_	_	23	nmod	_	hi
+22	_	_	DET	_	_	23	det	_	hi
+23	_	_	NOUN	_	_	15	advcl	_	hi
+24	_	_	AUX	_	_	23	cop	_	hi
+25	_	_	PUNCT	_	_	4	punct	_	univ
+26	_	_	PUNCT	_	_	4	punct	_	univ
+27	_	_	PUNCT	_	_	4	punct	_	univ
+
+# sent_id = dev-s35
+# text = _ _ _ _ _ _ _ _ _ _ _ _ _ _
+1	_	_	PUNCT	_	_	11	punct	_	univ
+2	_	_	ADV	_	_	4	mark	_	en
+3	_	_	NOUN	_	_	4	nsubj	_	en
+4	_	_	VERB	_	_	11	advcl	_	en
+5	_	_	PRON	_	_	4	iobj	_	en
+6	_	_	NOUN	_	_	4	obj	_	en
+7	_	_	PROPN	_	_	10	obl	_	hi
+8	_	_	ADP	_	_	7	case	_	hi
+9	_	_	VERB	_	_	11	advcl	_	hi
+10	_	_	AUX	_	_	9	aux	_	hi
+11	_	_	VERB	_	_	0	root	_	hi
+12	_	_	AUX	_	_	11	aux	_	hi
+13	_	_	PUNCT	_	_	11	punct	_	univ
+14	_	_	PUNCT	_	_	11	punct	_	univ
+
+# sent_id = dev-s36
+# text = _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+1	_	_	PUNCT	_	_	17	punct	_	univ
+2	_	_	PRON	_	_	3	compound	_	en
+3	_	_	SCONJ	_	_	8	mark	_	en
+4	_	_	NOUN	_	_	5	compound	_	en
+5	_	_	NOUN	_	_	8	nsubj	_	en
+6	_	_	AUX	_	_	8	cop	_	en
+7	_	_	ADP	_	_	8	case	_	en
+8	_	_	NOUN	_	_	17	advcl	_	en
+9	_	_	PUNCT	_	_	8	punct	_	univ
+10	_	_	PRON	_	_	17	obl	_	hi
+11	_	_	ADP	_	_	10	case	_	hi
+12	_	_	ADP	_	_	10	case	_	hi
+13	_	_	NOUN	_	_	16	nmod	_	en
+14	_	_	ADP	_	_	13	case	_	hi
+15	_	_	ADP	_	_	13	case	_	hi
+16	_	_	NOUN	_	_	17	compound	_	hi
+17	_	_	VERB	_	_	0	root	_	hi
+18	_	_	PUNCT	_	_	17	punct	_	univ
+19	_	_	PUNCT	_	_	17	punct	_	univ
+
+# sent_id = dev-s37
+# text = _ _ _ _ _ _ _ _ _ _ _
+1	_	_	PRON	_	_	2	nsubj	_	en
+2	_	_	VERB	_	_	0	root	_	en
+3	_	_	NOUN	_	_	2	obj	_	en
+4	_	_	SCONJ	_	_	9	mark	_	en
+5	_	_	PRON	_	_	9	nsubj	_	hi
+6	_	_	NOUN	_	_	9	obj	_	hi
+7	_	_	ADP	_	_	6	case	_	hi
+8	_	_	NOUN	_	_	9	xcomp	_	en
+9	_	_	VERB	_	_	2	advcl	_	hi
+10	_	_	AUX	_	_	9	aux	_	hi
+11	_	_	PUNCT	_	_	2	punct	_	univ
+
+# sent_id = dev-s38
+# text = _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+1	_	_	PUNCT	_	_	13	punct	_	univ
+2	_	_	SCONJ	_	_	8	mark	_	en
+3	_	_	PRON	_	_	8	nsubj	_	en
+4	_	_	AUX	_	_	8	cop	_	en
+5	_	_	PUNCT	_	_	8	punct	_	univ
+6	_	_	DET	_	_	8	det	_	en
+7	_	_	ADJ	_	_	8	amod	_	en
+8	_	_	NOUN	_	_	13	advcl	_	en
+9	_	_	PUNCT	_	_	8	punct	_	univ
+10	_	_	SCONJ	_	_	13	mark	_	en
+11	_	_	DET	_	_	12	det	_	hi
+12	_	_	NOUN	_	_	13	obj	_	hi
+13	_	_	VERB	_	_	0	root	_	hi
+14	_	_	PUNCT	_	_	13	punct	_	univ
+15	_	_	PRON	_	_	19	obj	_	hi
+16	_	_	PRON	_	_	19	nsubj	_	hi
+17	_	_	PUNCT	_	_	16	punct	_	univ
+18	_	_	NOUN	_	_	19	compound	_	hi
+19	_	_	VERB	_	_	12	acl	_	hi
+20	_	_	PUNCT	_	_	13	punct	_	univ
+21	_	_	PUNCT	_	_	13	punct	_	univ
+
+# sent_id = dev-s39
+# text = _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+1	_	_	PRON	_	_	2	nsubj	_	en
+2	_	_	VERB	_	_	0	root	_	en
+3	_	_	PRON	_	_	7	expl	_	en
+4	_	_	AUX	_	_	7	cop	_	en
+5	_	_	DET	_	_	7	det	_	en
+6	_	_	ADJ	_	_	7	amod	_	hi
+7	_	_	NOUN	_	_	2	ccomp	_	en
+8	_	_	PRON	_	_	17	nsubj	_	hi
+9	_	_	ADV	_	_	10	advmod	_	hi
+10	_	_	NOUN	_	_	14	obl	_	en
+11	_	_	ADP	_	_	10	case	_	hi
+12	_	_	ADP	_	_	10	case	_	hi
+13	_	_	NOUN	_	_	14	obj	_	hi
+14	_	_	VERB	_	_	17	advcl	_	hi
+15	_	_	AUX	_	_	14	aux	_	hi
+16	_	_	NOUN	_	_	17	obj	_	hi
+17	_	_	VERB	_	_	7	acl:relcl	_	hi
+18	_	_	AUX	_	_	17	aux	_	hi
+19	_	_	PUNCT	_	_	2	punct	_	univ
+
+# sent_id = dev-s40
+# text = _ _ _ _ _ _ _ _ _ _ _ _
+1	_	_	NOUN	_	_	3	nsubj	_	en
+2	_	_	AUX	_	_	3	aux	_	en
+3	_	_	VERB	_	_	0	root	_	en
+4	_	_	NOUN	_	_	3	obj	_	en
+5	_	_	PRON	_	_	11	advmod	_	hi
+6	_	_	NOUN	_	_	8	nmod	_	hi
+7	_	_	ADP	_	_	6	case	_	hi
+8	_	_	PROPN	_	_	9	compound	_	ne
+9	_	_	NOUN	_	_	11	nsubj	_	en
+10	_	_	PART	_	_	11	advmod	_	hi
+11	_	_	VERB	_	_	3	advcl	_	hi
+12	_	_	PUNCT	_	_	3	punct	_	univ
+
+# sent_id = dev-s41
+# text = _ _ _ _ _ _ _ _ _ _ _ _ _ _
+1	_	_	INTJ	_	_	5	discourse	_	en
+2	_	_	NOUN	_	_	5	obj	_	en
+3	_	_	ADP	_	_	2	case	_	hi
+4	_	_	NOUN	_	_	5	compound	_	acro
+5	_	_	VERB	_	_	0	root	_	hi
+6	_	_	CCONJ	_	_	14	cc	_	hi
+7	_	_	PROPN	_	_	14	iobj	_	ne
+8	_	_	PROPN	_	_	7	flat	_	ne
+9	_	_	ADP	_	_	7	case	_	hi
+10	_	_	PRON	_	_	12	nmod	_	hi
+11	_	_	ADJ	_	_	12	amod	_	en
+12	_	_	NOUN	_	_	14	obj	_	en
+13	_	_	NOUN	_	_	14	compound	_	hi
+14	_	_	VERB	_	_	5	conj	_	hi
+
+# sent_id = dev-s42
+# text = _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+1	_	_	PROPN	_	_	3	nsubj	_	ne
+2	_	_	PROPN	_	_	1	flat	_	ne
+3	_	_	VERB	_	_	0	root	_	en
+4	_	_	PRON	_	_	5	nmod	_	en
+5	_	_	NOUN	_	_	3	obj	_	en
+6	_	_	ADP	_	_	8	case	_	en
+7	_	_	DET	_	_	8	det	_	en
+8	_	_	NOUN	_	_	3	obl	_	en
+9	_	_	SCONJ	_	_	14	mark	_	en
+10	_	_	PUNCT	_	_	14	punct	_	univ
+11	_	_	NOUN	_	_	14	nsubj	_	hi
+12	_	_	ADJ	_	_	13	amod	_	hi
+13	_	_	NOUN	_	_	14	obj	_	hi
+14	_	_	VERB	_	_	3	advcl	_	hi
+15	_	_	AUX	_	_	14	aux	_	hi
+16	_	_	PUNCT	_	_	3	punct	_	univ
+
+# sent_id = dev-s43
+# text = _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+1	_	_	PRON	_	_	3	nsubj	_	hi
+2	_	_	NOUN	_	_	3	compound	_	hi
+3	_	_	VERB	_	_	0	root	_	hi
+4	_	_	PRON	_	_	8	nsubj	_	hi
+5	_	_	ADV	_	_	6	advmod	_	hi
+6	_	_	ADJ	_	_	7	amod	_	hi
+7	_	_	NOUN	_	_	8	compound	_	hi
+8	_	_	VERB	_	_	3	ccomp	_	hi
+9	_	_	AUX	_	_	8	aux	_	hi
+10	_	_	PRON	_	_	8	obj	_	hi
+11	_	_	CCONJ	_	_	15	cc	_	en
+12	_	_	PRON	_	_	15	nsubj	_	en
+13	_	_	AUX	_	_	15	aux	_	en
+14	_	_	PART	_	_	15	advmod	_	en
+15	_	_	VERB	_	_	3	conj	_	en
+16	_	_	PRON	_	_	15	obj	_	en
+17	_	_	X	_	_	3	parataxis	_	univ
+
+# sent_id = dev-s44
+# text = _ _ _ _ _ _ _ _ _
+1	_	_	NOUN	_	_	3	nmod	_	en
+2	_	_	ADP	_	_	1	case	_	en
+3	_	_	NOUN	_	_	7	nsubj	_	en
+4	_	_	DET	_	_	5	det	_	hi
+5	_	_	NOUN	_	_	7	obj	_	en
+6	_	_	ADP	_	_	5	case	_	hi
+7	_	_	VERB	_	_	0	root	_	hi
+8	_	_	AUX	_	_	7	aux	_	hi
+9	_	_	PUNCT	_	_	7	punct	_	univ
+
+# sent_id = dev-s45
+# text = _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+1	_	_	PUNCT	_	_	16	punct	_	univ
+2	_	_	NOUN	_	_	4	nmod	_	en
+3	_	_	ADP	_	_	2	case	_	hi
+4	_	_	NOUN	_	_	16	obl	_	en
+5	_	_	ADP	_	_	4	case	_	hi
+6	_	_	PRON	_	_	16	nsubj	_	hi
+7	_	_	ADJ	_	_	8	amod	_	en
+8	_	_	NOUN	_	_	16	obl	_	en
+9	_	_	ADP	_	_	8	case	_	hi
+10	_	_	PUNCT	_	_	12	punct	_	univ
+11	_	_	ADJ	_	_	12	amod	_	en
+12	_	_	PROPN	_	_	16	obj	_	ne
+13	_	_	PUNCT	_	_	14	punct	_	univ
+14	_	_	PROPN	_	_	12	conj	_	ne
+15	_	_	PUNCT	_	_	12	punct	_	univ
+16	_	_	VERB	_	_	0	root	_	hi
+17	_	_	AUX	_	_	16	aux	_	hi
+18	_	_	PUNCT	_	_	16	punct	_	univ
+19	_	_	PUNCT	_	_	16	punct	_	univ
+
+# sent_id = dev-s46
+# text = _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+1	_	_	NOUN	_	_	3	nmod	_	en
+2	_	_	PROPN	_	_	3	nsubj	_	acro
+3	_	_	VERB	_	_	0	root	_	en
+4	_	_	DET	_	_	5	det	_	en
+5	_	_	NOUN	_	_	3	obj	_	en
+6	_	_	ADP	_	_	8	case	_	en
+7	_	_	DET	_	_	8	det	_	en
+8	_	_	NOUN	_	_	5	nmod	_	en
+9	_	_	PUNCT	_	_	3	punct	_	univ
+10	_	_	PRON	_	_	11	nsubj	_	hi
+11	_	_	VERB	_	_	3	parataxis	_	hi
+12	_	_	AUX	_	_	11	aux	_	hi
+13	_	_	AUX	_	_	11	aux	_	hi
+14	_	_	PUNCT	_	_	11	punct	_	univ
+15	_	_	PRON	_	_	16	nsubj	_	hi
+16	_	_	VERB	_	_	11	conj	_	hi
+17	_	_	AUX	_	_	16	aux	_	hi
+
+# sent_id = dev-s47
+# text = _ _ _ _ _ _ _ _ _ _ _ _ _
+1	_	_	ADJ	_	_	2	amod	_	ne
+2	_	_	PROPN	_	_	12	obl	_	ne
+3	_	_	ADP	_	_	2	case	_	hi
+4	_	_	ADJ	_	_	5	amod	_	en
+5	_	_	NOUN	_	_	12	nsubj	_	en
+6	_	_	NOUN	_	_	7	compound	_	en
+7	_	_	NOUN	_	_	12	obl	_	en
+8	_	_	ADP	_	_	7	case	_	hi
+9	_	_	ADP	_	_	7	case	_	hi
+10	_	_	ADV	_	_	12	nsubj	_	hi
+11	_	_	ADV	_	_	10	compound	_	hi
+12	_	_	VERB	_	_	0	root	_	hi
+13	_	_	AUX	_	_	12	aux	_	hi
+
+# sent_id = dev-s48
+# text = _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+1	_	_	PUNCT	_	_	15	punct	_	univ
+2	_	_	SCONJ	_	_	6	mark	_	en
+3	_	_	NOUN	_	_	6	nsubj	_	en
+4	_	_	AUX	_	_	6	cop	_	en
+5	_	_	DET	_	_	6	det	_	en
+6	_	_	NOUN	_	_	15	advcl	_	en
+7	_	_	ADP	_	_	8	case	_	en
+8	_	_	NOUN	_	_	6	nmod	_	en
+9	_	_	NUM	_	_	10	nummod	_	hi
+10	_	_	NOUN	_	_	15	obj	_	en
+11	_	_	PART	_	_	10	advmod	_	hi
+12	_	_	PRON	_	_	13	nmod	_	hi
+13	_	_	NOUN	_	_	15	nsubj	_	hi
+14	_	_	ADP	_	_	13	case	_	hi
+15	_	_	VERB	_	_	0	root	_	hi
+16	_	_	AUX	_	_	15	aux	_	hi
+17	_	_	AUX	_	_	15	aux	_	hi
+18	_	_	PUNCT	_	_	15	punct	_	univ
+19	_	_	PUNCT	_	_	15	punct	_	univ
+
+# sent_id = dev-s49
+# text = _ _ _ _ _ _ _ _ _
+1	_	_	VERB	_	_	0	root	_	en
+2	_	_	ADP	_	_	1	compound	_	en
+3	_	_	DET	_	_	5	det	_	en
+4	_	_	NOUN	_	_	5	nmod	_	hi
+5	_	_	NOUN	_	_	1	obj	_	hi
+6	_	_	CCONJ	_	_	7	cc	_	en
+7	_	_	NOUN	_	_	5	conj	_	hi
+8	_	_	NOUN	_	_	1	discourse	_	hi
+9	_	_	PUNCT	_	_	1	punct	_	univ
+
+# sent_id = dev-s50
+# text = _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+1	_	_	PUNCT	_	_	9	punct	_	univ
+2	_	_	NOUN	_	_	9	nsubj	_	hi
+3	_	_	NOUN	_	_	5	nmod	_	hi
+4	_	_	ADP	_	_	3	case	_	hi
+5	_	_	NOUN	_	_	9	obl	_	en
+6	_	_	ADP	_	_	5	case	_	hi
+7	_	_	NUM	_	_	9	obj	_	univ
+8	_	_	NOUN	_	_	9	compound	_	en
+9	_	_	VERB	_	_	0	root	_	hi
+10	_	_	AUX	_	_	9	aux	_	hi
+11	_	_	CCONJ	_	_	20	cc	_	hi
+12	_	_	PRON	_	_	14	nmod	_	hi
+13	_	_	SCONJ	_	_	16	mark	_	hi
+14	_	_	NUM	_	_	16	nsubj	_	univ
+15	_	_	PART	_	_	14	advmod	_	hi
+16	_	_	VERB	_	_	20	advcl	_	hi
+17	_	_	AUX	_	_	16	aux	_	hi
+18	_	_	SCONJ	_	_	20	mark	_	hi
+19	_	_	PRON	_	_	20	nsubj	_	en
+20	_	_	VERB	_	_	9	conj	_	en
+21	_	_	VERB	_	_	20	xcomp	_	en
+22	_	_	DET	_	_	23	det	_	en
+23	_	_	NOUN	_	_	21	obj	_	en
+24	_	_	NOUN	_	_	25	nsubj	_	en
+25	_	_	VERB	_	_	9	parataxis	_	en
+26	_	_	DET	_	_	27	det	_	en
+27	_	_	NOUN	_	_	25	obj	_	en
+28	_	_	ADP	_	_	29	case	_	en
+29	_	_	PRON	_	_	27	nmod	_	en
+30	_	_	PUNCT	_	_	9	punct	_	univ
+
+# sent_id = dev-s51
+# text = _ _ _ _ _ _ _ _ _ _ _ _ _ _
+1	_	_	PRON	_	_	9	nsubj	_	hi
+2	_	_	ADJ	_	_	3	amod	_	en
+3	_	_	NOUN	_	_	9	obl	_	en
+4	_	_	ADP	_	_	3	case	_	hi
+5	_	_	ADP	_	_	3	case	_	hi
+6	_	_	PART	_	_	3	advmod	_	hi
+7	_	_	NOUN	_	_	9	obj	_	en
+8	_	_	ADV	_	_	9	compound	_	en
+9	_	_	VERB	_	_	0	root	_	hi
+10	_	_	AUX	_	_	9	aux	_	hi
+11	_	_	AUX	_	_	9	aux	_	hi
+12	_	_	PUNCT	_	_	9	punct	_	univ
+13	_	_	SYM	_	_	9	discourse	_	univ
+14	_	_	SYM	_	_	9	discourse	_	univ
+
+# sent_id = dev-s52
+# text = _ _ _ _ _ _ _ _ _ _ _ _
+1	_	_	AUX	_	_	5	cop	_	en
+2	_	_	PRON	_	_	5	nsubj	_	en
+3	_	_	DET	_	_	5	det	_	en
+4	_	_	ADJ	_	_	5	amod	_	en
+5	_	_	NOUN	_	_	0	root	_	en
+6	_	_	PRON	_	_	10	nsubj	_	hi
+7	_	_	NOUN	_	_	10	nmod	_	hi
+8	_	_	PART	_	_	7	advmod	_	hi
+9	_	_	NOUN	_	_	10	nmod	_	en
+10	_	_	VERB	_	_	5	acl	_	hi
+11	_	_	AUX	_	_	10	aux	_	hi
+12	_	_	PUNCT	_	_	5	punct	_	univ
+
+# sent_id = dev-s53
+# text = _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+1	_	_	PRON	_	_	2	expl	_	en
+2	_	_	VERB	_	_	0	root	_	en
+3	_	_	ADJ	_	_	4	amod	_	en
+4	_	_	NOUN	_	_	2	nmod	_	en
+5	_	_	CCONJ	_	_	9	cc	_	en
+6	_	_	DET	_	_	8	det	_	en
+7	_	_	NOUN	_	_	8	nmod	_	en
+8	_	_	NOUN	_	_	9	nsubj	_	en
+9	_	_	VERB	_	_	2	conj	_	en
+10	_	_	SCONJ	_	_	13	mark	_	hi
+11	_	_	DET	_	_	12	det	_	hi
+12	_	_	PRON	_	_	13	nsubj	_	hi
+13	_	_	VERB	_	_	9	ccomp	_	hi
+14	_	_	PART	_	_	13	advmod	_	hi
+15	_	_	PART	_	_	13	advmod	_	hi
+16	_	_	AUX	_	_	13	aux	_	hi
+17	_	_	PUNCT	_	_	2	punct	_	univ
+18	_	_	SYM	_	_	2	discourse	_	univ
+
+# sent_id = dev-s54
+# text = _ _ _ _ _ _ _ _ _ _ _ _ _
+1	_	_	PRON	_	_	3	nsubj	_	en
+2	_	_	ADV	_	_	3	advmod	_	en
+3	_	_	VERB	_	_	0	root	_	en
+4	_	_	NOUN	_	_	6	nmod	_	en
+5	_	_	ADP	_	_	4	case	_	hi
+6	_	_	NOUN	_	_	11	nmod	_	en
+7	_	_	DET	_	_	8	det	_	hi
+8	_	_	ADJ	_	_	10	amod	_	hi
+9	_	_	PART	_	_	8	advmod	_	hi
+10	_	_	NOUN	_	_	11	nsubj	_	hi
+11	_	_	VERB	_	_	3	ccomp	_	hi
+12	_	_	AUX	_	_	11	aux	_	hi
+13	_	_	PUNCT	_	_	3	punct	_	univ
+
+# sent_id = dev-s55
+# text = _ _ _ _ _ _ _ _ _ _ _
+1	_	_	PRON	_	_	4	nmod	_	hi
+2	_	_	ADJ	_	_	4	amod	_	en
+3	_	_	VERB	_	_	4	acl	_	en
+4	_	_	NOUN	_	_	6	nmod	_	en
+5	_	_	ADP	_	_	4	case	_	hi
+6	_	_	NOUN	_	_	0	root	_	en
+7	_	_	AUX	_	_	6	cop	_	hi
+8	_	_	PRON	_	_	6	nmod	_	hi
+9	_	_	ADP	_	_	8	case	_	hi
+10	_	_	ADP	_	_	8	case	_	hi
+11	_	_	PUNCT	_	_	6	punct	_	univ
+
+# sent_id = dev-s56
+# text = _ _ _ _ _ _ _ _ _ _ _ _ _ _
+1	_	_	PRON	_	_	5	nmod	_	hi
+2	_	_	ADP	_	_	1	case	_	hi
+3	_	_	ADJ	_	_	5	amod	_	en
+4	_	_	ADJ	_	_	5	amod	_	en
+5	_	_	NOUN	_	_	0	root	_	en
+6	_	_	AUX	_	_	5	cop	_	hi
+7	_	_	AUX	_	_	5	aux	_	hi
+8	_	_	PRON	_	_	12	nsubj	_	hi
+9	_	_	ADV	_	_	12	advmod	_	hi
+10	_	_	PART	_	_	9	advmod	_	hi
+11	_	_	NUM	_	_	12	nummod	_	univ
+12	_	_	NOUN	_	_	5	conj	_	en
+13	_	_	AUX	_	_	12	cop	_	hi
+14	_	_	SYM	_	_	5	discourse	_	univ
+
+# sent_id = dev-s57
+# text = _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+1	_	_	ADV	_	_	2	compound	_	en
+2	_	_	ADV	_	_	4	advmod	_	en
+3	_	_	NUM	_	_	4	nummod	_	en
+4	_	_	NOUN	_	_	13	nsubj	_	en
+5	_	_	ADP	_	_	7	case	_	en
+6	_	_	NOUN	_	_	7	compound	_	en
+7	_	_	NOUN	_	_	4	nmod	_	en
+8	_	_	PUNCT	_	_	4	punct	_	univ
+9	_	_	ADP	_	_	10	case	_	en
+10	_	_	NOUN	_	_	13	obl	_	en
+11	_	_	PRON	_	_	13	obj	_	hi
+12	_	_	PRON	_	_	11	compound	_	hi
+13	_	_	VERB	_	_	16	advcl	_	hi
+14	_	_	PRON	_	_	16	nsubj	_	hi
+15	_	_	NOUN	_	_	16	compound	_	hi
+16	_	_	VERB	_	_	0	root	_	hi
+17	_	_	AUX	_	_	16	aux	_	hi
+18	_	_	NOUN	_	_	16	vocative	_	hi
+19	_	_	PUNCT	_	_	16	punct	_	univ
+
+# sent_id = dev-s58
+# text = _ _ _ _ _ _ _ _ _ _ _ _
+1	_	_	PRON	_	_	3	nsubj	_	en
+2	_	_	AUX	_	_	3	aux	_	en
+3	_	_	VERB	_	_	0	root	_	en
+4	_	_	NOUN	_	_	3	obj	_	en
+5	_	_	PRON	_	_	7	nmod	_	hi
+6	_	_	ADP	_	_	5	case	_	hi
+7	_	_	PROPN	_	_	8	nsubj	_	acro
+8	_	_	NUM	_	_	4	acl	_	univ
+9	_	_	ADP	_	_	8	case	_	hi
+10	_	_	ADP	_	_	8	case	_	hi
+11	_	_	AUX	_	_	8	cop	_	hi
+12	_	_	PUNCT	_	_	3	punct	_	univ
+
+# sent_id = dev-s59
+# text = _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+1	_	_	PRON	_	_	3	nsubj	_	en
+2	_	_	ADV	_	_	3	advmod	_	en
+3	_	_	VERB	_	_	0	root	_	en
+4	_	_	PART	_	_	5	mark	_	en
+5	_	_	VERB	_	_	3	xcomp	_	en
+6	_	_	NOUN	_	_	5	obj	_	en
+7	_	_	ADP	_	_	5	compound	_	en
+8	_	_	PUNCT	_	_	3	punct	_	univ
+9	_	_	SCONJ	_	_	12	mark	_	hi
+10	_	_	DET	_	_	11	det	_	hi
+11	_	_	NOUN	_	_	12	nsubj	_	hi
+12	_	_	VERB	_	_	17	advcl	_	hi
+13	_	_	SCONJ	_	_	17	mark	_	hi
+14	_	_	PRON	_	_	17	nsubj	_	en
+15	_	_	AUX	_	_	17	aux	_	en
+16	_	_	PART	_	_	17	advmod	_	en
+17	_	_	VERB	_	_	3	advcl	_	en
+18	_	_	SCONJ	_	_	24	mark	_	hi
+19	_	_	PRON	_	_	24	nsubj	_	hi
+20	_	_	ADP	_	_	19	case	_	hi
+21	_	_	DET	_	_	22	det	_	hi
+22	_	_	NOUN	_	_	24	obl	_	hi
+23	_	_	ADP	_	_	22	case	_	hi
+24	_	_	VERB	_	_	17	ccomp	_	hi
+25	_	_	AUX	_	_	24	aux	_	hi
+26	_	_	AUX	_	_	24	aux	_	hi
+27	_	_	PUNCT	_	_	3	punct	_	univ
+
+# sent_id = dev-s60
+# text = _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+1	_	_	DET	_	_	2	det	_	en
+2	_	_	NOUN	_	_	8	nsubj	_	en
+3	_	_	ADP	_	_	5	case	_	en
+4	_	_	ADJ	_	_	5	amod	_	en
+5	_	_	NOUN	_	_	2	nmod	_	en
+6	_	_	ADP	_	_	5	case	_	hi
+7	_	_	NOUN	_	_	8	compound	_	en
+8	_	_	VERB	_	_	0	root	_	hi
+9	_	_	AUX	_	_	8	aux	_	hi
+10	_	_	AUX	_	_	8	aux	_	hi
+11	_	_	SCONJ	_	_	29	mark	_	hi
+12	_	_	ADJ	_	_	13	amod	_	en
+13	_	_	PROPN	_	_	29	obl	_	ne
+14	_	_	ADP	_	_	13	case	_	hi
+15	_	_	DET	_	_	16	det	_	hi
+16	_	_	NOUN	_	_	29	obl	_	en
+17	_	_	PUNCT	_	_	18	punct	_	univ
+18	_	_	PROPN	_	_	16	appos	_	acro
+19	_	_	PUNCT	_	_	18	punct	_	univ
+20	_	_	PROPN	_	_	18	conj	_	acro
+21	_	_	PUNCT	_	_	18	punct	_	univ
+22	_	_	PROPN	_	_	18	conj	_	acro
+23	_	_	CCONJ	_	_	25	cc	_	en
+24	_	_	NOUN	_	_	25	compound	_	en
+25	_	_	PROPN	_	_	18	conj	_	en
+26	_	_	PUNCT	_	_	18	punct	_	univ
+27	_	_	ADP	_	_	16	case	_	hi
+28	_	_	PROPN	_	_	29	compound	_	hi
+29	_	_	VERB	_	_	8	ccomp	_	hi
+30	_	_	AUX	_	_	29	aux	_	hi
+31	_	_	PUNCT	_	_	8	punct	_	univ
+
+# sent_id = dev-s61
+# text = _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+1	_	_	PRON	_	_	2	nsubj	_	en
+2	_	_	VERB	_	_	0	root	_	en
+3	_	_	DET	_	_	4	det	_	hi
+4	_	_	NOUN	_	_	10	nsubj	_	hi
+5	_	_	ADP	_	_	4	case	_	hi
+6	_	_	PROPN	_	_	10	obl	_	ne
+7	_	_	ADP	_	_	6	case	_	hi
+8	_	_	ADP	_	_	6	case	_	hi
+9	_	_	ADJ	_	_	10	compound	_	en
+10	_	_	VERB	_	_	2	ccomp	_	hi
+11	_	_	AUX	_	_	10	aux	_	hi
+12	_	_	SYM	_	_	2	discourse	_	univ
+13	_	_	SYM	_	_	2	discourse	_	univ
+14	_	_	PROPN	_	_	15	nsubj	_	ne
+15	_	_	VERB	_	_	2	parataxis	_	en
+16	_	_	NOUN	_	_	15	obj	_	en
+
+# sent_id = dev-s62
+# text = _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+1	_	_	PUNCT	_	_	11	punct	_	univ
+2	_	_	NOUN	_	_	4	nsubj	_	hi
+3	_	_	ADP	_	_	2	case	_	hi
+4	_	_	VERB	_	_	10	appos	_	hi
+5	_	_	CCONJ	_	_	9	cc	_	hi
+6	_	_	PROPN	_	_	8	nmod	_	acro
+7	_	_	ADP	_	_	6	case	_	hi
+8	_	_	NOUN	_	_	9	compound	_	en
+9	_	_	VERB	_	_	4	conj	_	hi
+10	_	_	PRON	_	_	11	nsubj	_	en
+11	_	_	VERB	_	_	0	root	_	en
+12	_	_	ADP	_	_	13	case	_	en
+13	_	_	NOUN	_	_	11	obl	_	en
+14	_	_	SYM	_	_	11	discourse	_	univ
+15	_	_	PUNCT	_	_	11	punct	_	univ
+
+# sent_id = dev-s63
+# text = _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+1	_	_	INTJ	_	_	4	discourse	_	acro
+2	_	_	PUNCT	_	_	4	punct	_	univ
+3	_	_	PRON	_	_	4	nsubj	_	en
+4	_	_	VERB	_	_	0	root	_	en
+5	_	_	PRON	_	_	6	nmod	_	hi
+6	_	_	NOUN	_	_	17	nsubj	_	hi
+7	_	_	ADP	_	_	6	case	_	hi
+8	_	_	NOUN	_	_	10	obj	_	en
+9	_	_	NOUN	_	_	10	compound	_	en
+10	_	_	VERB	_	_	12	acl	_	hi
+11	_	_	SCONJ	_	_	10	mark	_	hi
+12	_	_	NOUN	_	_	17	obj	_	en
+13	_	_	NOUN	_	_	14	nmod	_	en
+14	_	_	NOUN	_	_	17	obl	_	en
+15	_	_	ADP	_	_	14	case	_	hi
+16	_	_	ADP	_	_	14	case	_	hi
+17	_	_	VERB	_	_	4	ccomp	_	hi
+18	_	_	AUX	_	_	17	aux	_	hi
+19	_	_	AUX	_	_	17	aux	_	hi
+20	_	_	PUNCT	_	_	4	punct	_	univ
+
+# sent_id = dev-s64
+# text = _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+1	_	_	PRON	_	_	4	obj	_	en
+2	_	_	AUX	_	_	4	aux	_	en
+3	_	_	PRON	_	_	4	nsubj	_	en
+4	_	_	VERB	_	_	0	root	_	en
+5	_	_	ADP	_	_	7	case	_	en
+6	_	_	DET	_	_	7	det	_	en
+7	_	_	NOUN	_	_	4	obl	_	en
+8	_	_	PRON	_	_	16	obj	_	hi
+9	_	_	ADP	_	_	8	case	_	hi
+10	_	_	NOUN	_	_	16	nmod	_	hi
+11	_	_	VERB	_	_	13	acl	_	hi
+12	_	_	SCONJ	_	_	11	mark	_	hi
+13	_	_	NOUN	_	_	16	obl	_	en
+14	_	_	ADP	_	_	13	case	_	hi
+15	_	_	NOUN	_	_	16	nmod	_	en
+16	_	_	VERB	_	_	7	acl	_	hi
+17	_	_	AUX	_	_	16	aux	_	hi
+18	_	_	AUX	_	_	16	aux	_	hi
+19	_	_	AUX	_	_	16	aux	_	hi
+20	_	_	PUNCT	_	_	4	punct	_	univ
+
+# sent_id = dev-s65
+# text = _ _ _ _ _ _ _ _ _ _ _ _ _ _
+1	_	_	NOUN	_	_	3	nmod	_	hi
+2	_	_	ADP	_	_	1	case	_	hi
+3	_	_	NOUN	_	_	0	root	_	hi
+4	_	_	PRON	_	_	3	nsubj	_	hi
+5	_	_	AUX	_	_	3	cop	_	hi
+6	_	_	SCONJ	_	_	9	mark	_	hi
+7	_	_	ADJ	_	_	8	amod	_	en
+8	_	_	NOUN	_	_	9	nsubj	_	en
+9	_	_	VERB	_	_	4	acl	_	en
+10	_	_	ADV	_	_	9	advmod	_	en
+11	_	_	PART	_	_	12	mark	_	en
+12	_	_	VERB	_	_	9	xcomp	_	en
+13	_	_	PRON	_	_	12	obj	_	en
+14	_	_	PUNCT	_	_	3	punct	_	univ
+
+# sent_id = dev-s66
+# text = _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+1	_	_	NUM	_	_	2	nummod	_	univ
+2	_	_	NOUN	_	_	3	nsubj	_	en
+3	_	_	VERB	_	_	16	advcl	_	hi
+4	_	_	SCONJ	_	_	3	mark	_	hi
+5	_	_	SCONJ	_	_	3	mark	_	hi
+6	_	_	PART	_	_	3	advmod	_	hi
+7	_	_	PUNCT	_	_	8	punct	_	univ
+8	_	_	VERB	_	_	16	csubj	_	en
+9	_	_	ADP	_	_	8	compound	_	en
+10	_	_	PROPN	_	_	8	nmod	_	ne
+11	_	_	PUNCT	_	_	8	punct	_	univ
+12	_	_	PART	_	_	8	advmod	_	hi
+13	_	_	NOUN	_	_	16	obl	_	en
+14	_	_	ADP	_	_	13	case	_	hi
+15	_	_	PART	_	_	16	advmod	_	hi
+16	_	_	VERB	_	_	0	root	_	hi
+17	_	_	PUNCT	_	_	16	punct	_	univ
+
+# sent_id = dev-s67
+# text = _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+1	_	_	PRON	_	_	4	nsubj	_	hi
+2	_	_	NOUN	_	_	4	nmod	_	hi
+3	_	_	ADP	_	_	2	case	_	hi
+4	_	_	NOUN	_	_	0	root	_	en
+5	_	_	AUX	_	_	4	cop	_	hi
+6	_	_	PUNCT	_	_	4	punct	_	univ
+7	_	_	DET	_	_	10	det	_	hi
+8	_	_	PROPN	_	_	10	nmod	_	ne
+9	_	_	ADP	_	_	8	case	_	hi
+10	_	_	NOUN	_	_	1	acl	_	en
+11	_	_	AUX	_	_	10	cop	_	hi
+12	_	_	PUNCT	_	_	10	punct	_	univ
+13	_	_	VERB	_	_	4	advcl	_	en
+14	_	_	PROPN	_	_	13	nsubj	_	ne
+15	_	_	PUNCT	_	_	13	punct	_	univ
+16	_	_	VERB	_	_	13	advcl	_	en
+17	_	_	ADP	_	_	16	compound	_	en
+18	_	_	PROPN	_	_	20	nmod	_	ne
+19	_	_	NOUN	_	_	20	compound	_	en
+20	_	_	NOUN	_	_	16	obj	_	en
+21	_	_	PUNCT	_	_	4	punct	_	univ
+
+# sent_id = dev-s68
+# text = _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+1	_	_	PRON	_	_	2	nsubj	_	en
+2	_	_	VERB	_	_	0	root	_	en
+3	_	_	PRON	_	_	5	nsubj	_	en
+4	_	_	AUX	_	_	5	cop	_	en
+5	_	_	ADJ	_	_	2	ccomp	_	en
+6	_	_	CCONJ	_	_	13	cc	_	en
+7	_	_	ADV	_	_	13	advmod	_	hi
+8	_	_	DET	_	_	9	det	_	hi
+9	_	_	NOUN	_	_	11	nmod	_	hi
+10	_	_	ADP	_	_	9	case	_	hi
+11	_	_	PRON	_	_	13	nsubj	_	hi
+12	_	_	PART	_	_	13	advmod	_	hi
+13	_	_	VERB	_	_	2	conj	_	hi
+14	_	_	AUX	_	_	13	aux	_	hi
+15	_	_	PUNCT	_	_	2	punct	_	univ
+
+# sent_id = dev-s69
+# text = _ _ _ _ _ _ _ _ _ _ _
+1	_	_	PROPN	_	_	2	compound	_	en
+2	_	_	NOUN	_	_	5	nsubj	_	en
+3	_	_	ADJ	_	_	5	compound	_	hi
+4	_	_	PART	_	_	5	advmod	_	hi
+5	_	_	VERB	_	_	0	root	_	hi
+6	_	_	SCONJ	_	_	10	mark	_	hi
+7	_	_	PROPN	_	_	9	nmod	_	acro
+8	_	_	SCONJ	_	_	7	mark	_	hi
+9	_	_	NOUN	_	_	10	nsubj	_	en
+10	_	_	ADJ	_	_	5	advcl	_	hi
+11	_	_	PUNCT	_	_	5	punct	_	univ
+
+# sent_id = dev-s70
+# text = _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+1	_	_	ADJ	_	_	2	amod	_	en
+2	_	_	NOUN	_	_	8	obl	_	en
+3	_	_	ADP	_	_	2	case	_	hi
+4	_	_	NOUN	_	_	8	nsubj	_	hi
+5	_	_	ADV	_	_	6	advmod	_	hi
+6	_	_	ADJ	_	_	7	amod	_	hi
+7	_	_	NOUN	_	_	8	compound	_	en
+8	_	_	VERB	_	_	0	root	_	hi
+9	_	_	AUX	_	_	8	aux	_	hi
+10	_	_	SCONJ	_	_	17	mark	_	hi
+11	_	_	NOUN	_	_	13	nmod	_	en
+12	_	_	ADP	_	_	11	case	_	hi
+13	_	_	NOUN	_	_	17	nsubj	_	hi
+14	_	_	ADP	_	_	13	case	_	hi
+15	_	_	PART	_	_	13	advmod	_	hi
+16	_	_	NOUN	_	_	17	compound	_	hi
+17	_	_	VERB	_	_	8	advcl	_	hi
+18	_	_	AUX	_	_	17	aux	_	hi
+
+# sent_id = dev-s71
+# text = _ _ _ _ _ _ _ _ _ _ _ _ _
+1	_	_	PRON	_	_	10	nsubj	_	hi
+2	_	_	CCONJ	_	_	3	cc	_	hi
+3	_	_	PROPN	_	_	1	conj	_	ne
+4	_	_	NOUN	_	_	3	nmod	_	en
+5	_	_	ADP	_	_	3	case	_	hi
+6	_	_	ADJ	_	_	7	amod	_	en
+7	_	_	NOUN	_	_	10	obl	_	en
+8	_	_	ADP	_	_	7	case	_	hi
+9	_	_	NOUN	_	_	10	obj	_	en
+10	_	_	VERB	_	_	0	root	_	hi
+11	_	_	AUX	_	_	10	aux	_	hi
+12	_	_	AUX	_	_	10	aux	_	hi
+13	_	_	SYM	_	_	10	discourse	_	univ
+
+# sent_id = dev-s72
+# text = _ _ _ _ _ _ _ _ _ _ _ _ _ _
+1	_	_	PRON	_	_	4	nsubj	_	en
+2	_	_	AUX	_	_	4	aux	_	en
+3	_	_	PART	_	_	4	advmod	_	en
+4	_	_	VERB	_	_	0	root	_	en
+5	_	_	DET	_	_	6	det	_	en
+6	_	_	NOUN	_	_	4	obj	_	en
+7	_	_	SCONJ	_	_	11	mark	_	hi
+8	_	_	NOUN	_	_	11	obl	_	en
+9	_	_	ADP	_	_	8	case	_	hi
+10	_	_	NOUN	_	_	11	obj	_	hi
+11	_	_	VERB	_	_	4	advcl	_	hi
+12	_	_	AUX	_	_	11	aux	_	hi
+13	_	_	AUX	_	_	11	aux	_	hi
+14	_	_	PUNCT	_	_	4	punct	_	univ
+
+# sent_id = dev-s73
+# text = _ _ _ _ _ _ _ _ _ _ _ _ _
+1	_	_	PRON	_	_	4	nsubj	_	en
+2	_	_	AUX	_	_	4	aux	_	en
+3	_	_	ADV	_	_	4	advmod	_	en
+4	_	_	VERB	_	_	0	root	_	en
+5	_	_	SCONJ	_	_	12	mark	_	hi
+6	_	_	PROPN	_	_	12	nsubj	_	en
+7	_	_	PROPN	_	_	12	obj	_	ne
+8	_	_	PROPN	_	_	7	flat	_	ne
+9	_	_	ADP	_	_	7	case	_	hi
+10	_	_	NOUN	_	_	12	obl	_	hi
+11	_	_	ADP	_	_	10	case	_	hi
+12	_	_	VERB	_	_	4	ccomp	_	hi
+13	_	_	PUNCT	_	_	4	punct	_	univ
+
+# sent_id = dev-s74
+# text = _ _ _ _ _ _ _ _ _ _ _ _ _
+1	_	_	DET	_	_	2	det	_	hi
+2	_	_	NOUN	_	_	10	nsubj	_	hi
+3	_	_	PROPN	_	_	5	nmod	_	ne
+4	_	_	ADP	_	_	3	case	_	hi
+5	_	_	NOUN	_	_	7	obj	_	en
+6	_	_	ADJ	_	_	7	compound	_	en
+7	_	_	VERB	_	_	10	advcl	_	hi
+8	_	_	SCONJ	_	_	7	mark	_	hi
+9	_	_	NOUN	_	_	10	compound	_	hi
+10	_	_	VERB	_	_	0	root	_	hi
+11	_	_	AUX	_	_	10	aux	_	hi
+12	_	_	AUX	_	_	10	aux	_	hi
+13	_	_	PUNCT	_	_	10	punct	_	univ
+
+# sent_id = dev-s75
+# text = _ _ _ _ _ _ _ _ _ _ _ _
+1	_	_	VERB	_	_	0	root	_	en
+2	_	_	NOUN	_	_	1	obj	_	en
+3	_	_	ADP	_	_	4	case	_	en
+4	_	_	PROPN	_	_	1	obl	_	ne
+5	_	_	PRON	_	_	9	nsubj	_	hi
+6	_	_	PRON	_	_	7	nmod	_	hi
+7	_	_	PROPN	_	_	8	obj	_	hi
+8	_	_	VERB	_	_	9	advcl	_	hi
+9	_	_	VERB	_	_	1	advcl	_	hi
+10	_	_	AUX	_	_	9	aux	_	hi
+11	_	_	AUX	_	_	9	aux	_	hi
+12	_	_	PUNCT	_	_	1	punct	_	univ
+
+# sent_id = dev-s76
+# text = _ _ _ _ _ _ _ _ _ _
+1	_	_	DET	_	_	2	det	_	en
+2	_	_	NOUN	_	_	3	nsubj	_	en
+3	_	_	VERB	_	_	0	root	_	en
+4	_	_	PRON	_	_	3	obj	_	en
+5	_	_	DET	_	_	6	det	_	hi
+6	_	_	NOUN	_	_	3	ccomp	_	acro
+7	_	_	PRON	_	_	6	nsubj	_	hi
+8	_	_	AUX	_	_	6	cop	_	hi
+9	_	_	AUX	_	_	6	aux	_	hi
+10	_	_	SYM	_	_	3	discourse	_	univ
+
+# sent_id = dev-s77
+# text = _ _ _ _ _ _ _ _ _ _ _ _
+1	_	_	DET	_	_	3	det	_	en
+2	_	_	ADJ	_	_	3	amod	_	hi
+3	_	_	NOUN	_	_	0	root	_	en
+4	_	_	ADP	_	_	6	case	_	en
+5	_	_	PRON	_	_	6	nmod	_	en
+6	_	_	PROPN	_	_	3	nmod	_	acro
+7	_	_	CCONJ	_	_	11	cc	_	en
+8	_	_	PRON	_	_	11	nsubj	_	en
+9	_	_	AUX	_	_	11	aux	_	en
+10	_	_	AUX	_	_	11	aux	_	en
+11	_	_	VERB	_	_	3	conj	_	en
+12	_	_	PUNCT	_	_	3	punct	_	univ
+
+# sent_id = dev-s78
+# text = _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+1	_	_	ADJ	_	_	2	amod	_	en
+2	_	_	NOUN	_	_	15	nmod	_	en
+3	_	_	NOUN	_	_	5	nmod	_	en
+4	_	_	ADP	_	_	3	case	_	hi
+5	_	_	NOUN	_	_	8	obl	_	hi
+6	_	_	ADP	_	_	5	case	_	hi
+7	_	_	NOUN	_	_	8	obj	_	en
+8	_	_	VERB	_	_	15	advcl	_	hi
+9	_	_	AUX	_	_	8	aux	_	hi
+10	_	_	NOUN	_	_	15	nsubj	_	en
+11	_	_	CCONJ	_	_	12	cc	_	hi
+12	_	_	NOUN	_	_	10	conj	_	en
+13	_	_	ADJ	_	_	14	amod	_	en
+14	_	_	NOUN	_	_	15	compound	_	en
+15	_	_	VERB	_	_	0	root	_	hi
+16	_	_	SYM	_	_	15	discourse	_	univ
+17	_	_	ADV	_	_	18	advmod	_	hi
+18	_	_	VERB	_	_	15	parataxis	_	hi
+19	_	_	NOUN	_	_	18	compound	_	hi
+20	_	_	INTJ	_	_	18	discourse	_	univ
+
+# sent_id = dev-s79
+# text = _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+1	_	_	PROPN	_	_	3	nmod	_	acro
+2	_	_	ADP	_	_	1	case	_	hi
+3	_	_	NOUN	_	_	8	obj	_	en
+4	_	_	ADJ	_	_	5	amod	_	en
+5	_	_	NOUN	_	_	7	nmod	_	en
+6	_	_	ADJ	_	_	7	amod	_	en
+7	_	_	NOUN	_	_	8	nmod	_	en
+8	_	_	VERB	_	_	14	xcomp	_	hi
+9	_	_	SCONJ	_	_	8	mark	_	hi
+10	_	_	SCONJ	_	_	8	mark	_	hi
+11	_	_	PRON	_	_	14	advmod	_	hi
+12	_	_	ADV	_	_	14	advmod	_	en
+13	_	_	PART	_	_	14	advmod	_	hi
+14	_	_	VERB	_	_	0	root	_	hi
+15	_	_	AUX	_	_	14	aux	_	hi
+16	_	_	PUNCT	_	_	14	punct	_	univ
+
+# sent_id = dev-s80
+# text = _ _ _ _ _ _ _ _ _ _ _
+1	_	_	NOUN	_	_	3	compound	_	en
+2	_	_	NOUN	_	_	3	compound	_	en
+3	_	_	NOUN	_	_	6	nmod	_	en
+4	_	_	ADP	_	_	3	case	_	hi
+5	_	_	ADJ	_	_	6	amod	_	en
+6	_	_	NOUN	_	_	0	root	_	en
+7	_	_	AUX	_	_	6	cop	_	hi
+8	_	_	PRON	_	_	6	nmod	_	hi
+9	_	_	ADP	_	_	10	compound	_	hi
+10	_	_	ADP	_	_	8	case	_	hi
+11	_	_	PUNCT	_	_	6	punct	_	univ
+
+# sent_id = dev-s81
+# text = _ _ _ _ _ _ _ _ _ _ _ _ _
+1	_	_	NOUN	_	_	5	compound	_	en
+2	_	_	DET	_	_	3	det	_	hi
+3	_	_	NOUN	_	_	1	nmod	_	hi
+4	_	_	ADP	_	_	3	case	_	hi
+5	_	_	VERB	_	_	0	root	_	hi
+6	_	_	SCONJ	_	_	12	mark	_	hi
+7	_	_	NOUN	_	_	9	nmod	_	en
+8	_	_	ADP	_	_	7	case	_	hi
+9	_	_	NOUN	_	_	12	compound	_	en
+10	_	_	ADV	_	_	12	advmod	_	hi
+11	_	_	PART	_	_	12	advmod	_	hi
+12	_	_	VERB	_	_	3	acl	_	hi
+13	_	_	PUNCT	_	_	5	punct	_	univ
+
+# sent_id = dev-s82
+# text = _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+1	_	_	SCONJ	_	_	7	mark	_	en
+2	_	_	PROPN	_	_	7	nsubj	_	ne
+3	_	_	PROPN	_	_	2	flat	_	ne
+4	_	_	ADP	_	_	2	case	_	hi
+5	_	_	PROPN	_	_	7	obj	_	hi
+6	_	_	NOUN	_	_	7	compound	_	hi
+7	_	_	VERB	_	_	10	advcl	_	hi
+8	_	_	PUNCT	_	_	7	punct	_	univ
+9	_	_	PRON	_	_	10	nsubj	_	en
+10	_	_	VERB	_	_	0	root	_	en
+11	_	_	PROPN	_	_	13	nmod	_	hi
+12	_	_	ADP	_	_	11	case	_	hi
+13	_	_	NOUN	_	_	17	nsubj	_	hi
+14	_	_	ADV	_	_	15	case	_	en
+15	_	_	ADV	_	_	17	nmod	_	en
+16	_	_	NUM	_	_	17	nummod	_	univ
+17	_	_	NOUN	_	_	10	ccomp	_	hi
+18	_	_	AUX	_	_	17	cop	_	hi
+
+# sent_id = dev-s83
+# text = _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+1	_	_	PUNCT	_	_	13	punct	_	univ
+2	_	_	INTJ	_	_	13	discourse	_	hi
+3	_	_	PUNCT	_	_	9	punct	_	univ
+4	_	_	PRON	_	_	9	nsubj	_	hi
+5	_	_	PRON	_	_	6	nmod	_	hi
+6	_	_	NOUN	_	_	9	obl	_	hi
+7	_	_	ADP	_	_	6	case	_	hi
+8	_	_	ADP	_	_	6	case	_	hi
+9	_	_	VERB	_	_	13	acl	_	hi
+10	_	_	PUNCT	_	_	9	punct	_	univ
+11	_	_	PUNCT	_	_	13	punct	_	univ
+12	_	_	DET	_	_	13	det	_	en
+13	_	_	NOUN	_	_	0	root	_	en
+14	_	_	PRON	_	_	15	nsubj	_	en
+15	_	_	VERB	_	_	13	acl	_	en
+16	_	_	PRON	_	_	18	nmod	_	en
+17	_	_	NOUN	_	_	18	compound	_	en
+18	_	_	NOUN	_	_	15	obj	_	en
+19	_	_	PUNCT	_	_	13	punct	_	univ
+20	_	_	PUNCT	_	_	13	punct	_	univ
+
+# sent_id = dev-s84
+# text = _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+1	_	_	PROPN	_	_	4	nsubj	_	ne
+2	_	_	AUX	_	_	4	aux	_	en
+3	_	_	ADV	_	_	4	advmod	_	en
+4	_	_	VERB	_	_	0	root	_	en
+5	_	_	ADP	_	_	6	case	_	en
+6	_	_	NOUN	_	_	4	obl	_	en
+7	_	_	SCONJ	_	_	10	mark	_	en
+8	_	_	PRON	_	_	10	nsubj	_	en
+9	_	_	AUX	_	_	10	cop	_	en
+10	_	_	ADJ	_	_	4	advcl	_	en
+11	_	_	CCONJ	_	_	15	cc	_	en
+12	_	_	PRON	_	_	13	nmod	_	hi
+13	_	_	NOUN	_	_	15	nmod	_	hi
+14	_	_	ADP	_	_	13	case	_	hi
+15	_	_	PRON	_	_	10	conj	_	hi
+16	_	_	PART	_	_	15	advmod	_	hi
+17	_	_	AUX	_	_	15	cop	_	hi
+18	_	_	PUNCT	_	_	4	punct	_	univ
+
+# sent_id = dev-s85
+# text = _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+1	_	_	ADV	_	_	6	mark	_	hi
+2	_	_	NOUN	_	_	3	compound	_	en
+3	_	_	NOUN	_	_	6	nsubj	_	en
+4	_	_	NOUN	_	_	5	compound	_	en
+5	_	_	NOUN	_	_	6	obj	_	en
+6	_	_	VERB	_	_	13	advcl	_	hi
+7	_	_	AUX	_	_	6	aux	_	hi
+8	_	_	AUX	_	_	6	aux	_	hi
+9	_	_	SCONJ	_	_	13	mark	_	hi
+10	_	_	NOUN	_	_	13	nsubj	_	hi
+11	_	_	PRON	_	_	13	advmod	_	hi
+12	_	_	NOUN	_	_	13	compound	_	hi
+13	_	_	VERB	_	_	0	root	_	hi
+14	_	_	AUX	_	_	13	aux	_	hi
+15	_	_	PUNCT	_	_	13	punct	_	univ
+
+# sent_id = dev-s86
+# text = _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+1	_	_	PUNCT	_	_	15	punct	_	univ
+2	_	_	NOUN	_	_	4	nmod	_	en
+3	_	_	ADP	_	_	2	case	_	hi
+4	_	_	NOUN	_	_	15	obl	_	en
+5	_	_	ADP	_	_	4	case	_	hi
+6	_	_	NOUN	_	_	15	obl	_	en
+7	_	_	CCONJ	_	_	8	cc	_	hi
+8	_	_	NOUN	_	_	6	conj	_	en
+9	_	_	ADP	_	_	6	case	_	hi
+10	_	_	PRON	_	_	15	nsubj	_	hi
+11	_	_	PUNCT	_	_	13	punct	_	univ
+12	_	_	ADJ	_	_	13	amod	_	en
+13	_	_	NOUN	_	_	15	obj	_	en
+14	_	_	PUNCT	_	_	13	punct	_	univ
+15	_	_	VERB	_	_	0	root	_	hi
+16	_	_	AUX	_	_	15	aux	_	hi
+17	_	_	PUNCT	_	_	15	punct	_	univ
+
+# sent_id = dev-s87
+# text = _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+1	_	_	PROPN	_	_	0	root	_	ne
+2	_	_	PUNCT	_	_	1	punct	_	univ
+3	_	_	ADP	_	_	4	compound	_	en
+4	_	_	NUM	_	_	6	nummod	_	univ
+5	_	_	PROPN	_	_	6	compound	_	en
+6	_	_	PROPN	_	_	7	nmod	_	en
+7	_	_	PROPN	_	_	8	nmod	_	en
+8	_	_	PROPN	_	_	18	obl	_	en
+9	_	_	ADP	_	_	8	case	_	hi
+10	_	_	PROPN	_	_	18	nsubj	_	ne
+11	_	_	PROPN	_	_	10	flat	_	ne
+12	_	_	ADP	_	_	10	case	_	hi
+13	_	_	PROPN	_	_	18	obj	_	ne
+14	_	_	ADP	_	_	13	case	_	hi
+15	_	_	NUM	_	_	16	nummod	_	univ
+16	_	_	NOUN	_	_	18	obl	_	en
+17	_	_	ADP	_	_	16	case	_	hi
+18	_	_	VERB	_	_	1	parataxis	_	hi
+19	_	_	AUX	_	_	18	aux	_	hi
+
+# sent_id = dev-s88
+# text = _ _ _ _ _ _ _ _ _ _ _ _ _
+1	_	_	NOUN	_	_	5	obl	_	en
+2	_	_	ADP	_	_	1	case	_	hi
+3	_	_	PRON	_	_	4	nmod	_	hi
+4	_	_	NOUN	_	_	5	obj	_	hi
+5	_	_	VERB	_	_	8	advcl	_	hi
+6	_	_	AUX	_	_	5	aux	_	hi
+7	_	_	PRON	_	_	8	nsubj	_	en
+8	_	_	VERB	_	_	0	root	_	en
+9	_	_	PART	_	_	10	mark	_	en
+10	_	_	VERB	_	_	8	xcomp	_	en
+11	_	_	NOUN	_	_	10	obj	_	en
+12	_	_	PUNCT	_	_	8	punct	_	univ
+13	_	_	SYM	_	_	8	discourse	_	univ
+
+# sent_id = dev-s89
+# text = _ _ _ _ _ _ _ _ _ _ _ _ _ _
+1	_	_	ADP	_	_	2	case	_	en
+2	_	_	PROPN	_	_	14	obl	_	en
+3	_	_	DET	_	_	4	det	_	hi
+4	_	_	NOUN	_	_	14	obj	_	hi
+5	_	_	PART	_	_	4	advmod	_	hi
+6	_	_	PROPN	_	_	9	nmod	_	ne
+7	_	_	ADP	_	_	6	case	_	hi
+8	_	_	PROPN	_	_	9	compound	_	acro
+9	_	_	PROPN	_	_	10	nsubj	_	en
+10	_	_	VERB	_	_	14	advcl	_	hi
+11	_	_	SCONJ	_	_	10	mark	_	hi
+12	_	_	PART	_	_	10	advmod	_	hi
+13	_	_	PART	_	_	14	advmod	_	hi
+14	_	_	VERB	_	_	0	root	_	hi
+
+# sent_id = dev-s90
+# text = _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+1	_	_	PRON	_	_	4	nsubj	_	en
+2	_	_	AUX	_	_	4	aux	_	en
+3	_	_	PART	_	_	4	advmod	_	en
+4	_	_	VERB	_	_	0	root	_	en
+5	_	_	PROPN	_	_	6	nsubj	_	ne
+6	_	_	NOUN	_	_	4	nmod	_	hi
+7	_	_	AUX	_	_	6	cop	_	hi
+8	_	_	CCONJ	_	_	9	cc	_	hi
+9	_	_	NOUN	_	_	6	conj	_	hi
+10	_	_	CCONJ	_	_	16	cc	_	hi
+11	_	_	DET	_	_	12	det	_	hi
+12	_	_	NOUN	_	_	14	nmod	_	hi
+13	_	_	ADP	_	_	12	case	_	hi
+14	_	_	NOUN	_	_	16	nsubj	_	hi
+15	_	_	ADJ	_	_	16	compound	_	hi
+16	_	_	VERB	_	_	4	conj	_	hi
+17	_	_	ADV	_	_	16	advmod	_	hi
+18	_	_	ADP	_	_	17	case	_	hi
+
+# sent_id = dev-s91
+# text = _ _ _ _ _ _ _ _ _ _ _
+1	_	_	NOUN	_	_	3	nmod	_	en
+2	_	_	NOUN	_	_	3	nsubj	_	en
+3	_	_	VERB	_	_	0	root	_	en
+4	_	_	PRON	_	_	3	iobj	_	en
+5	_	_	ADJ	_	_	10	amod	_	en
+6	_	_	PROPN	_	_	8	compound	_	ne
+7	_	_	PROPN	_	_	8	compound	_	ne
+8	_	_	PROPN	_	_	10	nmod	_	ne
+9	_	_	ADP	_	_	8	case	_	hi
+10	_	_	NOUN	_	_	3	obj	_	hi
+11	_	_	PUNCT	_	_	3	punct	_	univ
+
+# sent_id = dev-s92
+# text = _ _ _ _ _ _ _ _ _ _ _ _ _
+1	_	_	PRON	_	_	5	advmod	_	hi
+2	_	_	DET	_	_	3	det	_	hi
+3	_	_	NOUN	_	_	5	obj	_	hi
+4	_	_	PART	_	_	5	advmod	_	hi
+5	_	_	VERB	_	_	0	root	_	hi
+6	_	_	AUX	_	_	5	aux	_	hi
+7	_	_	PUNCT	_	_	5	punct	_	univ
+8	_	_	CCONJ	_	_	11	cc	_	en
+9	_	_	AUX	_	_	11	aux	_	en
+10	_	_	PART	_	_	11	advmod	_	en
+11	_	_	VERB	_	_	5	conj	_	en
+12	_	_	PRON	_	_	11	obj	_	en
+13	_	_	PUNCT	_	_	5	punct	_	univ
+
+# sent_id = dev-s93
+# text = _ _ _ _ _ _ _ _ _ _ _
+1	_	_	PRON	_	_	10	nsubj	_	hi
+2	_	_	DET	_	_	3	det	_	hi
+3	_	_	NOUN	_	_	10	obl	_	en
+4	_	_	ADP	_	_	3	case	_	hi
+5	_	_	ADV	_	_	6	advmod	_	hi
+6	_	_	NOUN	_	_	8	nmod	_	en
+7	_	_	ADP	_	_	6	case	_	hi
+8	_	_	NOUN	_	_	10	nmod	_	en
+9	_	_	ADJ	_	_	10	compound	_	en
+10	_	_	VERB	_	_	0	root	_	hi
+11	_	_	PUNCT	_	_	10	punct	_	univ
+
+# sent_id = dev-s94
+# text = _ _ _ _ _ _ _ _ _ _ _ _ _
+1	_	_	PRON	_	_	3	nsubj	_	en
+2	_	_	ADJ	_	_	3	amod	_	en
+3	_	_	VERB	_	_	0	root	_	en
+4	_	_	VERB	_	_	3	xcomp	_	en
+5	_	_	NOUN	_	_	4	obj	_	en
+6	_	_	PUNCT	_	_	3	punct	_	univ
+7	_	_	PRON	_	_	10	iobj	_	hi
+8	_	_	ADP	_	_	7	case	_	hi
+9	_	_	NOUN	_	_	10	compound	_	en
+10	_	_	VERB	_	_	11	advcl	_	hi
+11	_	_	VERB	_	_	3	advcl	_	hi
+12	_	_	AUX	_	_	11	aux	_	hi
+13	_	_	AUX	_	_	11	aux	_	hi
+
+# sent_id = dev-s95
+# text = _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+1	_	_	DET	_	_	2	det	_	en
+2	_	_	NOUN	_	_	5	nmod	_	en
+3	_	_	PART	_	_	2	case	_	en
+4	_	_	PUNCT	_	_	5	punct	_	univ
+5	_	_	PRON	_	_	8	nsubj	_	en
+6	_	_	PUNCT	_	_	5	punct	_	univ
+7	_	_	ADV	_	_	8	advmod	_	en
+8	_	_	VERB	_	_	0	root	_	en
+9	_	_	PUNCT	_	_	8	punct	_	univ
+10	_	_	PUNCT	_	_	11	punct	_	univ
+11	_	_	VERB	_	_	8	ccomp	_	hi
+12	_	_	AUX	_	_	11	aux	_	hi
+13	_	_	CCONJ	_	_	17	cc	_	hi
+14	_	_	PRON	_	_	15	nmod	_	hi
+15	_	_	NOUN	_	_	17	obj	_	hi
+16	_	_	PART	_	_	17	advmod	_	hi
+17	_	_	VERB	_	_	11	conj	_	hi
+18	_	_	PUNCT	_	_	8	punct	_	univ
+19	_	_	PUNCT	_	_	8	punct	_	univ
+
+# sent_id = dev-s96
+# text = _ _ _ _ _ _ _ _ _ _ _ _
+1	_	_	PRON	_	_	3	nsubj	_	en
+2	_	_	AUX	_	_	3	aux	_	en
+3	_	_	VERB	_	_	0	root	_	en
+4	_	_	PRON	_	_	5	nmod	_	en
+5	_	_	NOUN	_	_	3	iobj	_	en
+6	_	_	PROPN	_	_	8	nmod	_	ne
+7	_	_	ADP	_	_	6	case	_	hi
+8	_	_	NOUN	_	_	3	obj	_	hi
+9	_	_	ADP	_	_	11	case	_	en
+10	_	_	NOUN	_	_	11	compound	_	hi
+11	_	_	NOUN	_	_	3	obl	_	hi
+12	_	_	SYM	_	_	3	discourse	_	univ
+
+# sent_id = dev-s97
+# text = _ _ _ _ _ _ _ _ _ _
+1	_	_	NOUN	_	_	7	nsubj	_	hi
+2	_	_	PART	_	_	1	advmod	_	hi
+3	_	_	ADJ	_	_	5	amod	_	en
+4	_	_	ADJ	_	_	3	compound	_	en
+5	_	_	NOUN	_	_	7	obj	_	en
+6	_	_	NOUN	_	_	7	compound	_	en
+7	_	_	VERB	_	_	0	root	_	hi
+8	_	_	AUX	_	_	7	aux	_	hi
+9	_	_	AUX	_	_	7	aux	_	hi
+10	_	_	SYM	_	_	7	discourse	_	univ
+
+# sent_id = dev-s98
+# text = _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+1	_	_	PRON	_	_	2	nsubj	_	en
+2	_	_	VERB	_	_	0	root	_	en
+3	_	_	PRON	_	_	4	nsubj	_	en
+4	_	_	ADJ	_	_	2	ccomp	_	en
+5	_	_	SCONJ	_	_	4	mark	_	hi
+6	_	_	NOUN	_	_	17	nsubj	_	hi
+7	_	_	PRON	_	_	8	nmod	_	hi
+8	_	_	NOUN	_	_	9	obj	_	hi
+9	_	_	VERB	_	_	17	advcl	_	hi
+10	_	_	AUX	_	_	9	aux	_	hi
+11	_	_	PART	_	_	9	advmod	_	hi
+12	_	_	PRON	_	_	17	iobj	_	hi
+13	_	_	NOUN	_	_	17	obj	_	hi
+14	_	_	VERB	_	_	17	advcl	_	hi
+15	_	_	SCONJ	_	_	14	mark	_	hi
+16	_	_	SCONJ	_	_	14	mark	_	hi
+17	_	_	VERB	_	_	4	acl	_	hi
+18	_	_	AUX	_	_	17	aux	_	hi
+19	_	_	PUNCT	_	_	2	punct	_	univ
+
+# sent_id = dev-s99
+# text = _ _ _ _ _ _ _ _ _ _ _
+1	_	_	AUX	_	_	3	aux	_	en
+2	_	_	PART	_	_	3	advmod	_	en
+3	_	_	VERB	_	_	0	root	_	en
+4	_	_	PRON	_	_	6	nsubj	_	hi
+5	_	_	PRON	_	_	6	nmod	_	hi
+6	_	_	NOUN	_	_	3	ccomp	_	en
+7	_	_	AUX	_	_	6	cop	_	hi
+8	_	_	CCONJ	_	_	10	cc	_	hi
+9	_	_	PRON	_	_	10	nsubj	_	hi
+10	_	_	NOUN	_	_	6	conj	_	en
+11	_	_	SYM	_	_	3	discourse	_	univ
+
+# sent_id = dev-s100
+# text = _ _ _ _ _ _ _ _ _ _ _ _
+1	_	_	ADJ	_	_	2	amod	_	hi
+2	_	_	NOUN	_	_	3	nmod	_	hi
+3	_	_	VERB	_	_	6	advcl	_	hi
+4	_	_	AUX	_	_	3	aux	_	hi
+5	_	_	PROPN	_	_	6	obj	_	ne
+6	_	_	VERB	_	_	0	root	_	hi
+7	_	_	PUNCT	_	_	6	punct	_	univ
+8	_	_	ADP	_	_	10	case	_	en
+9	_	_	ADP	_	_	8	compound	_	en
+10	_	_	VERB	_	_	6	advcl	_	en
+11	_	_	NOUN	_	_	10	obj	_	en
+12	_	_	PUNCT	_	_	6	punct	_	univ
+
+# sent_id = dev-s101
+# text = _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+1	_	_	PRON	_	_	7	nsubj	_	en
+2	_	_	AUX	_	_	7	cop	_	en
+3	_	_	DET	_	_	7	det	_	en
+4	_	_	NUM	_	_	5	nummod	_	univ
+5	_	_	SYM	_	_	6	nmod	_	univ
+6	_	_	ADJ	_	_	7	amod	_	en
+7	_	_	NOUN	_	_	0	root	_	en
+8	_	_	CCONJ	_	_	13	cc	_	hi
+9	_	_	ADV	_	_	13	advmod	_	hi
+10	_	_	NOUN	_	_	13	nsubj	_	hi
+11	_	_	PROPN	_	_	13	obj	_	hi
+12	_	_	PART	_	_	11	advmod	_	hi
+13	_	_	VERB	_	_	7	conj	_	hi
+14	_	_	AUX	_	_	13	aux	_	hi
+15	_	_	AUX	_	_	13	aux	_	hi
+16	_	_	PUNCT	_	_	7	punct	_	univ
+17	_	_	SYM	_	_	7	discourse	_	univ
+
+# sent_id = dev-s102
+# text = _ _ _ _ _ _ _ _ _ _
+1	_	_	PRON	_	_	2	nmod	_	hi
+2	_	_	NOUN	_	_	8	nmod	_	en
+3	_	_	ADP	_	_	2	case	_	hi
+4	_	_	PRON	_	_	8	nsubj	_	hi
+5	_	_	NOUN	_	_	6	compound	_	en
+6	_	_	NOUN	_	_	8	nmod	_	en
+7	_	_	ADP	_	_	6	case	_	hi
+8	_	_	NOUN	_	_	0	root	_	en
+9	_	_	AUX	_	_	8	cop	_	hi
+10	_	_	PUNCT	_	_	8	punct	_	univ
+
+# sent_id = dev-s103
+# text = _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+1	_	_	PUNCT	_	_	4	punct	_	univ
+2	_	_	AUX	_	_	4	aux	_	en
+3	_	_	PART	_	_	4	advmod	_	en
+4	_	_	VERB	_	_	0	root	_	en
+5	_	_	AUX	_	_	7	aux	_	en
+6	_	_	PART	_	_	7	advmod	_	en
+7	_	_	VERB	_	_	4	conj	_	en
+8	_	_	AUX	_	_	10	aux	_	en
+9	_	_	PART	_	_	10	advmod	_	en
+10	_	_	VERB	_	_	4	conj	_	en
+11	_	_	PRON	_	_	10	obj	_	en
+12	_	_	PRON	_	_	16	obl	_	hi
+13	_	_	ADP	_	_	12	case	_	hi
+14	_	_	NOUN	_	_	16	nsubj	_	en
+15	_	_	PART	_	_	16	advmod	_	hi
+16	_	_	VERB	_	_	4	advcl	_	hi
+17	_	_	PUNCT	_	_	4	punct	_	univ
+
+# sent_id = dev-s104
+# text = _ _ _ _ _ _ _ _ _ _ _ _ _
+1	_	_	NUM	_	_	3	nummod	_	hi
+2	_	_	ADJ	_	_	3	amod	_	en
+3	_	_	NOUN	_	_	5	obj	_	en
+4	_	_	PRON	_	_	5	advmod	_	hi
+5	_	_	VERB	_	_	0	root	_	hi
+6	_	_	AUX	_	_	5	aux	_	hi
+7	_	_	PUNCT	_	_	5	punct	_	univ
+8	_	_	NOUN	_	_	9	nsubj	_	en
+9	_	_	VERB	_	_	5	advcl	_	en
+10	_	_	PRON	_	_	12	nsubj	_	en
+11	_	_	AUX	_	_	12	cop	_	en
+12	_	_	ADJ	_	_	9	ccomp	_	en
+13	_	_	PUNCT	_	_	5	punct	_	univ
+
+# sent_id = dev-s105
+# text = _ _ _ _ _ _ _ _ _ _ _ _ _ _
+1	_	_	PRON	_	_	3	nmod	_	hi
+2	_	_	ADP	_	_	1	case	_	hi
+3	_	_	DET	_	_	5	det	_	hi
+4	_	_	ADJ	_	_	5	amod	_	en
+5	_	_	NOUN	_	_	12	obj	_	en
+6	_	_	ADV	_	_	7	advmod	_	en
+7	_	_	ADJ	_	_	8	amod	_	en
+8	_	_	NOUN	_	_	10	nmod	_	en
+9	_	_	ADP	_	_	8	case	_	hi
+10	_	_	NOUN	_	_	12	nsubj	_	hi
+11	_	_	PART	_	_	10	advmod	_	hi
+12	_	_	VERB	_	_	0	root	_	hi
+13	_	_	AUX	_	_	12	aux	_	hi
+14	_	_	PUNCT	_	_	12	punct	_	univ
+
+# sent_id = dev-s106
+# text = _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+1	_	_	SCONJ	_	_	7	mark	_	hi
+2	_	_	PRON	_	_	7	nsubj	_	hi
+3	_	_	PRON	_	_	7	iobj	_	hi
+4	_	_	ADP	_	_	3	case	_	hi
+5	_	_	NOUN	_	_	7	obj	_	hi
+6	_	_	NOUN	_	_	7	compound	_	en
+7	_	_	VERB	_	_	14	advcl	_	hi
+8	_	_	ADP	_	_	10	case	_	en
+9	_	_	PRON	_	_	10	nmod	_	en
+10	_	_	NOUN	_	_	7	obl	_	en
+11	_	_	PUNCT	_	_	7	punct	_	univ
+12	_	_	AUX	_	_	14	cop	_	en
+13	_	_	PRON	_	_	14	nsubj	_	en
+14	_	_	ADJ	_	_	0	root	_	en
+15	_	_	PUNCT	_	_	14	punct	_	univ
+16	_	_	SYM	_	_	14	discourse	_	univ
+
+# sent_id = dev-s107
+# text = _ _ _ _ _ _ _ _ _ _ _
+1	_	_	VERB	_	_	0	root	_	en
+2	_	_	ADP	_	_	1	compound	_	en
+3	_	_	NOUN	_	_	1	vocative	_	en
+4	_	_	NOUN	_	_	10	advcl	_	en
+5	_	_	PART	_	_	4	advmod	_	hi
+6	_	_	SCONJ	_	_	10	mark	_	hi
+7	_	_	NOUN	_	_	10	obj	_	en
+8	_	_	PART	_	_	7	advmod	_	hi
+9	_	_	PART	_	_	10	advmod	_	hi
+10	_	_	VERB	_	_	1	parataxis	_	hi
+11	_	_	ADV	_	_	10	advmod	_	en
+
+# sent_id = dev-s108
+# text = _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+1	_	_	PRON	_	_	2	nsubj	_	hi
+2	_	_	PROPN	_	_	0	root	_	ne
+3	_	_	PROPN	_	_	2	flat	_	ne
+4	_	_	PART	_	_	2	advmod	_	hi
+5	_	_	AUX	_	_	2	cop	_	hi
+6	_	_	PRON	_	_	10	nsubj	_	hi
+7	_	_	ADP	_	_	6	case	_	hi
+8	_	_	NOUN	_	_	10	obj	_	en
+9	_	_	ADP	_	_	8	case	_	hi
+10	_	_	VERB	_	_	2	acl	_	hi
+11	_	_	AUX	_	_	10	aux	_	hi
+12	_	_	AUX	_	_	10	aux	_	hi
+13	_	_	CCONJ	_	_	16	cc	_	en
+14	_	_	PRON	_	_	16	nsubj	_	en
+15	_	_	ADV	_	_	16	advmod	_	en
+16	_	_	VERB	_	_	2	conj	_	en
+17	_	_	ADJ	_	_	18	amod	_	en
+18	_	_	NOUN	_	_	16	obj	_	en
+19	_	_	PUNCT	_	_	2	punct	_	univ
+
+# sent_id = dev-s109
+# text = _ _ _ _ _ _ _ _ _ _ _ _ _ _
+1	_	_	PRON	_	_	2	nsubj	_	en
+2	_	_	VERB	_	_	0	root	_	en
+3	_	_	PROPN	_	_	2	obj	_	ne
+4	_	_	SCONJ	_	_	11	mark	_	en
+5	_	_	PRON	_	_	11	obl	_	hi
+6	_	_	ADP	_	_	5	case	_	hi
+7	_	_	NOUN	_	_	11	iobj	_	en
+8	_	_	ADP	_	_	7	case	_	hi
+9	_	_	PART	_	_	7	advmod	_	hi
+10	_	_	NOUN	_	_	11	obj	_	hi
+11	_	_	VERB	_	_	2	advcl	_	hi
+12	_	_	AUX	_	_	11	aux	_	hi
+13	_	_	AUX	_	_	11	aux	_	hi
+14	_	_	SYM	_	_	2	discourse	_	univ
+
+# sent_id = dev-s110
+# text = _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+1	_	_	VERB	_	_	0	root	_	en
+2	_	_	SCONJ	_	_	13	mark	_	en
+3	_	_	PROPN	_	_	6	nmod	_	hi
+4	_	_	CCONJ	_	_	5	cc	_	en
+5	_	_	PROPN	_	_	3	conj	_	hi
+6	_	_	NOUN	_	_	13	obl	_	en
+7	_	_	ADP	_	_	6	case	_	hi
+8	_	_	NOUN	_	_	13	nsubj	_	en
+9	_	_	NOUN	_	_	11	nmod	_	hi
+10	_	_	ADP	_	_	9	case	_	hi
+11	_	_	NOUN	_	_	13	nmod	_	hi
+12	_	_	PART	_	_	13	advmod	_	hi
+13	_	_	VERB	_	_	1	ccomp	_	hi
+14	_	_	PUNCT	_	_	13	punct	_	univ
+15	_	_	NOUN	_	_	16	nmod	_	en
+16	_	_	NOUN	_	_	20	nsubj	_	en
+17	_	_	NOUN	_	_	1	parataxis	_	hi
+18	_	_	PART	_	_	17	advmod	_	hi
+19	_	_	ADV	_	_	20	mark	_	hi
+20	_	_	VERB	_	_	17	advcl	_	hi
+21	_	_	PUNCT	_	_	1	punct	_	univ
+
+# sent_id = dev-s111
+# text = _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+1	_	_	ADV	_	_	3	advmod	_	hi
+2	_	_	PROPN	_	_	3	nsubj	_	hi
+3	_	_	VERB	_	_	0	root	_	hi
+4	_	_	AUX	_	_	3	aux	_	hi
+5	_	_	SCONJ	_	_	8	mark	_	hi
+6	_	_	PRON	_	_	8	nsubj	_	hi
+7	_	_	NOUN	_	_	8	obj	_	hi
+8	_	_	VERB	_	_	3	ccomp	_	hi
+9	_	_	AUX	_	_	8	aux	_	hi
+10	_	_	AUX	_	_	8	aux	_	hi
+11	_	_	SCONJ	_	_	13	mark	_	en
+12	_	_	PRON	_	_	13	nsubj	_	en
+13	_	_	VERB	_	_	8	advcl	_	en
+14	_	_	PART	_	_	15	mark	_	en
+15	_	_	VERB	_	_	13	xcomp	_	en
+16	_	_	DET	_	_	18	det	_	en
+17	_	_	NOUN	_	_	18	nmod	_	en
+18	_	_	NOUN	_	_	15	obj	_	en
+19	_	_	ADV	_	_	20	advmod	_	en
+20	_	_	SCONJ	_	_	23	mark	_	en
+21	_	_	PRON	_	_	23	nsubj	_	en
+22	_	_	AUX	_	_	23	cop	_	en
+23	_	_	ADJ	_	_	15	advcl	_	hi
+24	_	_	PUNCT	_	_	3	punct	_	univ
+
+# sent_id = dev-s112
+# text = _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+1	_	_	NUM	_	_	2	nummod	_	hi
+2	_	_	NOUN	_	_	10	obl	_	hi
+3	_	_	ADP	_	_	2	case	_	hi
+4	_	_	PRON	_	_	10	nsubj	_	hi
+5	_	_	NOUN	_	_	6	obj	_	en
+6	_	_	VERB	_	_	10	advcl	_	hi
+7	_	_	AUX	_	_	6	aux	_	hi
+8	_	_	NOUN	_	_	10	obj	_	en
+9	_	_	NOUN	_	_	10	compound	_	en
+10	_	_	VERB	_	_	0	root	_	hi
+11	_	_	AUX	_	_	10	aux	_	hi
+12	_	_	ADP	_	_	14	case	_	en
+13	_	_	ADP	_	_	12	compound	_	en
+14	_	_	NOUN	_	_	10	obl	_	en
+15	_	_	PUNCT	_	_	10	punct	_	univ
+
+# sent_id = dev-s113
+# text = _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+1	_	_	PRON	_	_	3	obj	_	en
+2	_	_	PRON	_	_	3	nsubj	_	en
+3	_	_	VERB	_	_	4	csubj	_	en
+4	_	_	VERB	_	_	0	root	_	en
+5	_	_	SCONJ	_	_	14	mark	_	hi
+6	_	_	PROPN	_	_	14	nsubj	_	ne
+7	_	_	PRON	_	_	6	nmod	_	hi
+8	_	_	PRON	_	_	12	nmod	_	hi
+9	_	_	NOUN	_	_	10	nsubj	_	en
+10	_	_	VERB	_	_	12	advcl	_	hi
+11	_	_	SCONJ	_	_	10	mark	_	hi
+12	_	_	NOUN	_	_	14	obj	_	hi
+13	_	_	NOUN	_	_	14	compound	_	en
+14	_	_	VERB	_	_	4	ccomp	_	hi
+15	_	_	PUNCT	_	_	3	punct	_	univ
+16	_	_	CCONJ	_	_	19	cc	_	en
+17	_	_	PRON	_	_	19	nsubj	_	en
+18	_	_	AUX	_	_	19	aux	_	en
+19	_	_	VERB	_	_	4	conj	_	en
+20	_	_	PROPN	_	_	22	obl	_	ne
+21	_	_	ADP	_	_	20	case	_	hi
+22	_	_	VERB	_	_	25	advcl	_	hi
+23	_	_	AUX	_	_	22	aux	_	hi
+24	_	_	PRON	_	_	25	nsubj	_	hi
+25	_	_	ADJ	_	_	19	ccomp	_	en
+26	_	_	AUX	_	_	25	cop	_	hi
+27	_	_	X	_	_	4	parataxis	_	univ
+
+# sent_id = dev-s114
+# text = _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+1	_	_	NOUN	_	_	8	nsubj	_	hi
+2	_	_	NOUN	_	_	3	compound	_	hi
+3	_	_	NOUN	_	_	8	nmod	_	hi
+4	_	_	NOUN	_	_	8	obj	_	en
+5	_	_	ADV	_	_	8	advmod	_	hi
+6	_	_	ADP	_	_	5	case	_	hi
+7	_	_	NOUN	_	_	8	compound	_	en
+8	_	_	VERB	_	_	0	root	_	hi
+9	_	_	AUX	_	_	8	aux	_	hi
+10	_	_	CCONJ	_	_	15	cc	_	hi
+11	_	_	NOUN	_	_	15	obj	_	en
+12	_	_	NUM	_	_	13	nummod	_	hi
+13	_	_	NOUN	_	_	15	obl	_	en
+14	_	_	ADP	_	_	13	case	_	hi
+15	_	_	VERB	_	_	8	conj	_	hi
+16	_	_	AUX	_	_	15	aux	_	hi
+17	_	_	PUNCT	_	_	8	punct	_	univ
+
+# sent_id = dev-s115
+# text = _ _ _ _ _ _ _ _ _ _ _ _
+1	_	_	ADJ	_	_	2	amod	_	en
+2	_	_	NOUN	_	_	5	nsubj	_	en
+3	_	_	CCONJ	_	_	4	cc	_	en
+4	_	_	NOUN	_	_	2	conj	_	en
+5	_	_	PROPN	_	_	10	advcl	_	ne
+6	_	_	ADP	_	_	5	case	_	hi
+7	_	_	AUX	_	_	5	cop	_	hi
+8	_	_	SCONJ	_	_	10	mark	_	hi
+9	_	_	ADV	_	_	10	advmod	_	hi
+10	_	_	ADJ	_	_	0	root	_	hi
+11	_	_	AUX	_	_	10	cop	_	hi
+12	_	_	PUNCT	_	_	10	punct	_	univ
+
+# sent_id = dev-s116
+# text = _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+1	_	_	SCONJ	_	_	6	mark	_	en
+2	_	_	PROPN	_	_	6	nsubj	_	ne
+3	_	_	PROPN	_	_	2	flat	_	ne
+4	_	_	AUX	_	_	6	aux	_	en
+5	_	_	PART	_	_	6	advmod	_	en
+6	_	_	VERB	_	_	14	advcl	_	en
+7	_	_	NUM	_	_	9	nummod	_	univ
+8	_	_	SYM	_	_	7	fixed	_	univ
+9	_	_	NOUN	_	_	6	obj	_	en
+10	_	_	NOUN	_	_	6	nmod	_	en
+11	_	_	SCONJ	_	_	14	mark	_	hi
+12	_	_	NOUN	_	_	14	nsubj	_	hi
+13	_	_	NOUN	_	_	14	compound	_	hi
+14	_	_	VERB	_	_	0	root	_	hi
+15	_	_	PRON	_	_	14	advmod	_	hi
+16	_	_	PUNCT	_	_	14	punct	_	univ
+
+# sent_id = dev-s117
+# text = _ _ _ _ _ _ _ _ _ _ _ _ _ _
+1	_	_	PROPN	_	_	3	nmod	_	ne
+2	_	_	ADP	_	_	1	case	_	hi
+3	_	_	NOUN	_	_	9	nsubj	_	en
+4	_	_	PROPN	_	_	5	compound	_	acro
+5	_	_	NOUN	_	_	9	obl	_	en
+6	_	_	ADP	_	_	5	case	_	hi
+7	_	_	ADV	_	_	9	advmod	_	hi
+8	_	_	NOUN	_	_	9	compound	_	en
+9	_	_	VERB	_	_	13	ccomp	_	hi
+10	_	_	PRON	_	_	13	nsubj	_	hi
+11	_	_	ADP	_	_	10	case	_	hi
+12	_	_	NOUN	_	_	13	compound	_	hi
+13	_	_	VERB	_	_	0	root	_	hi
+14	_	_	PUNCT	_	_	13	punct	_	univ
+
+# sent_id = dev-s118
+# text = _ _ _ _ _ _ _ _ _ _ _ _
+1	_	_	PROPN	_	_	3	nmod	_	hi
+2	_	_	ADP	_	_	1	case	_	hi
+3	_	_	NOUN	_	_	5	nsubj	_	hi
+4	_	_	NOUN	_	_	5	nmod	_	en
+5	_	_	NOUN	_	_	0	root	_	en
+6	_	_	AUX	_	_	5	cop	_	hi
+7	_	_	CCONJ	_	_	11	cc	_	hi
+8	_	_	PRON	_	_	9	nmod	_	hi
+9	_	_	NOUN	_	_	11	nsubj	_	hi
+10	_	_	NOUN	_	_	11	nmod	_	en
+11	_	_	NOUN	_	_	5	conj	_	en
+12	_	_	PUNCT	_	_	5	punct	_	univ
+
+# sent_id = dev-s119
+# text = _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+1	_	_	PRON	_	_	3	nsubj	_	en
+2	_	_	ADV	_	_	3	advmod	_	en
+3	_	_	VERB	_	_	0	root	_	en
+4	_	_	PRON	_	_	3	obj	_	en
+5	_	_	ADP	_	_	6	case	_	en
+6	_	_	PRON	_	_	3	obl	_	en
+7	_	_	PRON	_	_	6	nmod	_	en
+8	_	_	CCONJ	_	_	15	cc	_	hi
+9	_	_	NOUN	_	_	15	nmod	_	hi
+10	_	_	DET	_	_	11	det	_	hi
+11	_	_	ADJ	_	_	13	amod	_	hi
+12	_	_	PART	_	_	11	advmod	_	hi
+13	_	_	NOUN	_	_	15	obj	_	hi
+14	_	_	PART	_	_	15	advmod	_	hi
+15	_	_	VERB	_	_	3	conj	_	hi
+
+# sent_id = dev-s120
+# text = _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+1	_	_	PRON	_	_	4	nsubj	_	en
+2	_	_	AUX	_	_	4	aux	_	en
+3	_	_	PART	_	_	4	advmod	_	en
+4	_	_	VERB	_	_	0	root	_	en
+5	_	_	ADV	_	_	10	advmod	_	en
+6	_	_	PRON	_	_	7	nmod	_	hi
+7	_	_	NOUN	_	_	10	nmod	_	en
+8	_	_	ADP	_	_	7	case	_	hi
+9	_	_	DET	_	_	10	det	_	hi
+10	_	_	PROPN	_	_	4	ccomp	_	acro
+11	_	_	ADV	_	_	10	advmod	_	hi
+12	_	_	AUX	_	_	10	cop	_	hi
+13	_	_	CCONJ	_	_	15	cc	_	en
+14	_	_	PRON	_	_	15	nsubj	_	en
+15	_	_	VERB	_	_	4	conj	_	en
+16	_	_	VERB	_	_	15	xcomp	_	en
+17	_	_	PART	_	_	18	mark	_	en
+18	_	_	VERB	_	_	16	xcomp	_	en
+19	_	_	PRON	_	_	18	obj	_	en
+20	_	_	ADP	_	_	21	case	_	en
+21	_	_	PRON	_	_	19	nmod	_	en
+22	_	_	SYM	_	_	4	discourse	_	univ
+
+# sent_id = dev-s121
+# text = _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+1	_	_	PUNCT	_	_	8	punct	_	univ
+2	_	_	PRON	_	_	8	nsubj	_	hi
+3	_	_	ADV	_	_	8	advmod	_	hi
+4	_	_	ADV	_	_	3	compound	_	hi
+5	_	_	ADV	_	_	6	advmod	_	hi
+6	_	_	ADJ	_	_	7	amod	_	en
+7	_	_	NOUN	_	_	8	compound	_	hi
+8	_	_	VERB	_	_	0	root	_	hi
+9	_	_	AUX	_	_	8	aux	_	hi
+10	_	_	CCONJ	_	_	15	cc	_	en
+11	_	_	PRON	_	_	15	nsubj	_	en
+12	_	_	AUX	_	_	15	cop	_	en
+13	_	_	ADV	_	_	15	advmod	_	en
+14	_	_	ADV	_	_	15	advmod	_	en
+15	_	_	ADJ	_	_	8	conj	_	en
+16	_	_	PUNCT	_	_	8	punct	_	univ
+
+# sent_id = dev-s122
+# text = _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+1	_	_	PRON	_	_	2	nsubj	_	en
+2	_	_	VERB	_	_	0	root	_	en
+3	_	_	VERB	_	_	2	xcomp	_	en
+4	_	_	ADP	_	_	6	case	_	en
+5	_	_	DET	_	_	6	det	_	en
+6	_	_	NOUN	_	_	3	obl	_	en
+7	_	_	SCONJ	_	_	16	mark	_	en
+8	_	_	NOUN	_	_	16	obl	_	hi
+9	_	_	ADP	_	_	8	case	_	hi
+10	_	_	PROPN	_	_	12	nmod	_	ne
+11	_	_	ADP	_	_	10	case	_	hi
+12	_	_	NOUN	_	_	16	nsubj	_	hi
+13	_	_	VERB	_	_	16	advcl	_	hi
+14	_	_	SCONJ	_	_	13	mark	_	hi
+15	_	_	NOUN	_	_	16	compound	_	en
+16	_	_	VERB	_	_	2	advcl	_	hi
+17	_	_	AUX	_	_	16	aux	_	hi
+18	_	_	PUNCT	_	_	2	punct	_	univ
+19	_	_	SYM	_	_	2	discourse	_	univ
+
+# sent_id = dev-s123
+# text = _ _ _ _ _ _ _ _ _ _
+1	_	_	PRON	_	_	2	nmod	_	hi
+2	_	_	NOUN	_	_	9	nmod	_	en
+3	_	_	CCONJ	_	_	4	cc	_	en
+4	_	_	NOUN	_	_	2	conj	_	en
+5	_	_	ADP	_	_	2	case	_	hi
+6	_	_	PART	_	_	9	advmod	_	hi
+7	_	_	NUM	_	_	9	nummod	_	en
+8	_	_	ADP	_	_	7	case	_	hi
+9	_	_	NOUN	_	_	0	root	_	en
+10	_	_	AUX	_	_	9	cop	_	hi
+
+# sent_id = dev-s124
+# text = _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+1	_	_	PUNCT	_	_	14	punct	_	univ
+2	_	_	PRON	_	_	3	nmod	_	hi
+3	_	_	NOUN	_	_	4	nsubj	_	hi
+4	_	_	VERB	_	_	14	advcl	_	hi
+5	_	_	SCONJ	_	_	14	mark	_	hi
+6	_	_	PRON	_	_	14	nsubj	_	hi
+7	_	_	PRON	_	_	14	obl	_	hi
+8	_	_	ADP	_	_	7	case	_	hi
+9	_	_	PART	_	_	7	advmod	_	hi
+10	_	_	ADV	_	_	11	advmod	_	en
+11	_	_	PRON	_	_	13	nmod	_	en
+12	_	_	ADP	_	_	11	case	_	hi
+13	_	_	NOUN	_	_	14	obj	_	en
+14	_	_	VERB	_	_	0	root	_	hi
+15	_	_	AUX	_	_	14	aux	_	hi
+16	_	_	PUNCT	_	_	14	punct	_	univ
+
+# sent_id = dev-s125
+# text = _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+1	_	_	PUNCT	_	_	2	punct	_	univ
+2	_	_	VERB	_	_	0	root	_	en
+3	_	_	ADJ	_	_	4	amod	_	en
+4	_	_	NOUN	_	_	2	obj	_	en
+5	_	_	ADP	_	_	6	case	_	en
+6	_	_	NOUN	_	_	4	nmod	_	en
+7	_	_	SCONJ	_	_	12	mark	_	en
+8	_	_	ADV	_	_	12	advmod	_	hi
+9	_	_	NOUN	_	_	12	nsubj	_	hi
+10	_	_	PART	_	_	9	advmod	_	hi
+11	_	_	ADJ	_	_	12	compound	_	hi
+12	_	_	VERB	_	_	2	conj	_	hi
+13	_	_	AUX	_	_	12	aux	_	hi
+14	_	_	SYM	_	_	2	discourse	_	univ
+15	_	_	PUNCT	_	_	2	punct	_	univ
+
+# sent_id = dev-s126
+# text = _ _ _ _ _ _ _ _ _ _
+1	_	_	NOUN	_	_	6	nsubj	_	en
+2	_	_	PRON	_	_	3	nmod	_	hi
+3	_	_	NOUN	_	_	6	obl	_	en
+4	_	_	ADP	_	_	3	case	_	hi
+5	_	_	ADV	_	_	6	advmod	_	hi
+6	_	_	VERB	_	_	0	root	_	hi
+7	_	_	INTJ	_	_	8	discourse	_	en
+8	_	_	VERB	_	_	6	discourse	_	en
+9	_	_	PROPN	_	_	8	obj	_	en
+10	_	_	PUNCT	_	_	6	punct	_	univ
+
+# sent_id = dev-s127
+# text = _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+1	_	_	NUM	_	_	2	nummod	_	hi
+2	_	_	ADV	_	_	6	advmod	_	hi
+3	_	_	NOUN	_	_	5	nmod	_	en
+4	_	_	ADP	_	_	3	case	_	hi
+5	_	_	NOUN	_	_	6	nsubj	_	en
+6	_	_	VERB	_	_	13	advcl	_	hi
+7	_	_	SCONJ	_	_	13	mark	_	hi
+8	_	_	PRON	_	_	12	obl	_	hi
+9	_	_	ADP	_	_	8	case	_	hi
+10	_	_	ADV	_	_	11	advmod	_	en
+11	_	_	NOUN	_	_	12	nsubj	_	en
+12	_	_	VERB	_	_	13	csubj	_	hi
+13	_	_	ADJ	_	_	0	root	_	en
+14	_	_	AUX	_	_	13	cop	_	hi
+15	_	_	PUNCT	_	_	13	punct	_	univ
+
+# sent_id = dev-s128
+# text = _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+1	_	_	PUNCT	_	_	16	punct	_	univ
+2	_	_	SCONJ	_	_	4	mark	_	en
+3	_	_	PRON	_	_	4	nsubj	_	en
+4	_	_	VERB	_	_	16	advcl	_	en
+5	_	_	DET	_	_	6	det	_	en
+6	_	_	NOUN	_	_	4	obj	_	hi
+7	_	_	ADP	_	_	10	case	_	en
+8	_	_	DET	_	_	10	det	_	en
+9	_	_	NOUN	_	_	10	nmod	_	en
+10	_	_	NOUN	_	_	6	nmod	_	en
+11	_	_	PUNCT	_	_	16	punct	_	univ
+12	_	_	PRON	_	_	14	nmod	_	hi
+13	_	_	NOUN	_	_	14	compound	_	hi
+14	_	_	VERB	_	_	16	csubj	_	hi
+15	_	_	SCONJ	_	_	16	mark	_	hi
+16	_	_	ADJ	_	_	0	root	_	hi
+17	_	_	AUX	_	_	16	cop	_	hi
+18	_	_	PUNCT	_	_	4	punct	_	univ
+19	_	_	INTJ	_	_	16	discourse	_	univ
+20	_	_	PUNCT	_	_	16	punct	_	univ
+
+# sent_id = dev-s129
+# text = _ _ _ _ _ _ _ _ _ _ _ _
+1	_	_	NOUN	_	_	4	vocative	_	hi
+2	_	_	NOUN	_	_	4	compound	_	en
+3	_	_	PART	_	_	4	advmod	_	hi
+4	_	_	VERB	_	_	0	root	_	hi
+5	_	_	PART	_	_	4	advmod	_	hi
+6	_	_	ADV	_	_	8	advmod	_	en
+7	_	_	ADV	_	_	6	fixed	_	en
+8	_	_	NOUN	_	_	11	obj	_	en
+9	_	_	PART	_	_	8	advmod	_	hi
+10	_	_	ADJ	_	_	11	compound	_	hi
+11	_	_	VERB	_	_	4	advcl	_	hi
+12	_	_	AUX	_	_	11	aux	_	hi
+
+# sent_id = dev-s130
+# text = _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+1	_	_	NOUN	_	_	3	nsubj	_	en
+2	_	_	AUX	_	_	3	cop	_	en
+3	_	_	NOUN	_	_	0	root	_	en
+4	_	_	SCONJ	_	_	12	mark	_	en
+5	_	_	NOUN	_	_	7	nmod	_	hi
+6	_	_	ADP	_	_	5	case	_	hi
+7	_	_	NOUN	_	_	12	nmod	_	hi
+8	_	_	PART	_	_	7	advmod	_	hi
+9	_	_	NOUN	_	_	12	obj	_	acro
+10	_	_	CCONJ	_	_	11	cc	_	en
+11	_	_	NOUN	_	_	9	conj	_	en
+12	_	_	VERB	_	_	3	advcl	_	hi
+13	_	_	AUX	_	_	12	aux	_	hi
+14	_	_	AUX	_	_	12	aux	_	hi
+15	_	_	SYM	_	_	3	discourse	_	univ
+
+# sent_id = dev-s131
+# text = _ _ _ _ _ _ _ _ _ _ _
+1	_	_	NOUN	_	_	3	nmod	_	hi
+2	_	_	ADP	_	_	1	case	_	hi
+3	_	_	ADJ	_	_	0	root	_	en
+4	_	_	PART	_	_	3	advmod	_	hi
+5	_	_	NOUN	_	_	3	nsubj	_	en
+6	_	_	AUX	_	_	3	cop	_	hi
+7	_	_	ADV	_	_	10	advmod	_	en
+8	_	_	NOUN	_	_	10	obj	_	hi
+9	_	_	PART	_	_	8	advmod	_	hi
+10	_	_	VERB	_	_	5	advcl	_	hi
+11	_	_	AUX	_	_	10	aux	_	hi
+
+# sent_id = dev-s132
+# text = _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+1	_	_	ADJ	_	_	2	amod	_	ne
+2	_	_	NOUN	_	_	15	nsubj	_	en
+3	_	_	PROPN	_	_	4	compound	_	en
+4	_	_	NOUN	_	_	8	nsubj	_	en
+5	_	_	PART	_	_	4	advmod	_	hi
+6	_	_	NOUN	_	_	8	nmod	_	hi
+7	_	_	ADP	_	_	6	case	_	hi
+8	_	_	NOUN	_	_	15	nmod	_	hi
+9	_	_	PUNCT	_	_	8	punct	_	univ
+10	_	_	PROPN	_	_	12	nmod	_	hi
+11	_	_	ADP	_	_	10	case	_	hi
+12	_	_	NOUN	_	_	15	obj	_	en
+13	_	_	PART	_	_	12	advmod	_	hi
+14	_	_	PART	_	_	15	advmod	_	hi
+15	_	_	VERB	_	_	0	root	_	hi
+16	_	_	AUX	_	_	15	aux	_	hi
+17	_	_	SYM	_	_	15	discourse	_	univ
+
+# sent_id = dev-s133
+# text = _ _ _ _ _ _ _ _ _ _ _ _
+1	_	_	DET	_	_	3	det	_	hi
+2	_	_	ADJ	_	_	3	amod	_	ne
+3	_	_	NOUN	_	_	7	iobj	_	en
+4	_	_	ADP	_	_	3	case	_	hi
+5	_	_	ADJ	_	_	6	amod	_	en
+6	_	_	NOUN	_	_	7	obj	_	en
+7	_	_	VERB	_	_	0	root	_	hi
+8	_	_	AUX	_	_	7	aux	_	hi
+9	_	_	NOUN	_	_	10	nmod	_	en
+10	_	_	NOUN	_	_	11	appos	_	hi
+11	_	_	PRON	_	_	7	nsubj	_	hi
+12	_	_	PUNCT	_	_	7	punct	_	univ
+
+# sent_id = dev-s134
+# text = _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+1	_	_	PUNCT	_	_	3	punct	_	univ
+2	_	_	PRON	_	_	3	nsubj	_	en
+3	_	_	VERB	_	_	0	root	_	en
+4	_	_	PRON	_	_	3	obj	_	en
+5	_	_	ADP	_	_	3	compound	_	en
+6	_	_	ADV	_	_	7	advmod	_	en
+7	_	_	ADJ	_	_	3	advmod	_	en
+8	_	_	SCONJ	_	_	11	mark	_	en
+9	_	_	PRON	_	_	10	nmod	_	en
+10	_	_	NOUN	_	_	11	nsubj	_	en
+11	_	_	VERB	_	_	7	advcl	_	en
+12	_	_	PUNCT	_	_	14	punct	_	univ
+13	_	_	ADV	_	_	14	advmod	_	hi
+14	_	_	VERB	_	_	11	ccomp	_	hi
+15	_	_	AUX	_	_	14	aux	_	hi
+16	_	_	PUNCT	_	_	14	punct	_	univ
+17	_	_	NOUN	_	_	19	nsubj	_	hi
+18	_	_	NOUN	_	_	19	nmod	_	hi
+19	_	_	NOUN	_	_	14	advcl	_	hi
+20	_	_	ADP	_	_	19	case	_	hi
+21	_	_	PART	_	_	19	advmod	_	hi
+22	_	_	AUX	_	_	19	cop	_	hi
+23	_	_	PUNCT	_	_	3	punct	_	univ
+
+# sent_id = dev-s135
+# text = _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+1	_	_	NUM	_	_	2	nummod	_	en
+2	_	_	PROPN	_	_	0	root	_	ne
+3	_	_	PROPN	_	_	2	flat	_	ne
+4	_	_	ADV	_	_	2	advmod	_	en
+5	_	_	ADP	_	_	9	case	_	en
+6	_	_	PROPN	_	_	9	nmod	_	ne
+7	_	_	PROPN	_	_	6	flat	_	ne
+8	_	_	PART	_	_	6	case	_	en
+9	_	_	NOUN	_	_	2	nmod	_	en
+10	_	_	NUM	_	_	12	nsubj	_	hi
+11	_	_	PART	_	_	10	advmod	_	hi
+12	_	_	NOUN	_	_	2	nmod	_	hi
+13	_	_	CCONJ	_	_	16	cc	_	hi
+14	_	_	PRON	_	_	16	nsubj	_	hi
+15	_	_	PART	_	_	14	advmod	_	hi
+16	_	_	NOUN	_	_	12	conj	_	en
+17	_	_	PUNCT	_	_	2	punct	_	univ
+
+# sent_id = dev-s136
+# text = _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+1	_	_	NOUN	_	_	0	root	_	en
+2	_	_	ADP	_	_	1	compound	_	en
+3	_	_	ADP	_	_	6	case	_	en
+4	_	_	DET	_	_	6	det	_	en
+5	_	_	DET	_	_	6	det	_	en
+6	_	_	NOUN	_	_	1	nmod	_	en
+7	_	_	PRON	_	_	9	nmod	_	hi
+8	_	_	ADP	_	_	7	case	_	hi
+9	_	_	NOUN	_	_	13	nsubj	_	hi
+10	_	_	DET	_	_	11	det	_	hi
+11	_	_	NOUN	_	_	13	obl	_	hi
+12	_	_	ADP	_	_	11	case	_	hi
+13	_	_	VERB	_	_	6	acl	_	hi
+14	_	_	AUX	_	_	13	aux	_	hi
+15	_	_	AUX	_	_	13	aux	_	hi
+
+# sent_id = dev-s137
+# text = _ _ _ _ _ _ _ _ _ _ _ _ _ _
+1	_	_	NOUN	_	_	0	root	_	en
+2	_	_	ADP	_	_	4	case	_	en
+3	_	_	ADJ	_	_	4	amod	_	ne
+4	_	_	NOUN	_	_	1	nmod	_	en
+5	_	_	PROPN	_	_	12	obl	_	ne
+6	_	_	ADP	_	_	5	case	_	hi
+7	_	_	NOUN	_	_	8	nmod	_	en
+8	_	_	NOUN	_	_	12	obj	_	en
+9	_	_	ADP	_	_	8	case	_	hi
+10	_	_	NOUN	_	_	11	nmod	_	en
+11	_	_	NOUN	_	_	12	nmod	_	en
+12	_	_	VERB	_	_	1	acl	_	hi
+13	_	_	AUX	_	_	12	aux	_	hi
+14	_	_	AUX	_	_	12	aux	_	hi
+
+# sent_id = dev-s138
+# text = _ _ _ _ _ _ _ _ _ _ _ _ _ _
+1	_	_	DET	_	_	2	det	_	hi
+2	_	_	NOUN	_	_	4	nmod	_	en
+3	_	_	ADP	_	_	2	case	_	hi
+4	_	_	NOUN	_	_	6	nsubj	_	en
+5	_	_	ADJ	_	_	6	compound	_	hi
+6	_	_	VERB	_	_	0	root	_	hi
+7	_	_	AUX	_	_	6	aux	_	hi
+8	_	_	CCONJ	_	_	12	cc	_	en
+9	_	_	ADV	_	_	12	advmod	_	en
+10	_	_	PRON	_	_	12	expl	_	en
+11	_	_	AUX	_	_	12	cop	_	en
+12	_	_	PROPN	_	_	6	conj	_	acro
+13	_	_	PUNCT	_	_	6	punct	_	univ
+14	_	_	SYM	_	_	6	discourse	_	univ
+
+# sent_id = dev-s139
+# text = _ _ _ _ _ _ _ _ _ _ _ _ _ _
+1	_	_	PUNCT	_	_	5	punct	_	univ
+2	_	_	NOUN	_	_	5	obl	_	hi
+3	_	_	ADP	_	_	2	case	_	hi
+4	_	_	AUX	_	_	5	aux	_	en
+5	_	_	VERB	_	_	0	root	_	en
+6	_	_	ADV	_	_	7	advmod	_	en
+7	_	_	ADJ	_	_	5	obj	_	en
+8	_	_	NOUN	_	_	9	nsubj	_	en
+9	_	_	VERB	_	_	5	advcl	_	hi
+10	_	_	AUX	_	_	9	aux	_	hi
+11	_	_	AUX	_	_	9	aux	_	hi
+12	_	_	ADV	_	_	9	advmod	_	hi
+13	_	_	SYM	_	_	5	discourse	_	univ
+14	_	_	PUNCT	_	_	5	punct	_	univ
+
+# sent_id = dev-s140
+# text = _ _ _ _ _ _ _ _ _ _ _ _
+1	_	_	ADJ	_	_	2	amod	_	hi
+2	_	_	NOUN	_	_	6	nsubj	_	hi
+3	_	_	AUX	_	_	6	cop	_	en
+4	_	_	ADP	_	_	6	case	_	en
+5	_	_	PROPN	_	_	6	compound	_	hi
+6	_	_	PROPN	_	_	0	root	_	hi
+7	_	_	ADP	_	_	8	case	_	en
+8	_	_	NOUN	_	_	6	nmod	_	en
+9	_	_	CCONJ	_	_	11	cc	_	en
+10	_	_	NUM	_	_	11	nummod	_	univ
+11	_	_	NOUN	_	_	8	conj	_	en
+12	_	_	PUNCT	_	_	6	punct	_	univ
+
+# sent_id = dev-s141
+# text = _ _ _ _ _ _ _ _ _ _ _ _
+1	_	_	PRON	_	_	7	nsubj	_	hi
+2	_	_	NUM	_	_	4	nummod	_	univ
+3	_	_	NUM	_	_	2	compound	_	univ
+4	_	_	NOUN	_	_	7	nmod	_	hi
+5	_	_	NOUN	_	_	7	obl	_	en
+6	_	_	ADP	_	_	5	case	_	hi
+7	_	_	VERB	_	_	0	root	_	hi
+8	_	_	AUX	_	_	7	aux	_	hi
+9	_	_	ADP	_	_	11	case	_	en
+10	_	_	PRON	_	_	11	nmod	_	en
+11	_	_	NOUN	_	_	7	obl	_	en
+12	_	_	SYM	_	_	7	discourse	_	univ
+
+# sent_id = dev-s142
+# text = _ _ _ _ _ _ _ _ _ _
+1	_	_	DET	_	_	2	det	_	hi
+2	_	_	NOUN	_	_	4	nmod	_	en
+3	_	_	PART	_	_	2	case	_	en
+4	_	_	NOUN	_	_	9	obj	_	en
+5	_	_	PROPN	_	_	9	obl	_	ne
+6	_	_	ADP	_	_	5	case	_	hi
+7	_	_	PART	_	_	5	advmod	_	hi
+8	_	_	NOUN	_	_	9	compound	_	en
+9	_	_	VERB	_	_	0	root	_	hi
+10	_	_	PUNCT	_	_	9	punct	_	univ
+
+# sent_id = dev-s143
+# text = _ _ _ _ _ _ _ _ _ _
+1	_	_	PROPN	_	_	9	nsubj	_	ne
+2	_	_	AUX	_	_	9	cop	_	en
+3	_	_	DET	_	_	9	det	_	en
+4	_	_	ADJ	_	_	9	amod	_	en
+5	_	_	NOUN	_	_	8	nmod	_	hi
+6	_	_	ADP	_	_	5	case	_	hi
+7	_	_	ADJ	_	_	8	compound	_	hi
+8	_	_	NOUN	_	_	9	nmod	_	hi
+9	_	_	NOUN	_	_	0	root	_	en
+10	_	_	PUNCT	_	_	9	punct	_	univ
+
+# sent_id = dev-s144
+# text = _ _ _ _ _ _ _ _ _
+1	_	_	NOUN	_	_	3	obl	_	hi
+2	_	_	ADP	_	_	1	case	_	hi
+3	_	_	VERB	_	_	5	acl	_	hi
+4	_	_	AUX	_	_	3	aux	_	hi
+5	_	_	NOUN	_	_	7	nsubj	_	en
+6	_	_	ADV	_	_	7	advmod	_	en
+7	_	_	VERB	_	_	0	root	_	en
+8	_	_	ADJ	_	_	7	xcomp	_	univ
+9	_	_	PUNCT	_	_	7	punct	_	univ
+
+# sent_id = dev-s145
+# text = _ _ _ _ _ _ _ _ _ _
+1	_	_	ADP	_	_	2	case	_	en
+2	_	_	NOUN	_	_	4	obl	_	en
+3	_	_	NOUN	_	_	4	nsubj	_	hi
+4	_	_	VERB	_	_	0	root	_	hi
+5	_	_	AUX	_	_	4	aux	_	hi
+6	_	_	ADV	_	_	10	advmod	_	hi
+7	_	_	NOUN	_	_	10	obl	_	en
+8	_	_	ADP	_	_	7	case	_	hi
+9	_	_	PART	_	_	7	advmod	_	hi
+10	_	_	VERB	_	_	4	ccomp	_	hi
+
+# sent_id = dev-s146
+# text = _ _ _ _ _ _ _ _ _ _ _ _ _ _
+1	_	_	ADV	_	_	13	advmod	_	hi
+2	_	_	DET	_	_	12	det	_	hi
+3	_	_	NOUN	_	_	13	obl	_	hi
+4	_	_	ADP	_	_	3	case	_	hi
+5	_	_	PROPN	_	_	7	nmod	_	ne
+6	_	_	PART	_	_	5	case	_	en
+7	_	_	NOUN	_	_	13	nsubj	_	en
+8	_	_	ADP	_	_	10	case	_	en
+9	_	_	ADJ	_	_	10	amod	_	en
+10	_	_	NOUN	_	_	7	nmod	_	en
+11	_	_	ADP	_	_	12	case	_	hi
+12	_	_	NOUN	_	_	7	nmod	_	hi
+13	_	_	VERB	_	_	0	root	_	hi
+14	_	_	PUNCT	_	_	13	punct	_	univ
+
+# sent_id = dev-s147
+# text = _ _ _ _ _ _ _ _ _ _ _ _
+1	_	_	VERB	_	_	3	acl	_	hi
+2	_	_	AUX	_	_	1	aux	_	hi
+3	_	_	NOUN	_	_	11	nsubj	_	hi
+4	_	_	CCONJ	_	_	7	cc	_	en
+5	_	_	VERB	_	_	7	acl	_	hi
+6	_	_	AUX	_	_	5	aux	_	hi
+7	_	_	NOUN	_	_	3	conj	_	hi
+8	_	_	AUX	_	_	11	cop	_	en
+9	_	_	DET	_	_	11	det	_	en
+10	_	_	ADJ	_	_	11	amod	_	en
+11	_	_	NOUN	_	_	0	root	_	en
+12	_	_	ADV	_	_	11	advmod	_	en
+
+# sent_id = dev-s148
+# text = _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+1	_	_	PUNCT	_	_	9	punct	_	univ
+2	_	_	VERB	_	_	5	case	_	en
+3	_	_	ADP	_	_	2	fixed	_	en
+4	_	_	PRON	_	_	5	nmod	_	en
+5	_	_	NOUN	_	_	9	nmod	_	en
+6	_	_	DET	_	_	8	det	_	en
+7	_	_	ADJ	_	_	8	amod	_	en
+8	_	_	NOUN	_	_	9	nsubj	_	en
+9	_	_	VERB	_	_	0	root	_	en
+10	_	_	PUNCT	_	_	15	punct	_	univ
+11	_	_	PRON	_	_	15	nsubj	_	hi
+12	_	_	NOUN	_	_	13	obj	_	en
+13	_	_	VERB	_	_	15	advcl	_	hi
+14	_	_	AUX	_	_	13	aux	_	hi
+15	_	_	VERB	_	_	9	ccomp	_	hi
+16	_	_	PUNCT	_	_	9	punct	_	univ
+
+# sent_id = dev-s149
+# text = _ _ _ _ _ _ _ _ _ _ _ _ _
+1	_	_	NOUN	_	_	4	nmod	_	hi
+2	_	_	ADP	_	_	1	case	_	hi
+3	_	_	ADJ	_	_	4	compound	_	hi
+4	_	_	ADJ	_	_	5	amod	_	hi
+5	_	_	NOUN	_	_	8	nmod	_	hi
+6	_	_	ADP	_	_	5	case	_	hi
+7	_	_	ADJ	_	_	8	amod	_	en
+8	_	_	NOUN	_	_	11	nsubj	_	en
+9	_	_	PRON	_	_	11	nmod	_	hi
+10	_	_	ADJ	_	_	11	amod	_	hi
+11	_	_	NOUN	_	_	0	root	_	en
+12	_	_	AUX	_	_	11	cop	_	hi
+13	_	_	X	_	_	11	discourse	_	acro
+
+# sent_id = dev-s150
+# text = _ _ _ _ _ _ _ _ _ _ _ _ _
+1	_	_	NOUN	_	_	10	obl	_	en
+2	_	_	NUM	_	_	1	nummod	_	univ
+3	_	_	ADP	_	_	1	case	_	hi
+4	_	_	PROPN	_	_	10	obj	_	ne
+5	_	_	ADP	_	_	4	case	_	hi
+6	_	_	PROPN	_	_	8	nmod	_	ne
+7	_	_	ADP	_	_	6	case	_	hi
+8	_	_	NOUN	_	_	10	obl	_	en
+9	_	_	ADP	_	_	8	case	_	hi
+10	_	_	VERB	_	_	0	root	_	hi
+11	_	_	AUX	_	_	10	aux	_	hi
+12	_	_	AUX	_	_	10	aux	_	hi
+13	_	_	PUNCT	_	_	10	punct	_	univ
+
+# sent_id = dev-s151
+# text = _ _ _ _ _ _ _ _ _
+1	_	_	DET	_	_	4	det	_	en
+2	_	_	NOUN	_	_	4	nmod	_	hi
+3	_	_	ADP	_	_	2	case	_	hi
+4	_	_	NOUN	_	_	8	nsubj	_	hi
+5	_	_	ADP	_	_	6	case	_	en
+6	_	_	NOUN	_	_	8	nmod	_	en
+7	_	_	AUX	_	_	8	cop	_	en
+8	_	_	ADJ	_	_	0	root	_	en
+9	_	_	PUNCT	_	_	8	punct	_	univ
+
+# sent_id = dev-s152
+# text = _ _ _ _ _ _ _ _ _ _ _ _ _
+1	_	_	NOUN	_	_	3	nmod	_	en
+2	_	_	ADP	_	_	1	case	_	hi
+3	_	_	NOUN	_	_	4	nsubj	_	en
+4	_	_	ADJ	_	_	0	root	_	hi
+5	_	_	NOUN	_	_	7	nmod	_	en
+6	_	_	ADP	_	_	5	case	_	hi
+7	_	_	NOUN	_	_	9	compound	_	en
+8	_	_	ADJ	_	_	7	amod	_	hi
+9	_	_	VERB	_	_	4	conj	_	hi
+10	_	_	AUX	_	_	9	aux	_	hi
+11	_	_	AUX	_	_	9	aux	_	hi
+12	_	_	PRON	_	_	9	nsubj	_	hi
+13	_	_	SYM	_	_	4	discourse	_	univ
+
+# sent_id = dev-s153
+# text = _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+1	_	_	PUNCT	_	_	9	punct	_	univ
+2	_	_	ADV	_	_	4	mark	_	en
+3	_	_	PRON	_	_	4	nsubj	_	en
+4	_	_	VERB	_	_	9	advcl	_	en
+5	_	_	PUNCT	_	_	9	punct	_	univ
+6	_	_	DET	_	_	7	det	_	en
+7	_	_	NOUN	_	_	9	nsubj	_	en
+8	_	_	AUX	_	_	9	aux	_	en
+9	_	_	VERB	_	_	0	root	_	en
+10	_	_	PUNCT	_	_	9	punct	_	univ
+11	_	_	DET	_	_	12	det	_	hi
+12	_	_	ADJ	_	_	13	amod	_	hi
+13	_	_	NOUN	_	_	14	compound	_	en
+14	_	_	VERB	_	_	9	ccomp	_	hi
+15	_	_	AUX	_	_	14	aux	_	hi
+16	_	_	PUNCT	_	_	9	punct	_	univ
+17	_	_	PUNCT	_	_	9	punct	_	univ
+
+# sent_id = dev-s154
+# text = _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+1	_	_	ADV	_	_	2	advmod	_	en
+2	_	_	VERB	_	_	0	root	_	en
+3	_	_	PROPN	_	_	5	compound	_	ne
+4	_	_	NOUN	_	_	5	compound	_	en
+5	_	_	NOUN	_	_	2	obj	_	en
+6	_	_	ADP	_	_	7	case	_	en
+7	_	_	PROPN	_	_	5	nmod	_	ne
+8	_	_	CCONJ	_	_	13	cc	_	en
+9	_	_	PROPN	_	_	13	obj	_	ne
+10	_	_	ADP	_	_	9	case	_	hi
+11	_	_	NOUN	_	_	13	compound	_	en
+12	_	_	PART	_	_	13	advmod	_	hi
+13	_	_	VERB	_	_	2	conj	_	hi
+14	_	_	AUX	_	_	13	aux	_	hi
+15	_	_	PUNCT	_	_	2	punct	_	univ
+
+# sent_id = dev-s155
+# text = _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+1	_	_	ADJ	_	_	2	compound	_	en
+2	_	_	ADJ	_	_	14	advcl	_	en
+3	_	_	PART	_	_	2	advmod	_	hi
+4	_	_	PRON	_	_	14	advmod	_	hi
+5	_	_	ADJ	_	_	6	amod	_	en
+6	_	_	NOUN	_	_	12	nmod	_	en
+7	_	_	PUNCT	_	_	6	punct	_	univ
+8	_	_	ADJ	_	_	9	amod	_	en
+9	_	_	NOUN	_	_	6	conj	_	en
+10	_	_	ADP	_	_	6	case	_	hi
+11	_	_	PART	_	_	6	advmod	_	hi
+12	_	_	NOUN	_	_	14	obj	_	en
+13	_	_	NOUN	_	_	14	compound	_	en
+14	_	_	VERB	_	_	0	root	_	hi
+15	_	_	AUX	_	_	14	aux	_	hi
+16	_	_	AUX	_	_	14	aux	_	hi
+17	_	_	NOUN	_	_	20	nsubj	_	en
+18	_	_	ADV	_	_	19	advmod	_	hi
+19	_	_	ADJ	_	_	20	compound	_	hi
+20	_	_	NOUN	_	_	14	advcl	_	hi
+
+# sent_id = dev-s156
+# text = _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+1	_	_	PUNCT	_	_	3	punct	_	univ
+2	_	_	DET	_	_	3	det	_	en
+3	_	_	NOUN	_	_	0	root	_	en
+4	_	_	PUNCT	_	_	7	punct	_	univ
+5	_	_	ADV	_	_	7	mark	_	en
+6	_	_	PRON	_	_	7	nsubj	_	en
+7	_	_	VERB	_	_	3	advcl	_	en
+8	_	_	PUNCT	_	_	7	punct	_	univ
+9	_	_	PRON	_	_	12	nmod	_	hi
+10	_	_	ADP	_	_	9	case	_	hi
+11	_	_	PRON	_	_	12	advmod	_	hi
+12	_	_	ADJ	_	_	7	ccomp	_	en
+13	_	_	PART	_	_	12	advmod	_	hi
+14	_	_	AUX	_	_	12	cop	_	hi
+15	_	_	PRON	_	_	12	nsubj	_	hi
+16	_	_	PUNCT	_	_	3	punct	_	univ
+17	_	_	SYM	_	_	3	discourse	_	univ
+18	_	_	PUNCT	_	_	3	punct	_	univ
+
+# sent_id = dev-s157
+# text = _ _ _ _ _ _ _ _ _ _ _ _ _
+1	_	_	NOUN	_	_	4	vocative	_	hi
+2	_	_	DET	_	_	3	det	_	hi
+3	_	_	PROPN	_	_	4	nsubj	_	ne
+4	_	_	PRON	_	_	0	root	_	hi
+5	_	_	AUX	_	_	4	cop	_	hi
+6	_	_	CCONJ	_	_	10	cc	_	en
+7	_	_	ADV	_	_	10	advmod	_	en
+8	_	_	AUX	_	_	10	aux	_	en
+9	_	_	NOUN	_	_	10	nsubj	_	en
+10	_	_	VERB	_	_	4	conj	_	en
+11	_	_	ADP	_	_	12	case	_	en
+12	_	_	PRON	_	_	10	obl	_	en
+13	_	_	PUNCT	_	_	4	punct	_	univ
+
+# sent_id = dev-s158
+# text = _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+1	_	_	PROPN	_	_	6	nsubj	_	ne
+2	_	_	PROPN	_	_	1	flat	_	ne
+3	_	_	CCONJ	_	_	4	cc	_	en
+4	_	_	PROPN	_	_	1	conj	_	ne
+5	_	_	PROPN	_	_	4	flat	_	ne
+6	_	_	VERB	_	_	0	root	_	en
+7	_	_	PART	_	_	9	mark	_	en
+8	_	_	AUX	_	_	9	cop	_	en
+9	_	_	NOUN	_	_	6	obj	_	en
+10	_	_	ADJ	_	_	9	acl	_	en
+11	_	_	ADP	_	_	14	case	_	en
+12	_	_	PROPN	_	_	14	nmod	_	ne
+13	_	_	ADP	_	_	12	case	_	hi
+14	_	_	NOUN	_	_	10	nmod	_	hi
+15	_	_	PUNCT	_	_	6	punct	_	univ
+
+# sent_id = dev-s159
+# text = _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+1	_	_	VERB	_	_	0	root	_	hi
+2	_	_	SCONJ	_	_	4	mark	_	hi
+3	_	_	PRON	_	_	4	nsubj	_	en
+4	_	_	VERB	_	_	1	ccomp	_	en
+5	_	_	PROPN	_	_	4	obj	_	ne
+6	_	_	CCONJ	_	_	10	cc	_	en
+7	_	_	ADV	_	_	10	advmod	_	hi
+8	_	_	PART	_	_	7	advmod	_	hi
+9	_	_	PART	_	_	10	advmod	_	hi
+10	_	_	VERB	_	_	1	conj	_	hi
+11	_	_	SCONJ	_	_	13	mark	_	hi
+12	_	_	PRON	_	_	13	nsubj	_	en
+13	_	_	VERB	_	_	10	advcl	_	en
+14	_	_	VERB	_	_	13	xcomp	_	en
+15	_	_	DET	_	_	17	det	_	en
+16	_	_	ADJ	_	_	17	amod	_	en
+17	_	_	NOUN	_	_	14	obj	_	en
+18	_	_	PUNCT	_	_	1	punct	_	univ
+
+# sent_id = dev-s160
+# text = _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+1	_	_	PROPN	_	_	7	nsubj	_	ne
+2	_	_	PROPN	_	_	1	flat	_	ne
+3	_	_	AUX	_	_	7	cop	_	en
+4	_	_	ADV	_	_	7	advmod	_	en
+5	_	_	DET	_	_	7	det	_	en
+6	_	_	ADJ	_	_	7	amod	_	en
+7	_	_	NOUN	_	_	0	root	_	en
+8	_	_	ADP	_	_	10	case	_	en
+9	_	_	DET	_	_	10	det	_	en
+10	_	_	NOUN	_	_	7	nmod	_	en
+11	_	_	SCONJ	_	_	21	mark	_	en
+12	_	_	PROPN	_	_	15	nmod	_	ne
+13	_	_	PROPN	_	_	12	flat	_	ne
+14	_	_	ADP	_	_	12	case	_	hi
+15	_	_	NOUN	_	_	17	nmod	_	hi
+16	_	_	ADP	_	_	15	case	_	hi
+17	_	_	NOUN	_	_	21	nsubj	_	hi
+18	_	_	PART	_	_	17	advmod	_	hi
+19	_	_	ADV	_	_	21	advmod	_	hi
+20	_	_	ADJ	_	_	21	compound	_	hi
+21	_	_	VERB	_	_	7	advcl	_	hi
+22	_	_	AUX	_	_	21	aux	_	hi
+23	_	_	AUX	_	_	21	aux	_	hi
+24	_	_	PUNCT	_	_	7	punct	_	univ
+
+# sent_id = dev-s161
+# text = _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+1	_	_	PRON	_	_	2	nsubj	_	en
+2	_	_	VERB	_	_	0	root	_	en
+3	_	_	AUX	_	_	4	cop	_	en
+4	_	_	ADJ	_	_	2	xcomp	_	en
+5	_	_	PUNCT	_	_	2	punct	_	univ
+6	_	_	CCONJ	_	_	8	cc	_	en
+7	_	_	PRON	_	_	8	nsubj	_	en
+8	_	_	VERB	_	_	2	conj	_	en
+9	_	_	PRON	_	_	12	obl	_	hi
+10	_	_	ADP	_	_	9	case	_	hi
+11	_	_	PART	_	_	12	advmod	_	hi
+12	_	_	VERB	_	_	8	ccomp	_	hi
+13	_	_	AUX	_	_	12	aux	_	hi
+14	_	_	AUX	_	_	12	aux	_	hi
+15	_	_	PUNCT	_	_	2	punct	_	univ
+
+# sent_id = dev-s162
+# text = _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+1	_	_	PROPN	_	_	6	obj	_	ne
+2	_	_	PROPN	_	_	1	flat	_	ne
+3	_	_	ADP	_	_	1	case	_	hi
+4	_	_	PART	_	_	1	advmod	_	hi
+5	_	_	NOUN	_	_	6	iobj	_	hi
+6	_	_	VERB	_	_	0	root	_	hi
+7	_	_	AUX	_	_	6	aux	_	hi
+8	_	_	PROPN	_	_	6	nsubj	_	ne
+9	_	_	PROPN	_	_	8	flat	_	ne
+10	_	_	ADP	_	_	8	case	_	hi
+11	_	_	CCONJ	_	_	13	cc	_	en
+12	_	_	PRON	_	_	13	nsubj	_	en
+13	_	_	VERB	_	_	6	conj	_	en
+14	_	_	PRON	_	_	13	obj	_	en
+15	_	_	ADV	_	_	14	advmod	_	en
+16	_	_	PUNCT	_	_	6	punct	_	univ
+
+# sent_id = dev-s163
+# text = _ _ _ _ _ _ _ _ _ _ _ _
+1	_	_	PRON	_	_	2	nsubj	_	en
+2	_	_	VERB	_	_	0	root	_	en
+3	_	_	NOUN	_	_	5	compound	_	en
+4	_	_	PART	_	_	5	advmod	_	hi
+5	_	_	VERB	_	_	2	xcomp	_	hi
+6	_	_	AUX	_	_	5	aux	_	hi
+7	_	_	PRON	_	_	5	nsubj	_	hi
+8	_	_	CCONJ	_	_	10	cc	_	hi
+9	_	_	NOUN	_	_	10	obj	_	en
+10	_	_	VERB	_	_	5	conj	_	hi
+11	_	_	AUX	_	_	10	aux	_	hi
+12	_	_	PUNCT	_	_	2	punct	_	univ
+
+# sent_id = dev-s164
+# text = _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+1	_	_	PUNCT	_	_	6	punct	_	univ
+2	_	_	PROPN	_	_	6	nsubj	_	ne
+3	_	_	PROPN	_	_	2	flat	_	ne
+4	_	_	AUX	_	_	6	cop	_	en
+5	_	_	DET	_	_	6	det	_	en
+6	_	_	NOUN	_	_	0	root	_	en
+7	_	_	PRON	_	_	8	nsubj	_	en
+8	_	_	VERB	_	_	2	acl	_	en
+9	_	_	PUNCT	_	_	8	punct	_	univ
+10	_	_	NOUN	_	_	14	vocative	_	hi
+11	_	_	NOUN	_	_	13	obj	_	hi
+12	_	_	ADP	_	_	11	case	_	hi
+13	_	_	VERB	_	_	14	xcomp	_	hi
+14	_	_	VERB	_	_	8	advcl	_	hi
+15	_	_	AUX	_	_	14	aux	_	hi
+16	_	_	AUX	_	_	6	aux	_	hi
+17	_	_	DET	_	_	18	det	_	hi
+18	_	_	NOUN	_	_	19	obj	_	hi
+19	_	_	VERB	_	_	14	advcl	_	hi
+20	_	_	PUNCT	_	_	8	punct	_	univ
+21	_	_	CCONJ	_	_	23	cc	_	en
+22	_	_	ADV	_	_	23	advmod	_	en
+23	_	_	VERB	_	_	19	conj	_	en
+24	_	_	DET	_	_	25	det	_	en
+25	_	_	NOUN	_	_	23	obj	_	en
+26	_	_	PUNCT	_	_	6	punct	_	univ
+
+# sent_id = dev-s165
+# text = _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+1	_	_	PRON	_	_	4	nsubj	_	hi
+2	_	_	NOUN	_	_	4	nmod	_	hi
+3	_	_	NOUN	_	_	4	compound	_	hi
+4	_	_	VERB	_	_	0	root	_	hi
+5	_	_	PRON	_	_	8	nmod	_	hi
+6	_	_	ADJ	_	_	8	amod	_	hi
+7	_	_	NOUN	_	_	8	compound	_	en
+8	_	_	NOUN	_	_	13	nsubj	_	en
+9	_	_	AUX	_	_	13	cop	_	en
+10	_	_	ADP	_	_	13	case	_	en
+11	_	_	PROPN	_	_	13	compound	_	ne
+12	_	_	PROPN	_	_	13	nmod	_	ne
+13	_	_	PROPN	_	_	4	ccomp	_	ne
+14	_	_	PUNCT	_	_	4	punct	_	univ
+15	_	_	SYM	_	_	4	discourse	_	univ
+
+# sent_id = dev-s166
+# text = _ _ _ _ _ _ _ _ _ _ _
+1	_	_	PROPN	_	_	6	obj	_	ne
+2	_	_	ADP	_	_	1	case	_	hi
+3	_	_	ADP	_	_	5	case	_	en
+4	_	_	DET	_	_	5	det	_	en
+5	_	_	NOUN	_	_	6	obl	_	en
+6	_	_	VERB	_	_	8	acl	_	hi
+7	_	_	SCONJ	_	_	6	mark	_	hi
+8	_	_	NOUN	_	_	0	root	_	en
+9	_	_	PRON	_	_	8	advmod	_	hi
+10	_	_	AUX	_	_	8	cop	_	hi
+11	_	_	PUNCT	_	_	8	punct	_	univ
+
+# sent_id = dev-s167
+# text = _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+1	_	_	PRON	_	_	2	nmod	_	en
+2	_	_	NOUN	_	_	4	nsubj	_	en
+3	_	_	AUX	_	_	4	aux	_	en
+4	_	_	VERB	_	_	0	root	_	en
+5	_	_	SCONJ	_	_	8	mark	_	en
+6	_	_	PUNCT	_	_	8	punct	_	univ
+7	_	_	NOUN	_	_	8	obj	_	hi
+8	_	_	VERB	_	_	4	advcl	_	hi
+9	_	_	AUX	_	_	8	aux	_	hi
+10	_	_	AUX	_	_	8	aux	_	hi
+11	_	_	PUNCT	_	_	8	punct	_	univ
+12	_	_	CCONJ	_	_	15	cc	_	en
+13	_	_	PUNCT	_	_	15	punct	_	univ
+14	_	_	ADJ	_	_	15	amod	_	hi
+15	_	_	VERB	_	_	8	conj	_	hi
+16	_	_	AUX	_	_	15	aux	_	hi
+17	_	_	PUNCT	_	_	4	punct	_	univ
+18	_	_	PUNCT	_	_	4	punct	_	univ
+
+# sent_id = dev-s168
+# text = _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+1	_	_	PRON	_	_	2	nsubj	_	en
+2	_	_	VERB	_	_	10	acl:relcl	_	en
+3	_	_	NOUN	_	_	6	nsubj	_	en
+4	_	_	AUX	_	_	6	aux	_	en
+5	_	_	PART	_	_	6	advmod	_	en
+6	_	_	VERB	_	_	2	ccomp	_	en
+7	_	_	NOUN	_	_	6	obj	_	en
+8	_	_	PUNCT	_	_	6	punct	_	univ
+9	_	_	INTJ	_	_	13	discourse	_	en
+10	_	_	PRON	_	_	13	nsubj	_	hi
+11	_	_	NOUN	_	_	13	obj	_	hi
+12	_	_	PRON	_	_	13	iobj	_	hi
+13	_	_	VERB	_	_	0	root	_	hi
+14	_	_	ADV	_	_	13	advmod	_	hi
+15	_	_	PUNCT	_	_	13	punct	_	univ
+
+# sent_id = dev-s169
+# text = _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+1	_	_	PRON	_	_	3	expl	_	en
+2	_	_	AUX	_	_	3	cop	_	en
+3	_	_	NOUN	_	_	0	root	_	en
+4	_	_	ADV	_	_	5	advmod	_	en
+5	_	_	ADJ	_	_	3	acl	_	en
+6	_	_	ADP	_	_	8	case	_	en
+7	_	_	DET	_	_	8	det	_	en
+8	_	_	NOUN	_	_	3	nmod	_	en
+9	_	_	PUNCT	_	_	13	punct	_	univ
+10	_	_	PRON	_	_	11	nsubj	_	hi
+11	_	_	VERB	_	_	13	advcl	_	hi
+12	_	_	AUX	_	_	11	aux	_	hi
+13	_	_	VERB	_	_	8	acl	_	hi
+14	_	_	PUNCT	_	_	3	punct	_	univ
+15	_	_	PUNCT	_	_	3	punct	_	univ
+16	_	_	SYM	_	_	3	discourse	_	univ
+
+# sent_id = dev-s170
+# text = _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+1	_	_	PUNCT	_	_	9	punct	_	univ
+2	_	_	VERB	_	_	4	case	_	en
+3	_	_	ADP	_	_	2	fixed	_	en
+4	_	_	NOUN	_	_	9	nmod	_	en
+5	_	_	PRON	_	_	9	nsubj	_	hi
+6	_	_	PART	_	_	5	advmod	_	hi
+7	_	_	VERB	_	_	9	advcl	_	hi
+8	_	_	SCONJ	_	_	7	mark	_	hi
+9	_	_	ADJ	_	_	0	root	_	en
+10	_	_	AUX	_	_	9	cop	_	hi
+11	_	_	AUX	_	_	9	aux	_	hi
+12	_	_	CCONJ	_	_	13	cc	_	en
+13	_	_	PRON	_	_	9	conj	_	hi
+14	_	_	PART	_	_	13	orphan	_	hi
+15	_	_	AUX	_	_	13	orphan	_	hi
+16	_	_	SYM	_	_	9	discourse	_	univ
+17	_	_	PUNCT	_	_	9	punct	_	univ
+
+# sent_id = dev-s171
+# text = _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+1	_	_	PROPN	_	_	2	nsubj	_	ne
+2	_	_	VERB	_	_	0	root	_	en
+3	_	_	DET	_	_	4	det	_	en
+4	_	_	PROPN	_	_	2	obj	_	ne
+5	_	_	ADP	_	_	8	case	_	en
+6	_	_	PROPN	_	_	7	compound	_	ne
+7	_	_	PROPN	_	_	8	nmod	_	ne
+8	_	_	NOUN	_	_	2	obl	_	ne
+9	_	_	CCONJ	_	_	14	cc	_	en
+10	_	_	DET	_	_	11	det	_	hi
+11	_	_	NOUN	_	_	14	nsubj	_	hi
+12	_	_	ADJ	_	_	14	compound	_	en
+13	_	_	PART	_	_	14	advmod	_	hi
+14	_	_	VERB	_	_	2	conj	_	hi
+15	_	_	NOUN	_	_	14	vocative	_	en
+16	_	_	PART	_	_	15	flat	_	hi
+
+# sent_id = dev-s172
+# text = _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+1	_	_	PRON	_	_	3	nsubj	_	hi
+2	_	_	ADP	_	_	1	case	_	hi
+3	_	_	NOUN	_	_	0	root	_	hi
+4	_	_	SCONJ	_	_	11	mark	_	hi
+5	_	_	DET	_	_	6	det	_	hi
+6	_	_	NOUN	_	_	11	obl	_	en
+7	_	_	ADP	_	_	6	case	_	hi
+8	_	_	ADP	_	_	6	case	_	hi
+9	_	_	ADP	_	_	6	case	_	hi
+10	_	_	PRON	_	_	11	nsubj	_	en
+11	_	_	VERB	_	_	3	ccomp	_	en
+12	_	_	NOUN	_	_	11	obj	_	en
+13	_	_	ADP	_	_	15	case	_	en
+14	_	_	PRON	_	_	15	nmod	_	en
+15	_	_	NOUN	_	_	11	obl	_	en
+
+# sent_id = dev-s173
+# text = _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+1	_	_	PROPN	_	_	6	nsubj	_	ne
+2	_	_	PROPN	_	_	1	flat	_	ne
+3	_	_	CCONJ	_	_	4	cc	_	en
+4	_	_	PROPN	_	_	1	conj	_	ne
+5	_	_	PROPN	_	_	4	flat	_	ne
+6	_	_	VERB	_	_	0	root	_	en
+7	_	_	SCONJ	_	_	12	mark	_	en
+8	_	_	ADJ	_	_	9	amod	_	en
+9	_	_	NOUN	_	_	12	nsubj	_	en
+10	_	_	ADV	_	_	11	compound	_	hi
+11	_	_	ADV	_	_	12	advmod	_	hi
+12	_	_	VERB	_	_	6	advcl	_	hi
+13	_	_	AUX	_	_	12	aux	_	hi
+14	_	_	AUX	_	_	12	aux	_	hi
+15	_	_	PUNCT	_	_	6	punct	_	univ
+
+# sent_id = dev-s174
+# text = _ _ _ _ _ _ _ _ _ _ _ _
+1	_	_	NOUN	_	_	2	nmod	_	en
+2	_	_	NOUN	_	_	3	appos	_	en
+3	_	_	PROPN	_	_	9	nsubj	_	ne
+4	_	_	PROPN	_	_	3	flat	_	ne
+5	_	_	PROPN	_	_	6	compound	_	en
+6	_	_	PROPN	_	_	9	obl	_	en
+7	_	_	ADP	_	_	6	case	_	hi
+8	_	_	PROPN	_	_	9	obj	_	acro
+9	_	_	VERB	_	_	0	root	_	hi
+10	_	_	AUX	_	_	9	aux	_	hi
+11	_	_	AUX	_	_	9	aux	_	hi
+12	_	_	SYM	_	_	9	discourse	_	univ
+
+# sent_id = dev-s175
+# text = _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+1	_	_	DET	_	_	3	det	_	hi
+2	_	_	ADJ	_	_	3	amod	_	ne
+3	_	_	NOUN	_	_	5	nsubj	_	en
+4	_	_	NOUN	_	_	5	obj	_	en
+5	_	_	VERB	_	_	0	root	_	hi
+6	_	_	AUX	_	_	5	aux	_	hi
+7	_	_	AUX	_	_	5	aux	_	hi
+8	_	_	CCONJ	_	_	11	cc	_	hi
+9	_	_	NOUN	_	_	11	obl	_	en
+10	_	_	ADP	_	_	9	case	_	hi
+11	_	_	VERB	_	_	5	conj	_	hi
+12	_	_	AUX	_	_	11	aux	_	hi
+13	_	_	AUX	_	_	11	aux	_	hi
+14	_	_	NOUN	_	_	11	obl	_	en
+15	_	_	ADP	_	_	14	case	_	hi
+16	_	_	X	_	_	5	parataxis	_	univ
+
+# sent_id = dev-s176
+# text = _ _ _ _ _ _ _ _ _ _ _ _ _
+1	_	_	PRON	_	_	3	nsubj	_	en
+2	_	_	AUX	_	_	3	cop	_	en
+3	_	_	NOUN	_	_	0	root	_	en
+4	_	_	ADV	_	_	10	advmod	_	hi
+5	_	_	PART	_	_	4	advmod	_	hi
+6	_	_	NUM	_	_	7	nummod	_	univ
+7	_	_	NOUN	_	_	9	nmod	_	en
+8	_	_	ADP	_	_	7	case	_	hi
+9	_	_	NOUN	_	_	10	nsubj	_	en
+10	_	_	VERB	_	_	3	advcl	_	hi
+11	_	_	AUX	_	_	10	aux	_	hi
+12	_	_	AUX	_	_	10	aux	_	hi
+13	_	_	SYM	_	_	3	discourse	_	univ
+
+# sent_id = dev-s177
+# text = _ _ _ _ _ _ _ _ _ _ _ _
+1	_	_	SCONJ	_	_	11	mark	_	hi
+2	_	_	PROPN	_	_	6	nmod	_	en
+3	_	_	ADP	_	_	2	case	_	hi
+4	_	_	ADV	_	_	5	advmod	_	hi
+5	_	_	ADJ	_	_	6	amod	_	en
+6	_	_	NOUN	_	_	11	nsubj	_	en
+7	_	_	ADP	_	_	6	case	_	hi
+8	_	_	NOUN	_	_	11	nmod	_	en
+9	_	_	ADP	_	_	8	case	_	hi
+10	_	_	PRON	_	_	11	advmod	_	hi
+11	_	_	NOUN	_	_	0	root	_	en
+12	_	_	PUNCT	_	_	11	punct	_	univ
+
+# sent_id = dev-s178
+# text = _ _ _ _ _ _ _ _ _ _ _ _ _
+1	_	_	PRON	_	_	2	nsubj	_	en
+2	_	_	VERB	_	_	0	root	_	en
+3	_	_	PRON	_	_	2	obj	_	en
+4	_	_	ADV	_	_	12	mark	_	en
+5	_	_	NOUN	_	_	7	obj	_	acro
+6	_	_	VERB	_	_	7	compound	_	hi
+7	_	_	VERB	_	_	12	advcl	_	hi
+8	_	_	PRON	_	_	12	nsubj	_	hi
+9	_	_	PRON	_	_	10	nmod	_	hi
+10	_	_	NOUN	_	_	12	obj	_	hi
+11	_	_	ADJ	_	_	12	compound	_	hi
+12	_	_	VERB	_	_	2	advcl	_	hi
+13	_	_	PUNCT	_	_	2	punct	_	univ
+
+# sent_id = dev-s179
+# text = _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+1	_	_	PRON	_	_	3	nsubj	_	en
+2	_	_	ADV	_	_	3	advmod	_	en
+3	_	_	VERB	_	_	0	root	_	en
+4	_	_	DET	_	_	5	det	_	en
+5	_	_	NOUN	_	_	6	nmod	_	en
+6	_	_	NOUN	_	_	3	obj	_	en
+7	_	_	NOUN	_	_	3	nmod	_	en
+8	_	_	CCONJ	_	_	15	cc	_	en
+9	_	_	PROPN	_	_	11	nmod	_	ne
+10	_	_	ADP	_	_	9	case	_	hi
+11	_	_	NOUN	_	_	15	nsubj	_	hi
+12	_	_	ADP	_	_	11	case	_	hi
+13	_	_	ADJ	_	_	14	amod	_	en
+14	_	_	NOUN	_	_	15	obj	_	en
+15	_	_	VERB	_	_	3	conj	_	hi
+16	_	_	AUX	_	_	15	aux	_	hi
+17	_	_	AUX	_	_	15	aux	_	hi
+18	_	_	INTJ	_	_	3	discourse	_	univ
+
+# sent_id = dev-s180
+# text = _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+1	_	_	PUNCT	_	_	17	punct	_	univ
+2	_	_	PRON	_	_	3	nsubj	_	en
+3	_	_	VERB	_	_	17	csubj	_	en
+4	_	_	SCONJ	_	_	12	mark	_	hi
+5	_	_	PUNCT	_	_	12	punct	_	univ
+6	_	_	NOUN	_	_	7	obj	_	en
+7	_	_	VERB	_	_	12	advcl	_	hi
+8	_	_	AUX	_	_	7	aux	_	hi
+9	_	_	SCONJ	_	_	12	mark	_	hi
+10	_	_	NOUN	_	_	12	nsubj	_	en
+11	_	_	NOUN	_	_	12	compound	_	en
+12	_	_	VERB	_	_	3	ccomp	_	hi
+13	_	_	AUX	_	_	12	aux	_	hi
+14	_	_	PUNCT	_	_	12	punct	_	univ
+15	_	_	AUX	_	_	17	aux	_	en
+16	_	_	AUX	_	_	17	aux	_	en
+17	_	_	VERB	_	_	0	root	_	en
+18	_	_	PUNCT	_	_	17	punct	_	univ
+19	_	_	PUNCT	_	_	17	punct	_	univ
+
+# sent_id = dev-s181
+# text = _ _ _ _ _ _ _ _ _ _ _ _ _
+1	_	_	AUX	_	_	6	cop	_	en
+2	_	_	PROPN	_	_	6	nsubj	_	acro
+3	_	_	CCONJ	_	_	4	cc	_	en
+4	_	_	PROPN	_	_	2	conj	_	acro
+5	_	_	PART	_	_	6	advmod	_	en
+6	_	_	ADJ	_	_	0	root	_	en
+7	_	_	SCONJ	_	_	11	mark	_	hi
+8	_	_	NOUN	_	_	11	nsubj	_	hi
+9	_	_	PRON	_	_	11	nmod	_	hi
+10	_	_	PART	_	_	9	advmod	_	hi
+11	_	_	VERB	_	_	6	advcl	_	hi
+12	_	_	AUX	_	_	11	aux	_	hi
+13	_	_	SYM	_	_	6	discourse	_	univ
+
+# sent_id = dev-s182
+# text = _ _ _ _ _ _ _ _ _ _ _ _ _
+1	_	_	ADJ	_	_	2	amod	_	en
+2	_	_	NOUN	_	_	3	compound	_	en
+3	_	_	NOUN	_	_	5	nsubj	_	en
+4	_	_	NUM	_	_	5	nummod	_	hi
+5	_	_	NOUN	_	_	0	root	_	hi
+6	_	_	AUX	_	_	5	cop	_	hi
+7	_	_	NOUN	_	_	8	compound	_	en
+8	_	_	NOUN	_	_	11	obj	_	en
+9	_	_	ADP	_	_	8	case	_	hi
+10	_	_	ADJ	_	_	11	compound	_	hi
+11	_	_	VERB	_	_	5	acl	_	hi
+12	_	_	SCONJ	_	_	11	mark	_	hi
+13	_	_	PUNCT	_	_	5	punct	_	univ
+
+# sent_id = dev-s183
+# text = _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+1	_	_	NOUN	_	_	4	nmod	_	en
+2	_	_	ADP	_	_	1	case	_	hi
+3	_	_	ADP	_	_	1	case	_	hi
+4	_	_	ADJ	_	_	0	root	_	en
+5	_	_	CCONJ	_	_	7	cc	_	en
+6	_	_	AUX	_	_	7	aux	_	en
+7	_	_	VERB	_	_	4	conj	_	en
+8	_	_	ADJ	_	_	9	amod	_	en
+9	_	_	NOUN	_	_	14	nmod	_	en
+10	_	_	CCONJ	_	_	12	cc	_	hi
+11	_	_	ADJ	_	_	12	amod	_	en
+12	_	_	NOUN	_	_	9	conj	_	en
+13	_	_	ADP	_	_	9	case	_	hi
+14	_	_	NOUN	_	_	7	ccomp	_	en
+15	_	_	PRON	_	_	14	nsubj	_	hi
+16	_	_	AUX	_	_	14	cop	_	hi
+
+# sent_id = dev-s184
+# text = _ _ _ _ _ _ _ _ _ _ _ _ _
+1	_	_	NOUN	_	_	7	vocative	_	hi
+2	_	_	DET	_	_	4	det	_	hi
+3	_	_	NOUN	_	_	4	compound	_	en
+4	_	_	NOUN	_	_	7	obj	_	en
+5	_	_	ADV	_	_	7	advmod	_	hi
+6	_	_	NOUN	_	_	7	compound	_	en
+7	_	_	VERB	_	_	0	root	_	hi
+8	_	_	AUX	_	_	7	aux	_	hi
+9	_	_	DET	_	_	10	det	_	hi
+10	_	_	NOUN	_	_	7	nsubj	_	hi
+11	_	_	ADP	_	_	10	case	_	hi
+12	_	_	PUNCT	_	_	7	punct	_	univ
+13	_	_	SYM	_	_	7	discourse	_	univ
+
+# sent_id = dev-s185
+# text = _ _ _ _ _ _ _ _ _ _ _ _ _ _
+1	_	_	PRON	_	_	5	iobj	_	hi
+2	_	_	ADP	_	_	1	case	_	hi
+3	_	_	ADJ	_	_	4	amod	_	hi
+4	_	_	NOUN	_	_	5	nsubj	_	hi
+5	_	_	VERB	_	_	0	root	_	hi
+6	_	_	SCONJ	_	_	7	mark	_	en
+7	_	_	VERB	_	_	5	advcl	_	en
+8	_	_	PRON	_	_	9	nmod	_	en
+9	_	_	NOUN	_	_	12	nsubj	_	en
+10	_	_	DET	_	_	11	det	_	en
+11	_	_	NOUN	_	_	12	nmod	_	en
+12	_	_	ADJ	_	_	7	xcomp	_	en
+13	_	_	PUNCT	_	_	5	punct	_	univ
+14	_	_	SYM	_	_	5	discourse	_	univ
+
+# sent_id = dev-s186
+# text = _ _ _ _ _ _ _ _ _ _ _
+1	_	_	NOUN	_	_	2	compound	_	en
+2	_	_	NOUN	_	_	9	obl	_	en
+3	_	_	ADP	_	_	2	case	_	hi
+4	_	_	DET	_	_	5	det	_	hi
+5	_	_	NOUN	_	_	7	nmod	_	en
+6	_	_	ADP	_	_	5	case	_	hi
+7	_	_	NOUN	_	_	9	obj	_	en
+8	_	_	NOUN	_	_	9	compound	_	en
+9	_	_	VERB	_	_	0	root	_	hi
+10	_	_	PUNCT	_	_	9	punct	_	univ
+11	_	_	SYM	_	_	9	discourse	_	univ
+
+# sent_id = dev-s187
+# text = _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+1	_	_	VERB	_	_	0	root	_	en
+2	_	_	PROPN	_	_	1	obj	_	ne
+3	_	_	PROPN	_	_	2	flat	_	ne
+4	_	_	ADP	_	_	5	case	_	en
+5	_	_	NOUN	_	_	1	obl	_	acro
+6	_	_	ADV	_	_	8	advmod	_	en
+7	_	_	PART	_	_	8	mark	_	en
+8	_	_	VERB	_	_	1	advcl	_	en
+9	_	_	SCONJ	_	_	17	mark	_	hi
+10	_	_	NOUN	_	_	11	compound	_	hi
+11	_	_	NOUN	_	_	17	nmod	_	hi
+12	_	_	ADJ	_	_	13	amod	_	en
+13	_	_	NOUN	_	_	16	nmod	_	en
+14	_	_	ADP	_	_	13	case	_	hi
+15	_	_	DET	_	_	16	det	_	hi
+16	_	_	NOUN	_	_	17	compound	_	en
+17	_	_	VERB	_	_	8	ccomp	_	hi
+18	_	_	AUX	_	_	17	aux	_	hi
+19	_	_	AUX	_	_	17	aux	_	hi
+20	_	_	PUNCT	_	_	1	punct	_	univ
+
+# sent_id = dev-s188
+# text = _ _ _ _ _ _ _ _ _ _ _ _ _ _
+1	_	_	AUX	_	_	5	aux	_	en
+2	_	_	PART	_	_	5	advmod	_	en
+3	_	_	PRON	_	_	5	nsubj	_	en
+4	_	_	ADV	_	_	5	advmod	_	en
+5	_	_	VERB	_	_	0	root	_	en
+6	_	_	PRON	_	_	5	obj	_	en
+7	_	_	ADV	_	_	13	mark	_	hi
+8	_	_	PRON	_	_	9	nmod	_	hi
+9	_	_	NOUN	_	_	13	obl	_	hi
+10	_	_	ADP	_	_	9	case	_	hi
+11	_	_	PRON	_	_	13	nsubj	_	hi
+12	_	_	PROPN	_	_	13	obj	_	en
+13	_	_	VERB	_	_	6	acl	_	hi
+14	_	_	AUX	_	_	13	aux	_	hi
+
+# sent_id = dev-s189
+# text = _ _ _ _ _ _ _ _ _ _ _ _ _ _
+1	_	_	ADJ	_	_	2	amod	_	hi
+2	_	_	NOUN	_	_	6	obl	_	en
+3	_	_	ADP	_	_	2	case	_	hi
+4	_	_	PART	_	_	2	advmod	_	hi
+5	_	_	PART	_	_	6	advmod	_	hi
+6	_	_	VERB	_	_	0	root	_	hi
+7	_	_	PUNCT	_	_	6	punct	_	univ
+8	_	_	CCONJ	_	_	13	cc	_	en
+9	_	_	PROPN	_	_	13	nsubj	_	ne
+10	_	_	AUX	_	_	13	cop	_	en
+11	_	_	ADP	_	_	13	case	_	en
+12	_	_	ADJ	_	_	13	amod	_	en
+13	_	_	NOUN	_	_	6	conj	_	en
+14	_	_	PUNCT	_	_	6	punct	_	univ
+
+# sent_id = dev-s190
+# text = _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+1	_	_	PRON	_	_	2	nsubj	_	en
+2	_	_	VERB	_	_	0	root	_	en
+3	_	_	ADV	_	_	4	advmod	_	en
+4	_	_	ADJ	_	_	2	xcomp	_	en
+5	_	_	ADV	_	_	7	mark	_	en
+6	_	_	NOUN	_	_	7	nsubj	_	en
+7	_	_	VERB	_	_	2	advcl	_	en
+8	_	_	PUNCT	_	_	12	punct	_	univ
+9	_	_	PRON	_	_	12	nmod	_	hi
+10	_	_	ADP	_	_	9	case	_	hi
+11	_	_	DET	_	_	12	det	_	hi
+12	_	_	NOUN	_	_	7	ccomp	_	hi
+13	_	_	PART	_	_	12	advmod	_	hi
+14	_	_	PART	_	_	12	advmod	_	hi
+15	_	_	AUX	_	_	12	cop	_	hi
+16	_	_	PUNCT	_	_	2	punct	_	univ
+17	_	_	PUNCT	_	_	2	punct	_	univ
+
+# sent_id = dev-s191
+# text = _ _ _ _ _ _ _ _ _ _ _
+1	_	_	AUX	_	_	5	cop	_	en
+2	_	_	PRON	_	_	5	nsubj	_	en
+3	_	_	DET	_	_	5	det	_	en
+4	_	_	ADJ	_	_	5	amod	_	en
+5	_	_	NOUN	_	_	0	root	_	en
+6	_	_	PRON	_	_	11	nsubj	_	hi
+7	_	_	PROPN	_	_	9	nmod	_	ne
+8	_	_	ADP	_	_	7	case	_	hi
+9	_	_	NOUN	_	_	11	obj	_	en
+10	_	_	PART	_	_	11	advmod	_	hi
+11	_	_	VERB	_	_	5	acl	_	hi
+
+# sent_id = dev-s192
+# text = _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+1	_	_	PUNCT	_	_	6	punct	_	univ
+2	_	_	DET	_	_	3	det	_	hi
+3	_	_	NOUN	_	_	6	nmod	_	hi
+4	_	_	PROPN	_	_	6	nsubj	_	ne
+5	_	_	PART	_	_	6	advmod	_	hi
+6	_	_	VERB	_	_	0	root	_	hi
+7	_	_	AUX	_	_	6	aux	_	hi
+8	_	_	NOUN	_	_	6	vocative	_	hi
+9	_	_	AUX	_	_	13	aux	_	en
+10	_	_	PART	_	_	13	advmod	_	en
+11	_	_	AUX	_	_	13	cop	_	en
+12	_	_	DET	_	_	13	det	_	en
+13	_	_	ADJ	_	_	6	advcl	_	en
+14	_	_	ADP	_	_	16	case	_	en
+15	_	_	DET	_	_	16	det	_	en
+16	_	_	NOUN	_	_	13	nmod	_	en
+17	_	_	PUNCT	_	_	6	punct	_	univ
+18	_	_	PUNCT	_	_	6	punct	_	univ
+
+# sent_id = dev-s193
+# text = _ _ _ _ _ _ _ _ _ _ _ _ _ _
+1	_	_	ADV	_	_	9	advmod	_	en
+2	_	_	NOUN	_	_	4	nmod	_	hi
+3	_	_	ADP	_	_	2	case	_	hi
+4	_	_	NOUN	_	_	5	obj	_	hi
+5	_	_	VERB	_	_	9	csubj	_	hi
+6	_	_	AUX	_	_	9	cop	_	en
+7	_	_	DET	_	_	9	det	_	en
+8	_	_	ADJ	_	_	9	amod	_	en
+9	_	_	NOUN	_	_	0	root	_	en
+10	_	_	ADP	_	_	13	case	_	en
+11	_	_	DET	_	_	13	det	_	en
+12	_	_	ADJ	_	_	13	amod	_	hi
+13	_	_	NOUN	_	_	9	nmod	_	en
+14	_	_	PUNCT	_	_	9	punct	_	univ
+
+# sent_id = dev-s194
+# text = _ _ _ _ _ _ _ _ _ _ _ _ _
+1	_	_	VERB	_	_	0	root	_	en
+2	_	_	PRON	_	_	3	nmod	_	en
+3	_	_	NOUN	_	_	1	obj	_	en
+4	_	_	SCONJ	_	_	11	mark	_	hi
+5	_	_	PRON	_	_	11	nsubj	_	hi
+6	_	_	NOUN	_	_	8	obj	_	en
+7	_	_	NOUN	_	_	8	compound	_	en
+8	_	_	VERB	_	_	9	advcl	_	hi
+9	_	_	VERB	_	_	11	acl	_	hi
+10	_	_	SCONJ	_	_	9	mark	_	hi
+11	_	_	NOUN	_	_	1	advcl	_	hi
+12	_	_	AUX	_	_	11	cop	_	hi
+13	_	_	PUNCT	_	_	1	punct	_	univ
+
+# sent_id = dev-s195
+# text = _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+1	_	_	ADJ	_	_	2	amod	_	en
+2	_	_	NOUN	_	_	10	nsubj	_	en
+3	_	_	ADP	_	_	2	case	_	hi
+4	_	_	NOUN	_	_	6	nsubj	_	en
+5	_	_	ADP	_	_	4	case	_	hi
+6	_	_	NOUN	_	_	10	obj	_	en
+7	_	_	NUM	_	_	8	nummod	_	univ
+8	_	_	NOUN	_	_	10	nmod	_	en
+9	_	_	ADJ	_	_	10	compound	_	hi
+10	_	_	VERB	_	_	0	root	_	hi
+11	_	_	AUX	_	_	10	aux	_	hi
+12	_	_	CCONJ	_	_	15	cc	_	hi
+13	_	_	ADV	_	_	15	advmod	_	hi
+14	_	_	PRON	_	_	15	obj	_	hi
+15	_	_	VERB	_	_	10	conj	_	hi
+16	_	_	AUX	_	_	15	aux	_	hi
+17	_	_	NOUN	_	_	19	nsubj	_	hi
+18	_	_	PRON	_	_	19	nmod	_	hi
+19	_	_	VERB	_	_	14	acl	_	hi
+20	_	_	AUX	_	_	19	aux	_	hi
+21	_	_	PUNCT	_	_	10	punct	_	univ
+
+# sent_id = dev-s196
+# text = _ _ _ _ _ _ _ _ _ _ _ _ _ _
+1	_	_	PROPN	_	_	3	nmod	_	ne
+2	_	_	ADP	_	_	1	case	_	hi
+3	_	_	NOUN	_	_	11	nsubj	_	en
+4	_	_	PART	_	_	3	advmod	_	hi
+5	_	_	ADJ	_	_	6	amod	_	ne
+6	_	_	NOUN	_	_	7	appos	_	en
+7	_	_	PROPN	_	_	11	obl	_	acro
+8	_	_	ADP	_	_	7	case	_	hi
+9	_	_	ADP	_	_	7	case	_	hi
+10	_	_	ADJ	_	_	11	compound	_	hi
+11	_	_	VERB	_	_	0	root	_	hi
+12	_	_	AUX	_	_	11	aux	_	hi
+13	_	_	AUX	_	_	11	aux	_	hi
+14	_	_	PUNCT	_	_	11	punct	_	univ
+
+# sent_id = dev-s197
+# text = _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+1	_	_	ADJ	_	_	2	amod	_	ne
+2	_	_	NOUN	_	_	4	nsubj	_	en
+3	_	_	AUX	_	_	4	cop	_	en
+4	_	_	ADJ	_	_	0	root	_	en
+5	_	_	ADP	_	_	7	case	_	en
+6	_	_	NOUN	_	_	7	compound	_	en
+7	_	_	NOUN	_	_	4	nmod	_	en
+8	_	_	PUNCT	_	_	13	punct	_	univ
+9	_	_	PRON	_	_	13	nmod	_	hi
+10	_	_	PART	_	_	9	advmod	_	hi
+11	_	_	PRON	_	_	13	nsubj	_	hi
+12	_	_	PART	_	_	11	advmod	_	hi
+13	_	_	VERB	_	_	4	advcl	_	hi
+14	_	_	AUX	_	_	13	aux	_	hi
+15	_	_	PUNCT	_	_	4	punct	_	univ
+
+# sent_id = dev-s198
+# text = _ _ _ _ _ _ _ _ _ _
+1	_	_	NOUN	_	_	4	compound	_	en
+2	_	_	NOUN	_	_	4	compound	_	en
+3	_	_	NOUN	_	_	4	compound	_	en
+4	_	_	PROPN	_	_	7	nmod	_	en
+5	_	_	ADP	_	_	4	case	_	hi
+6	_	_	DET	_	_	7	det	_	hi
+7	_	_	NOUN	_	_	9	nsubj	_	en
+8	_	_	NOUN	_	_	9	compound	_	en
+9	_	_	VERB	_	_	0	root	_	hi
+10	_	_	AUX	_	_	9	aux	_	hi
+
+# sent_id = dev-s199
+# text = _ _ _ _ _ _ _ _ _ _ _
+1	_	_	ADV	_	_	9	advmod	_	hi
+2	_	_	PRON	_	_	9	nsubj	_	hi
+3	_	_	NOUN	_	_	9	obl	_	en
+4	_	_	ADP	_	_	3	case	_	hi
+5	_	_	PROPN	_	_	9	obl	_	ne
+6	_	_	ADP	_	_	5	case	_	hi
+7	_	_	NOUN	_	_	9	obj	_	en
+8	_	_	NOUN	_	_	9	compound	_	en
+9	_	_	VERB	_	_	0	root	_	hi
+10	_	_	AUX	_	_	9	aux	_	hi
+11	_	_	SYM	_	_	9	discourse	_	univ
+
+# sent_id = dev-s200
+# text = _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+1	_	_	PUNCT	_	_	3	punct	_	univ
+2	_	_	PROPN	_	_	3	nsubj	_	en
+3	_	_	PRON	_	_	0	root	_	hi
+4	_	_	PUNCT	_	_	3	punct	_	univ
+5	_	_	PRON	_	_	7	obl	_	hi
+6	_	_	ADP	_	_	5	case	_	hi
+7	_	_	VERB	_	_	8	acl	_	hi
+8	_	_	NOUN	_	_	9	nsubj	_	en
+9	_	_	PRON	_	_	3	conj	_	hi
+10	_	_	PUNCT	_	_	9	punct	_	univ
+11	_	_	NOUN	_	_	15	obj	_	en
+12	_	_	PRON	_	_	13	nmod	_	hi
+13	_	_	NOUN	_	_	15	nsubj	_	hi
+14	_	_	NOUN	_	_	15	compound	_	en
+15	_	_	VERB	_	_	3	conj	_	hi
+16	_	_	AUX	_	_	15	aux	_	hi
+17	_	_	AUX	_	_	15	aux	_	hi
+18	_	_	PUNCT	_	_	3	punct	_	univ
+19	_	_	PUNCT	_	_	3	punct	_	univ
+
+# sent_id = dev-s201
+# text = _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+1	_	_	PUNCT	_	_	2	punct	_	univ
+2	_	_	VERB	_	_	0	root	_	en
+3	_	_	DET	_	_	4	det	_	en
+4	_	_	NOUN	_	_	2	nmod	_	en
+5	_	_	ADV	_	_	8	mark	_	en
+6	_	_	PROPN	_	_	8	nsubj	_	ne
+7	_	_	PROPN	_	_	6	flat	_	ne
+8	_	_	VERB	_	_	4	advcl	_	en
+9	_	_	PART	_	_	10	mark	_	en
+10	_	_	VERB	_	_	8	xcomp	_	en
+11	_	_	PROPN	_	_	10	obj	_	ne
+12	_	_	SCONJ	_	_	13	mark	_	en
+13	_	_	VERB	_	_	10	advcl	_	en
+14	_	_	PUNCT	_	_	13	punct	_	univ
+15	_	_	PUNCT	_	_	23	punct	_	univ
+16	_	_	PRON	_	_	24	nsubj	_	hi
+17	_	_	NOUN	_	_	22	nmod	_	hi
+18	_	_	ADP	_	_	17	case	_	hi
+19	_	_	ADJ	_	_	20	amod	_	hi
+20	_	_	NOUN	_	_	23	obl	_	hi
+21	_	_	ADP	_	_	20	case	_	hi
+22	_	_	NOUN	_	_	23	compound	_	hi
+23	_	_	VERB	_	_	13	ccomp	_	hi
+24	_	_	AUX	_	_	23	aux	_	hi
+25	_	_	PUNCT	_	_	2	punct	_	univ
+26	_	_	PUNCT	_	_	2	punct	_	univ
+27	_	_	PUNCT	_	_	2	punct	_	univ
+
+# sent_id = dev-s202
+# text = _ _ _ _ _ _ _ _ _ _
+1	_	_	ADJ	_	_	3	amod	_	en
+2	_	_	ADJ	_	_	3	amod	_	en
+3	_	_	NOUN	_	_	9	nsubj	_	en
+4	_	_	INTJ	_	_	9	discourse	_	en
+5	_	_	ADJ	_	_	6	amod	_	en
+6	_	_	NOUN	_	_	7	obj	_	hi
+7	_	_	VERB	_	_	9	advcl	_	hi
+8	_	_	ADJ	_	_	9	compound	_	hi
+9	_	_	VERB	_	_	0	root	_	hi
+10	_	_	AUX	_	_	9	aux	_	hi
+
+# sent_id = dev-s203
+# text = _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+1	_	_	PRON	_	_	2	nsubj	_	en
+2	_	_	VERB	_	_	0	root	_	en
+3	_	_	DET	_	_	4	det	_	en
+4	_	_	NOUN	_	_	5	nsubj	_	en
+5	_	_	VERB	_	_	2	ccomp	_	en
+6	_	_	PRON	_	_	9	nsubj	_	en
+7	_	_	AUX	_	_	9	aux	_	en
+8	_	_	PART	_	_	9	advmod	_	en
+9	_	_	VERB	_	_	5	ccomp	_	en
+10	_	_	NOUN	_	_	9	nmod	_	en
+11	_	_	NOUN	_	_	15	nmod	_	hi
+12	_	_	PRON	_	_	15	nmod	_	hi
+13	_	_	PROPN	_	_	15	nmod	_	ne
+14	_	_	ADP	_	_	13	case	_	hi
+15	_	_	NOUN	_	_	9	advcl	_	hi
+16	_	_	AUX	_	_	15	cop	_	hi
+
+# sent_id = dev-s204
+# text = _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+1	_	_	NOUN	_	_	4	vocative	_	hi
+2	_	_	AUX	_	_	4	aux	_	en
+3	_	_	NOUN	_	_	4	nsubj	_	en
+4	_	_	VERB	_	_	0	root	_	en
+5	_	_	PRON	_	_	4	obj	_	en
+6	_	_	SCONJ	_	_	11	mark	_	hi
+7	_	_	PROPN	_	_	8	nmod	_	ne
+8	_	_	NOUN	_	_	11	nsubj	_	en
+9	_	_	ADJ	_	_	11	compound	_	hi
+10	_	_	ADV	_	_	11	advmod	_	hi
+11	_	_	VERB	_	_	4	ccomp	_	hi
+12	_	_	AUX	_	_	11	aux	_	hi
+13	_	_	INTJ	_	_	15	discourse	_	en
+14	_	_	PRON	_	_	15	obj	_	hi
+15	_	_	VERB	_	_	4	parataxis	_	hi
+16	_	_	PRON	_	_	18	nsubj	_	hi
+17	_	_	PART	_	_	18	advmod	_	hi
+18	_	_	VERB	_	_	15	advcl	_	hi
+19	_	_	PRON	_	_	18	advmod	_	hi
+
+# sent_id = dev-s205
+# text = _ _ _ _ _ _ _ _ _ _ _ _ _
+1	_	_	DET	_	_	3	det	_	en
+2	_	_	NOUN	_	_	3	compound	_	en
+3	_	_	NOUN	_	_	5	nsubj	_	en
+4	_	_	AUX	_	_	5	cop	_	en
+5	_	_	ADJ	_	_	0	root	_	en
+6	_	_	ADP	_	_	8	case	_	en
+7	_	_	DET	_	_	8	det	_	en
+8	_	_	NUM	_	_	5	nummod	_	en
+9	_	_	PRON	_	_	11	obj	_	hi
+10	_	_	PRON	_	_	11	nsubj	_	hi
+11	_	_	VERB	_	_	8	acl	_	hi
+12	_	_	AUX	_	_	11	aux	_	hi
+13	_	_	PUNCT	_	_	5	punct	_	univ
+
+# sent_id = dev-s206
+# text = _ _ _ _ _ _ _ _ _ _
+1	_	_	PROPN	_	_	7	nsubj	_	ne
+2	_	_	PROPN	_	_	1	flat	_	ne
+3	_	_	ADP	_	_	2	case	_	hi
+4	_	_	ADJ	_	_	5	amod	_	en
+5	_	_	NOUN	_	_	7	obl	_	en
+6	_	_	ADP	_	_	5	case	_	hi
+7	_	_	VERB	_	_	0	root	_	hi
+8	_	_	AUX	_	_	7	aux	_	hi
+9	_	_	AUX	_	_	7	aux	_	hi
+10	_	_	NOUN	_	_	7	obj	_	en
+
+# sent_id = dev-s207
+# text = _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+1	_	_	PRON	_	_	5	nsubj	_	en
+2	_	_	AUX	_	_	5	cop	_	en
+3	_	_	DET	_	_	5	det	_	en
+4	_	_	ADJ	_	_	5	amod	_	en
+5	_	_	NOUN	_	_	0	root	_	en
+6	_	_	PRON	_	_	7	nsubj	_	en
+7	_	_	VERB	_	_	5	acl:relcl	_	en
+8	_	_	NOUN	_	_	9	compound	_	en
+9	_	_	VERB	_	_	12	advcl	_	hi
+10	_	_	SCONJ	_	_	9	mark	_	hi
+11	_	_	NOUN	_	_	12	nsubj	_	hi
+12	_	_	VERB	_	_	7	ccomp	_	hi
+13	_	_	AUX	_	_	12	aux	_	hi
+14	_	_	AUX	_	_	12	aux	_	hi
+15	_	_	PUNCT	_	_	5	punct	_	univ
+16	_	_	SYM	_	_	5	discourse	_	univ
+
+# sent_id = dev-s208
+# text = _ _ _ _ _ _ _ _ _ _ _ _
+1	_	_	ADV	_	_	10	advmod	_	hi
+2	_	_	PROPN	_	_	10	obl	_	ne
+3	_	_	ADP	_	_	2	case	_	hi
+4	_	_	NOUN	_	_	7	nmod	_	en
+5	_	_	ADP	_	_	4	case	_	hi
+6	_	_	VERB	_	_	7	acl	_	en
+7	_	_	NOUN	_	_	8	obj	_	en
+8	_	_	VERB	_	_	10	advcl	_	hi
+9	_	_	NOUN	_	_	10	compound	_	hi
+10	_	_	VERB	_	_	0	root	_	hi
+11	_	_	AUX	_	_	10	aux	_	hi
+12	_	_	PUNCT	_	_	10	punct	_	univ
+
+# sent_id = dev-s209
+# text = _ _ _ _ _ _ _ _ _ _ _ _
+1	_	_	DET	_	_	3	det	_	hi
+2	_	_	NUM	_	_	3	nummod	_	univ
+3	_	_	NOUN	_	_	6	nmod	_	en
+4	_	_	ADP	_	_	3	case	_	hi
+5	_	_	ADJ	_	_	6	amod	_	en
+6	_	_	NOUN	_	_	7	obj	_	en
+7	_	_	VERB	_	_	9	acl	_	hi
+8	_	_	SCONJ	_	_	7	mark	_	hi
+9	_	_	NOUN	_	_	10	nsubj	_	en
+10	_	_	VERB	_	_	0	root	_	hi
+11	_	_	AUX	_	_	10	aux	_	hi
+12	_	_	PUNCT	_	_	10	punct	_	univ
+
+# sent_id = dev-s210
+# text = _ _ _ _ _ _ _ _ _ _ _ _ _ _
+1	_	_	ADV	_	_	3	advmod	_	en
+2	_	_	PRON	_	_	3	nsubj	_	en
+3	_	_	VERB	_	_	0	root	_	en
+4	_	_	PROPN	_	_	10	nmod	_	ne
+5	_	_	ADP	_	_	4	case	_	hi
+6	_	_	DET	_	_	7	det	_	hi
+7	_	_	NOUN	_	_	10	nmod	_	hi
+8	_	_	NOUN	_	_	10	nmod	_	hi
+9	_	_	ADP	_	_	8	case	_	hi
+10	_	_	NOUN	_	_	3	ccomp	_	en
+11	_	_	PART	_	_	10	advmod	_	hi
+12	_	_	PART	_	_	10	advmod	_	hi
+13	_	_	AUX	_	_	10	cop	_	hi
+14	_	_	PUNCT	_	_	3	punct	_	univ
+
+# sent_id = dev-s211
+# text = _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+1	_	_	DET	_	_	2	det	_	hi
+2	_	_	VERB	_	_	3	acl:relcl	_	hi
+3	_	_	PRON	_	_	4	nsubj	_	hi
+4	_	_	PROPN	_	_	8	csubj	_	ne
+5	_	_	AUX	_	_	8	cop	_	en
+6	_	_	DET	_	_	8	det	_	en
+7	_	_	ADJ	_	_	8	amod	_	en
+8	_	_	NOUN	_	_	0	root	_	en
+9	_	_	ADJ	_	_	10	amod	_	en
+10	_	_	NOUN	_	_	15	nsubj	_	en
+11	_	_	AUX	_	_	15	cop	_	en
+12	_	_	PRON	_	_	13	nsubj	_	hi
+13	_	_	VERB	_	_	14	acl:relcl	_	hi
+14	_	_	PRON	_	_	15	nsubj	_	hi
+15	_	_	PROPN	_	_	8	conj	_	ne
+
+# sent_id = dev-s212
+# text = _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+1	_	_	NOUN	_	_	3	obj	_	en
+2	_	_	NOUN	_	_	3	compound	_	en
+3	_	_	VERB	_	_	13	advcl	_	hi
+4	_	_	SCONJ	_	_	3	mark	_	hi
+5	_	_	SCONJ	_	_	3	mark	_	hi
+6	_	_	NOUN	_	_	13	nsubj	_	en
+7	_	_	PROPN	_	_	13	obj	_	en
+8	_	_	ADP	_	_	7	case	_	hi
+9	_	_	PRON	_	_	13	nmod	_	hi
+10	_	_	ADJ	_	_	11	amod	_	hi
+11	_	_	ADJ	_	_	12	amod	_	hi
+12	_	_	NOUN	_	_	13	compound	_	hi
+13	_	_	VERB	_	_	0	root	_	hi
+14	_	_	AUX	_	_	13	aux	_	hi
+15	_	_	PUNCT	_	_	13	punct	_	univ
+
+# sent_id = dev-s213
+# text = _ _ _ _ _ _ _ _ _ _ _ _ _
+1	_	_	ADV	_	_	3	advmod	_	en
+2	_	_	PRON	_	_	3	nsubj	_	en
+3	_	_	VERB	_	_	0	root	_	en
+4	_	_	PART	_	_	5	mark	_	en
+5	_	_	VERB	_	_	3	xcomp	_	en
+6	_	_	SCONJ	_	_	12	mark	_	hi
+7	_	_	DET	_	_	8	det	_	hi
+8	_	_	NOUN	_	_	12	nmod	_	hi
+9	_	_	NOUN	_	_	12	obj	_	hi
+10	_	_	PRON	_	_	12	nsubj	_	hi
+11	_	_	NOUN	_	_	12	compound	_	hi
+12	_	_	VERB	_	_	5	ccomp	_	hi
+13	_	_	PUNCT	_	_	3	punct	_	univ
+
+# sent_id = dev-s214
+# text = _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+1	_	_	VERB	_	_	0	root	_	en
+2	_	_	PART	_	_	3	mark	_	en
+3	_	_	VERB	_	_	1	xcomp	_	en
+4	_	_	PUNCT	_	_	1	punct	_	univ
+5	_	_	VERB	_	_	1	conj	_	en
+6	_	_	PART	_	_	7	mark	_	en
+7	_	_	VERB	_	_	5	xcomp	_	en
+8	_	_	PUNCT	_	_	5	punct	_	univ
+9	_	_	CCONJ	_	_	12	cc	_	hi
+10	_	_	NOUN	_	_	11	nmod	_	hi
+11	_	_	NOUN	_	_	12	nsubj	_	hi
+12	_	_	VERB	_	_	1	conj	_	hi
+13	_	_	SCONJ	_	_	14	mark	_	hi
+14	_	_	VERB	_	_	12	ccomp	_	hi
+15	_	_	PART	_	_	14	advmod	_	hi
+16	_	_	PART	_	_	14	advmod	_	hi
+17	_	_	PUNCT	_	_	1	punct	_	univ
+
+# sent_id = dev-s215
+# text = _ _ _ _ _ _ _ _ _ _ _ _ _
+1	_	_	PROPN	_	_	6	obl	_	ne
+2	_	_	ADP	_	_	1	case	_	hi
+3	_	_	PART	_	_	1	advmod	_	hi
+4	_	_	ADJ	_	_	5	amod	_	en
+5	_	_	NOUN	_	_	6	compound	_	en
+6	_	_	VERB	_	_	10	advcl	_	hi
+7	_	_	AUX	_	_	6	aux	_	hi
+8	_	_	SCONJ	_	_	10	mark	_	hi
+9	_	_	ADV	_	_	10	advmod	_	en
+10	_	_	ADJ	_	_	0	root	_	en
+11	_	_	AUX	_	_	10	cop	_	hi
+12	_	_	PRON	_	_	10	nsubj	_	hi
+13	_	_	PUNCT	_	_	10	punct	_	univ
+
+# sent_id = dev-s216
+# text = _ _ _ _ _ _ _ _ _ _ _ _ _ _
+1	_	_	PRON	_	_	11	nsubj	_	hi
+2	_	_	PROPN	_	_	4	nmod	_	ne
+3	_	_	PART	_	_	2	case	_	en
+4	_	_	NOUN	_	_	11	obl	_	en
+5	_	_	ADP	_	_	4	case	_	hi
+6	_	_	DET	_	_	7	det	_	hi
+7	_	_	NOUN	_	_	10	nmod	_	en
+8	_	_	ADP	_	_	7	case	_	hi
+9	_	_	ADJ	_	_	10	amod	_	hi
+10	_	_	NOUN	_	_	11	obj	_	en
+11	_	_	VERB	_	_	0	root	_	hi
+12	_	_	AUX	_	_	11	aux	_	hi
+13	_	_	AUX	_	_	11	aux	_	hi
+14	_	_	PUNCT	_	_	11	punct	_	univ
+
+# sent_id = dev-s217
+# text = _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+1	_	_	PROPN	_	_	15	obj	_	ne
+2	_	_	PROPN	_	_	1	flat	_	ne
+3	_	_	ADP	_	_	1	case	_	hi
+4	_	_	NOUN	_	_	5	compound	_	hi
+5	_	_	NOUN	_	_	15	nmod	_	hi
+6	_	_	PROPN	_	_	8	nmod	_	acro
+7	_	_	PROPN	_	_	8	compound	_	ne
+8	_	_	PROPN	_	_	15	nsubj	_	ne
+9	_	_	ADP	_	_	8	case	_	hi
+10	_	_	ADP	_	_	8	case	_	hi
+11	_	_	NOUN	_	_	13	nmod	_	en
+12	_	_	ADP	_	_	11	case	_	hi
+13	_	_	NOUN	_	_	15	obl	_	hi
+14	_	_	ADP	_	_	13	case	_	hi
+15	_	_	VERB	_	_	0	root	_	hi
+16	_	_	AUX	_	_	15	aux	_	hi
+17	_	_	AUX	_	_	15	aux	_	hi
+18	_	_	SCONJ	_	_	20	mark	_	en
+19	_	_	PRON	_	_	20	nsubj	_	en
+20	_	_	VERB	_	_	15	advcl	_	en
+21	_	_	PART	_	_	22	mark	_	en
+22	_	_	VERB	_	_	20	xcomp	_	en
+23	_	_	PRON	_	_	24	nmod	_	en
+24	_	_	NOUN	_	_	22	obj	_	en
+25	_	_	VERB	_	_	22	advcl	_	en
+26	_	_	ADP	_	_	27	case	_	en
+27	_	_	PROPN	_	_	25	obl	_	ne
+28	_	_	PUNCT	_	_	15	punct	_	univ
+
+# sent_id = dev-s218
+# text = _ _ _ _ _ _ _ _ _ _ _ _ _ _
+1	_	_	ADP	_	_	4	case	_	en
+2	_	_	DET	_	_	4	det	_	en
+3	_	_	ADJ	_	_	4	amod	_	en
+4	_	_	NOUN	_	_	13	obl	_	en
+5	_	_	ADV	_	_	4	advmod	_	en
+6	_	_	PROPN	_	_	13	nsubj	_	ne
+7	_	_	DET	_	_	9	det	_	hi
+8	_	_	DET	_	_	9	det	_	hi
+9	_	_	NOUN	_	_	10	nmod	_	en
+10	_	_	NOUN	_	_	13	obl	_	hi
+11	_	_	ADP	_	_	10	case	_	hi
+12	_	_	ADP	_	_	10	case	_	hi
+13	_	_	VERB	_	_	0	root	_	hi
+14	_	_	PUNCT	_	_	13	punct	_	univ
+
+# sent_id = dev-s219
+# text = _ _ _ _ _ _ _ _ _ _ _ _ _ _
+1	_	_	PROPN	_	_	6	nmod	_	hi
+2	_	_	ADP	_	_	1	case	_	hi
+3	_	_	PRON	_	_	6	nsubj	_	en
+4	_	_	AUX	_	_	6	aux	_	en
+5	_	_	AUX	_	_	6	cop	_	en
+6	_	_	ADJ	_	_	0	root	_	hi
+7	_	_	CCONJ	_	_	9	cc	_	en
+8	_	_	AUX	_	_	9	aux	_	en
+9	_	_	VERB	_	_	6	conj	_	en
+10	_	_	ADP	_	_	13	case	_	en
+11	_	_	PROPN	_	_	13	nmod	_	ne
+12	_	_	ADP	_	_	11	case	_	hi
+13	_	_	NOUN	_	_	9	obl	_	hi
+14	_	_	SYM	_	_	6	discourse	_	univ
+
+# sent_id = dev-s220
+# text = _ _ _ _ _ _ _ _ _
+1	_	_	INTJ	_	_	7	discourse	_	en
+2	_	_	NOUN	_	_	1	compound	_	en
+3	_	_	ADJ	_	_	4	amod	_	en
+4	_	_	NOUN	_	_	5	obj	_	en
+5	_	_	VERB	_	_	7	xcomp	_	hi
+6	_	_	PART	_	_	5	advmod	_	hi
+7	_	_	VERB	_	_	0	root	_	hi
+8	_	_	AUX	_	_	7	aux	_	hi
+9	_	_	SYM	_	_	7	discourse	_	univ
+
+# sent_id = dev-s221
+# text = _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+1	_	_	DET	_	_	4	det	_	en
+2	_	_	ADV	_	_	3	advmod	_	en
+3	_	_	ADJ	_	_	4	amod	_	en
+4	_	_	NOUN	_	_	9	nsubj	_	en
+5	_	_	ADP	_	_	6	case	_	en
+6	_	_	NOUN	_	_	4	nmod	_	en
+7	_	_	AUX	_	_	9	cop	_	en
+8	_	_	DET	_	_	9	det	_	en
+9	_	_	NOUN	_	_	0	root	_	en
+10	_	_	PRON	_	_	17	nsubj	_	hi
+11	_	_	PRON	_	_	12	nmod	_	hi
+12	_	_	NOUN	_	_	14	nmod	_	hi
+13	_	_	ADP	_	_	12	case	_	hi
+14	_	_	NOUN	_	_	17	obl	_	hi
+15	_	_	ADP	_	_	14	case	_	hi
+16	_	_	PRON	_	_	17	advmod	_	hi
+17	_	_	VERB	_	_	9	acl	_	hi
+18	_	_	AUX	_	_	17	aux	_	hi
+19	_	_	PRON	_	_	22	advmod	_	hi
+20	_	_	PRON	_	_	22	nmod	_	hi
+21	_	_	ADJ	_	_	22	amod	_	en
+22	_	_	NOUN	_	_	16	acl	_	en
+23	_	_	AUX	_	_	22	cop	_	hi
+24	_	_	PUNCT	_	_	9	punct	_	univ
+
+# sent_id = dev-s222
+# text = _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+1	_	_	VERB	_	_	0	root	_	en
+2	_	_	PRON	_	_	8	nsubj	_	hi
+3	_	_	ADP	_	_	2	case	_	hi
+4	_	_	PROPN	_	_	7	nmod	_	ne
+5	_	_	PROPN	_	_	4	flat	_	ne
+6	_	_	ADP	_	_	4	case	_	hi
+7	_	_	NOUN	_	_	8	compound	_	hi
+8	_	_	VERB	_	_	1	ccomp	_	hi
+9	_	_	AUX	_	_	8	aux	_	hi
+10	_	_	ADP	_	_	12	case	_	en
+11	_	_	PRON	_	_	12	nmod	_	en
+12	_	_	NOUN	_	_	8	obl	_	en
+13	_	_	ADP	_	_	14	case	_	en
+14	_	_	NOUN	_	_	12	nmod	_	en
+15	_	_	PUNCT	_	_	1	punct	_	univ
+
+# sent_id = dev-s223
+# text = _ _ _ _ _ _ _ _ _ _
+1	_	_	NOUN	_	_	4	nsubj	_	en
+2	_	_	ADP	_	_	1	case	_	hi
+3	_	_	NOUN	_	_	4	compound	_	hi
+4	_	_	VERB	_	_	0	root	_	hi
+5	_	_	AUX	_	_	4	aux	_	hi
+6	_	_	PUNCT	_	_	4	punct	_	univ
+7	_	_	PRON	_	_	8	nsubj	_	en
+8	_	_	VERB	_	_	4	advcl	_	en
+9	_	_	ADV	_	_	8	advmod	_	en
+10	_	_	PUNCT	_	_	4	punct	_	univ
+
+# sent_id = dev-s224
+# text = _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+1	_	_	PRON	_	_	9	nsubj	_	hi
+2	_	_	DET	_	_	4	det	_	hi
+3	_	_	PART	_	_	2	advmod	_	hi
+4	_	_	ADV	_	_	9	advmod	_	hi
+5	_	_	PROPN	_	_	6	nmod	_	ne
+6	_	_	NOUN	_	_	9	obl	_	en
+7	_	_	ADP	_	_	6	case	_	hi
+8	_	_	NOUN	_	_	9	compound	_	en
+9	_	_	VERB	_	_	13	advcl	_	hi
+10	_	_	AUX	_	_	9	aux	_	hi
+11	_	_	PUNCT	_	_	9	punct	_	univ
+12	_	_	PRON	_	_	13	nsubj	_	en
+13	_	_	VERB	_	_	0	root	_	en
+14	_	_	DET	_	_	15	det	_	en
+15	_	_	NOUN	_	_	13	obj	_	en
+16	_	_	ADP	_	_	18	case	_	en
+17	_	_	PROPN	_	_	18	nmod	_	ne
+18	_	_	NOUN	_	_	15	nmod	_	en
+19	_	_	PUNCT	_	_	13	punct	_	univ
+
+# sent_id = dev-s225
+# text = _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+1	_	_	PROPN	_	_	13	nsubj	_	ne
+2	_	_	PROPN	_	_	1	flat	_	ne
+3	_	_	ADJ	_	_	4	amod	_	ne
+4	_	_	NOUN	_	_	13	obj	_	en
+5	_	_	ADP	_	_	4	case	_	hi
+6	_	_	ADP	_	_	4	case	_	hi
+7	_	_	NOUN	_	_	8	compound	_	hi
+8	_	_	NOUN	_	_	10	nmod	_	hi
+9	_	_	ADP	_	_	8	case	_	hi
+10	_	_	NOUN	_	_	11	obj	_	en
+11	_	_	VERB	_	_	13	advcl	_	hi
+12	_	_	AUX	_	_	11	aux	_	hi
+13	_	_	VERB	_	_	0	root	_	hi
+14	_	_	AUX	_	_	13	aux	_	hi
+15	_	_	PUNCT	_	_	13	punct	_	univ
+
