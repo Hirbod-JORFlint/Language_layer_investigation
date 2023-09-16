@@ -37,23 +37,26 @@ bert_model = hub.load("https://tfhub.dev/tensorflow/bert_multi_cased_L-12_H-768_
 preprocessor = hub.KerasLayer("https://tfhub.dev/tensorflow/bert_multi_cased_preprocess/3")
 
 # Encode sentences
-def encode_sentences(sentences):
+def encode_sentences(sentences, batch_size=64):
     sentence_embeddings = []
-    for sentence in sentences:
-        sentence_str = ' '.join(sentence)
-        input_data = preprocessor(tf.constant([sentence_str]))
+    for i in range(0, len(sentences), batch_size):
+        batch_sentences = sentences[i:i+batch_size]
+        sentence_strs = [' '.join(sentence) for sentence in batch_sentences]
+        input_data = preprocessor(sentence_strs)
         outputs = bert_model(input_data)
-        sentence_embedding = outputs['pooled_output'][0].numpy()
-        sentence_embeddings.append(sentence_embedding)
+        batch_embeddings = outputs['pooled_output'].numpy()
+        sentence_embeddings.extend(batch_embeddings)
     return sentence_embeddings
 
-sentence_embeddings_esl = encode_sentences(sentences_esl)
-sentence_embeddings_eslspok = encode_sentences(sentences_eslspok)
-sentence_embeddings_en_gum = encode_sentences(sentences_en_gum)
-sentence_embeddings_en_partut = encode_sentences(sentences_en_partut)
-sentence_embeddings_en_ewt = encode_sentences(sentences_en_ewt)
-sentence_embeddings_fa_seraj = encode_sentences(sentences_fa_seraj)
-sentence_embeddings_fa_perdt = encode_sentences(sentences_fa_perdt)
+# Encode all previous sentences with batch processing
+sentence_embeddings_esl = encode_sentences(sentences_esl, batch_size=128)
+sentence_embeddings_eslspok = encode_sentences(sentences_eslspok, batch_size=128)
+sentence_embeddings_en_gum = encode_sentences(sentences_en_gum, batch_size=128)
+sentence_embeddings_en_partut = encode_sentences(sentences_en_partut, batch_size=128)
+sentence_embeddings_en_ewt = encode_sentences(sentences_en_ewt, batch_size=128)
+sentence_embeddings_fa_seraj = encode_sentences(sentences_fa_seraj, batch_size=128)
+sentence_embeddings_fa_perdt = encode_sentences(sentences_fa_perdt, batch_size=128)
+
 
 # Define a function to compare and write similarities to a file
 class CompareAndWriteSimilaritiesThread(threading.Thread):
