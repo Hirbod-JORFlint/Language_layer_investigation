@@ -59,38 +59,20 @@ sentence_embeddings_fa_perdt = encode_sentences(sentences_fa_perdt, batch_size=1
 
 
 # Define a function to compare and write similarities to a file
-class CompareAndWriteSimilaritiesThread(threading.Thread):
-    def __init__(self, file1_name, sentences1, file2_name, sentences2, output_file, lock):
-        super().__init__()
-        self.file1_name = file1_name
-        self.sentences1 = sentences1
-        self.file2_name = file2_name
-        self.sentences2 = sentences2
-        self.output_file = output_file
-        self.lock = lock
+considering the following function and operation 33 rewrite my compare function to maximize performance
 
-    def run(self):
-        with open(self.output_file, 'a') as f:
-            for i, embedding1 in enumerate(self.sentences1):
-                for j, embedding2 in enumerate(self.sentences2):
-                    similarity = 1 - cosine(embedding1, embedding2)
-                    result = "line{},line{},{:.4f}".format(i+1,j+1,similarity)
-                    self.lock.acquire()
-                    f.write(result)
-                    self.lock.release()
-
-def compare_and_write_similarities_parallel(file1_name, sentences1, file2_name, sentences2, output_file):
-    lock = threading.Lock()
-    threads = []
-    for i, embedding1 in enumerate(sentences1):
-        for j, embedding2 in enumerate(sentences2):
-            thread = CompareAndWriteSimilaritiesThread(file1_name, sentences1, file2_name, sentences2, output_file, lock)
-            threads.append(thread)
-            thread.start()
-
-    for thread in threads:
-        thread.join()
-
+def compare_and_write_similarities(file1_name, sentences1, file2_name, sentences2, output_file):
+    with open(output_file, 'w') as f:
+        #f.write(f"Comparison between {file1_name} and {file2_name}:\n")
+        #f.write("Sentence1, Sentence2, Similarity\n")
+        first_line="first_line_no,second_line_no,Similarity"
+        f.write(first_line)
+        for i, embedding1 in enumerate(sentences1):
+            for j, embedding2 in enumerate(sentences2):
+                similarity = 1 - cosine(embedding1, embedding2)
+                result = "line{},line{},{:.4f}".format(i+1,j+1,similarity)
+                result+="\n"
+                f.write(result)
 #operation 33
 datasets1 = [
     ("en_esl", sentence_embeddings_esl),
@@ -103,15 +85,7 @@ datasets2 = [
     ("fa_seraj", sentence_embeddings_fa_seraj),
     ("fa_perdt", sentence_embeddings_fa_perdt),
 ]
-
-# Take system memory into account
-available_memory = psutil.virtual_memory().available
-# Limit the number of threads to avoid overloading the system
-max_threads = int(available_memory / (1024 * 1024))
-if max_threads < 1:
-    max_threads = 1
-
 for file1_name,sentences1 in datasets1:
   for file2_name,sentences2 in datasets2:
     output_file = f"{file1_name}_{file2_name}_comparison.txt"
-    compare_and_write_similarities_parallel(file1_name, sentences1, file2_name, sentences2, output_file)
+    compare_and_write_similarities(file1_name, sentences1, file2_name, sentences2, output_file)
