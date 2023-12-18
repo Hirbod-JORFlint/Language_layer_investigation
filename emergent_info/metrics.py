@@ -18,7 +18,6 @@ class Evaluator:
         total = 0
         for state, target in zip(X, y):
             outputs = self.model(state)
-            max_value = tf.math.reduce_max(outputs)
             pred = tf.argmax(outputs)
             total += 1
             try:
@@ -34,7 +33,6 @@ class Evaluator:
         knowns_lst = []
         for state, target in zip(X, y):
             outputs = self.model(state)
-            max_value = tf.math.reduce_max(outputs)
             pred = tf.argmax(outputs)
             total += 1
             try:
@@ -53,7 +51,6 @@ class Evaluator:
         knowns_lst = []
         for state, target in zip(X, y):
             outputs = self.model(state)
-            max_value = tf.math.reduce_max(outputs)
             pred = tf.argmax(outputs)
             total += 1
             try:
@@ -70,7 +67,6 @@ class Evaluator:
         total = 0
         for state, target in zip(X, y):
             outputs = self.model(state)
-            max_value = tf.math.reduce_max(outputs)
             pred = tf.argmax(outputs)
             total += 1
             try:
