@@ -1,7 +1,7 @@
 import pickle
 from classifier import train_probe
 
-print('---SV---')
+print('---en---')
 
 # Define the training scenarios
 scenarios = [
@@ -25,12 +25,12 @@ additional_scenarios = [
 for scenario_name, indices, train_pickle, dev_pickle in scenarios:
     print(scenario_name)
     for i in indices:
-        with open(train_pickle, 'rb') as handle:
+        with open(train_pickle, 'rb', encoding='utf-8') as handle:
             l = pickle.load(handle)
             X = l[i][0]
             y = l[i][1]
 
-        with open(dev_pickle, 'rb') as handle:
+        with open(dev_pickle, 'rb', encoding='utf-8') as handle:
             l = pickle.load(handle)
             X_val = l[i][0]
             y_val = l[i][1]
@@ -41,12 +41,12 @@ for scenario_name, indices, train_pickle, dev_pickle in scenarios:
 for scenario_name, indices, train_pickle, dev_pickle, y_offset in additional_scenarios:
     print(scenario_name)
     for i in indices:
-        with open(train_pickle, 'rb') as handle:
+        with open(train_pickle, 'rb', encoding='utf-8') as handle:
             l = pickle.load(handle)
             X = l[i][0]
             y = l[i][1] + y_offset
 
-        with open(dev_pickle, 'rb') as handle:
+        with open(dev_pickle, 'rb', encoding='utf-8') as handle:
             l = pickle.load(handle)
             X_val = l[i][0]
             y_val = l[i][1] + y_offset

@@ -14,8 +14,9 @@ specify path to .conllu file and file name
 
 
 ### Change path to UD files here ###
-path = 'conllu_files/fi_tdt-ud-train.conllu'
-path_dev = 'conllu_files/fi_tdt-ud-dev.conllu'
+path = 'E:\\Dars\\Research Project\\Language_layer_investigation\\en_ewt-ud-train.conllu'
+path_dev = 'E:\\Dars\\Research Project\\Language_layer_investigation\\en_ewt-ud-dev.conllu'
+
 
 
 # save them to file as sentence objects
@@ -64,7 +65,7 @@ def save_to_file(path, file_name, limit=True):
 
 
 ### Change names for the pickle files here ###
-file_train = 'pickle2/fi-train-'
+file_train = 'pickle2/en-train-'
 save_to_file(path, file_train, limit=True)
-file_dev = 'pickle2/fi-dev-'
+file_dev = 'pickle2/en-dev-'
 save_to_file(path_dev, file_dev, limit=False)

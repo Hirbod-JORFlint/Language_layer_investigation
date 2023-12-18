@@ -3,9 +3,9 @@ from transformers import BertTokenizer, TFBertModel, BertConfig
 
 class Bert:
     def __init__(self):
-        self.config = BertConfig.from_pretrained('TurkuNLP/bert-base-finnish-cased-v1', output_hidden_states=True)
-        self.model = TFBertModel.from_pretrained('TurkuNLP/bert-base-finnish-cased-v1', config=self.config)
-        self.tokenizer = BertTokenizer.from_pretrained('TurkuNLP/bert-base-finnish-cased-v1', do_basic_tokenize=True)
+        self.config = BertConfig.from_pretrained('bert-base-uncased', output_hidden_states=True)
+        self.model = TFBertModel.from_pretrained('bert-base-uncased', config=self.config)
+        self.tokenizer = BertTokenizer.from_pretrained('bert-base-uncased', do_basic_tokenize=True)
 
     @staticmethod
     def collect_pieces(tokenized_text):

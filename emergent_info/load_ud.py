@@ -46,14 +46,14 @@ def pos_to_ix(tag):
 
 
 def label_to_ix(label):
-    labels = ['acl', 'acl:cleft', 'acl:relcl', 'advcl', 'advmod', 'advmod:emph', 'advmod:lmod', 'amod', 'appos', 'aux', 'aux:pass',
-                'case', 'case:acc', 'case:gen', 'cc', 'cc:preconj', 'ccomp', 'cop:own', 'clf', 'compound', 'compound:affix', 'compound:ext', 'compound:lvc', 'compound:nn', 'compound:prt', 'compound:redup',
-                'compound:smixut', 'compound:svc', 'conj', 'cop', 'csubj', 'csubj:cop', 'csubj:pass', 'dep', 'det', 'det:numgov', 'det:nummod', 'det:poss', 'det:predet',
-                'discourse', 'discourse:sp', 'dislocated', 'expl', 'expl:impers', 'expl:pass', 'expl:pv', 'fixed', 'flat', 'flat:foreign',
-                'flat:name', 'goeswith', 'iobj', 'list', 'mark', 'mark:adv', 'mark:q', 'mark:rel', 'nmod', 'nmod:gobj', 'nmod:gsubj', 'nmod:npmod', 'nmod:poss', 'nmod:tmod', 'nsubj', 'nsubj:cop', 'nsubj:pass',
-                'nummod', 'nummod:gov', 'obj', 'obl', 'obl:agent', 'obl:arg', 'obl:lmod', 'obl:npmod', 'obl:patient', 'obl:tmod', 'orphan', 'parataxis',
-                'punct', 'reparandum', 'root', 'vocative', 'xcomp', 'xcomp:ds']
+    labels = ['aux', 'nmod', 'cc', 'csubj:pass', 'nmod:npmod', 'acl', 'list', 'root', 'dislocated',
+              'case', 'dep', 'csubj:outer', 'vocative', 'acl:relcl', 'discourse', 'mark', 'parataxis',
+              'obl', 'xcomp', 'csubj', 'compound', 'nmod:tmod', 'flat:foreign', 'advmod', 'det:predet',
+              'punct', 'det', 'ccomp', 'amod', 'obl:tmod', 'advcl:relcl', 'nsubj', 'nsubj:pass', 'aux:pass',
+              'nsubj:outer', 'flat', 'cop', 'iobj', 'expl', 'cc:preconj', 'obl:npmod', 'goeswith', 'orphan',
+              '_', 'nummod','fixed', 'reparandum', 'conj', 'compound:prt', 'advcl', 'obj', 'appos', 'nmod:poss']
     label_to_ix = dict(zip(labels, list(range(len(labels)))))
+    #print(label)
     label_index = label_to_ix[label]
     return np.array(label_index, dtype=np.int32)
 
@@ -61,7 +61,7 @@ def label_to_ix(label):
 def read_conllu(path):
     word_repr = word_representations.Bert()
 
-    with open(path, 'r') as file:
+    with open(path, 'r', encoding='utf-8') as file:
         sentences = []
         pos = []
         deps = []
