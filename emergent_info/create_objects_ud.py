@@ -1,8 +1,9 @@
+import pickle
+import utils
+import numpy as np
 from load_ud import read_conllu
-import pickle, random, utils
 
-random.seed(42)
-
+np.random.seed(42)
 
 '''
 
@@ -20,8 +21,8 @@ path_dev = 'conllu_files/fi_tdt-ud-dev.conllu'
 # save them to file as sentence objects
 def save_to_file(path, file_name, limit=True):
     sentences = read_conllu(path)
-    if limit: 
-        sentences = random.choices(sentences, k=1000)
+    if limit:
+        sentences = np.random.choice(sentences, size=1000)
 
     p = []
     for i in range(0,13):

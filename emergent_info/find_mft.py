@@ -1,6 +1,7 @@
 from collections import defaultdict, Counter
 from utils import get_tensors
-import torch
+import numpy as np
+
 
 
 # dict word : word-specific most frequent tag
@@ -39,7 +40,7 @@ def make_sets(sentences, sentences_val, layer1, layer2):
     for s in sentences:
         if len(s.pos) == len(s.states[layer1][:-1]):
             for i in range(len(s.pos) - 1):
-                c = torch.cat((s.states[layer1][i], s.states[layer2][i]),0)
+                c = np.concatenate((s.states[layer1][i], s.states[layer2][i]),axis=0)
                 X_normal.append(c)
                 y_normal.append(s.pos[i])
                 if s.pos[i] == Td.tag(s.tokens[i]):
@@ -56,13 +57,13 @@ def make_sets(sentences, sentences_val, layer1, layer2):
     for s in sentences_val:
         if len(s.pos) == len(s.states[layer1][:-1]):
             for i in range(len(s.pos) - 1):
-                c = torch.cat((s.states[layer1][i], s.states[layer2][i]),0)
+                c = np.concatenate((s.states[layer1][i], s.states[layer2][i]),axis=0)
                 X_val_normal.append(c)
                 y_val_normal.append(s.pos[i])
                 if s.pos[i] != Td.tag(s.tokens[i]):
                     X_val_hard.append(c)
                     y_val_hard.append(s.pos[i])
-                else: 
+                else:
                     X_val_easy.append(c)
                     y_val_easy.append(s.pos[i])
 

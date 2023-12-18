@@ -1,5 +1,5 @@
-import torch, math
-
+import tensorflow as tf
+import numpy as np
 
 class Evaluator:
     """Perform and save evaluation of a model at given steps"""
@@ -18,14 +18,11 @@ class Evaluator:
         total = 0
         for state, target in zip(X, y):
             outputs = self.model(state)
-            # supporting both torch and tensorflow by using .data
-            #max_value = torch.max(outputs.data)
-            # tensorflow max
-            max_value = tf.math.reduce_max(outputs.data)
-            pred = (outputs.data == max_value).nonzero()
+            max_value = tf.math.reduce_max(outputs)
+            pred = tf.argmax(outputs)
             total += 1
             try:
-                correct += (pred == target).sum().item()
+                correct += np.sum(tf.equal(pred, target))
             except: pass
         self.accs.append(100 * correct / total)
         return 100 * correct / total
@@ -37,13 +34,12 @@ class Evaluator:
         knowns_lst = []
         for state, target in zip(X, y):
             outputs = self.model(state)
-            max_value = torch.max(outputs.data)
-            max_value = tf.math.reduce_max(outputs.data)
-            pred = (outputs.data == max_value).nonzero()
+            max_value = tf.math.reduce_max(outputs)
+            pred = tf.argmax(outputs)
             total += 1
             try:
-                correct += (pred == target).sum().item()
-                if pred == target:
+                correct += np.sum(tf.equal(pred, target))
+                if tf.reduce_all(tf.equal(pred, target)):
                     knowns_lst.append((state, target))
             except: pass
         self.known_ex.append(knowns_lst)
@@ -57,13 +53,12 @@ class Evaluator:
         knowns_lst = []
         for state, target in zip(X, y):
             outputs = self.model(state)
-            max_value = torch.max(outputs.data)
-            max_value = tf.math.reduce_max(outputs.data)
-            pred = (outputs.data == max_value).nonzero()
+            max_value = tf.math.reduce_max(outputs)
+            pred = tf.argmax(outputs)
             total += 1
             try:
-                correct += (pred == target).sum().item()
-                if pred == target:
+                correct += np.sum(tf.equal(pred, target))
+                if tf.reduce_all(tf.equal(pred, target)):
                     knowns_lst.append((state, target))
             except: pass
         self.train_known_ex.append(knowns_lst)
@@ -75,17 +70,17 @@ class Evaluator:
         total = 0
         for state, target in zip(X, y):
             outputs = self.model(state)
-            max_value = torch.max(outputs.data)
-            pred = (outputs.data == max_value).nonzero()
+            max_value = tf.math.reduce_max(outputs)
+            pred = tf.argmax(outputs)
             total += 1
             try:
-                correct += (pred == target).sum().item()
+                correct += np.sum(tf.equal(pred, target))
             except: pass
         return 100 * correct / total
 
 
 class MeanSD:
-    """Calculate mean and standart deviation for a list of objects of the class Evaluator"""
+    """Calculate mean and standard deviation for a list of objects of the class Evaluator"""
 
     def __init__(self, evaluators):
         self.evaluators = evaluators
@@ -93,18 +88,16 @@ class MeanSD:
     # calculate mean of a list
     @staticmethod
     def mean(acc_list):
-        return sum(acc_list) / len(acc_list)
+        return np.mean(acc_list)
 
     # calculate standard deviation of the mean of a list
     @staticmethod
     def std_deviation(acc_list):
-        deviations = [math.pow(MeanSD.mean(acc_list) - r, 2) for r in acc_list]
-        std_dev = math.sqrt((1 / (len(acc_list) - 1)) * sum(deviations))  # with Bessel's correction
-        return std_dev
+        return np.std(acc_list, ddof=1)  # with Bessel's correction
 
     # print mean and sd for accuracies of the best epoch
     def print_best(self):
-        acc_list = [max(e.accs) for e in self.evaluators]
+        acc_list = [np.max(e.accs) for e in self.evaluators]
         acc_mean = MeanSD.mean(acc_list)
         std_dev = MeanSD.std_deviation(acc_list)
         print('Best epoch:    Mean: {0}    Standard Deviation: {1}'.format(acc_mean, std_dev))

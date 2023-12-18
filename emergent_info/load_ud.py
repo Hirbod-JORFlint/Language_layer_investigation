@@ -1,4 +1,4 @@
-import torch
+import numpy as np
 import word_representations
 
 '''
@@ -22,30 +22,27 @@ class Sentence:
     def __str__(self):
         return ' '.join(t for t in self.tokens)
 
-    # states and labels for labels task
     def labels(self):
         dep_pairs = []
         labels = []
         label_ind = []
         for d in self.dependencies:
-            dep_pairs.append(torch.cat((self.states[d[0]-1], self.states[d[1]-1]), 0))
+            dep_pairs.append(np.concatenate((self.states[d[0]-1], self.states[d[1]-1]), axis=0))
             labels.append(d[2])
         for l in labels:
             label_ind.append(label_to_ix[l])
 
-        return torch.stack(dep_pairs), torch.LongTensor(label_ind)
+        return np.stack(dep_pairs), np.array(label_ind, dtype=np.int32)
 
-    # states and tags for pos task
     def pos_tagging(self):
-        return torch.stack(self.states[0:len(self.pos)]), torch.LongTensor(self.pos)
-
+        return np.stack(self.states[0:len(self.pos)]), np.array(self.pos, dtype=np.int32)
 
 def pos_to_ix(tag):
     tags = ['ADJ', 'ADP', 'ADV', 'AUX', 'CCONJ', 'DET', 'INTJ', 'NOUN', 'NUM', 'PART', 'PRON', 'PROPN', 'PUNCT',
             'SCONJ', 'SYM', 'VERB', 'X', '_']
     tag_to_ix = dict(zip(tags, list(range(len(tags)))))
     tag_index = tag_to_ix[tag]
-    return torch.tensor(tag_index, dtype=torch.long)
+    return np.array(tag_index, dtype=np.int32)
 
 
 def label_to_ix(label):
@@ -58,7 +55,7 @@ def label_to_ix(label):
                 'punct', 'reparandum', 'root', 'vocative', 'xcomp', 'xcomp:ds']
     label_to_ix = dict(zip(labels, list(range(len(labels)))))
     label_index = label_to_ix[label]
-    return torch.tensor(label_index, dtype=torch.long)
+    return np.array(label_index, dtype=np.int32)
 
 
 def read_conllu(path):
@@ -107,3 +104,4 @@ def read_conllu(path):
                 pass
 
         return sentences
+
